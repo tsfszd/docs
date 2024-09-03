@@ -1,0 +1,16 @@
+
+IPC log for google Ads:
+
+use ipc_82
+INSERT INTO pdi_table_lookup
+([entity_name],[entity_id],[entity_code],[description],[comments],[is_list])
+VALUES
+ ('AD_TOOL_PROPERTY',9,N'LogPath',N'Log File Path',NULL,0),
+ ('AD_TOOL_PROPERTY',10,N'LogEnabled',N'Log Enabled',NULL,0);
+ 
+ INSERT INTO pdim_ad_tool_property
+([ad_tool_id],[property_id],[property_data_type],[property_label],[property_value],[is_required],[is_editable],[combo_ref_entity_name],[create_id],[create_date],[modify_id],[modify_date])
+VALUES
+ (1,9,3,NULL,N'C:\\logs\\GoogleAdsDetails',0,1,N'C:\\logs\\GoogleAdsDetails.log',N'system',GETDATE(),NULL,CONVERT(datetime,NULL,121))
+,(1,10,1,NULL,N'1',0,1,NULL,N'system',GETDATE(),NULL,CONVERT(datetime,NULL,121))
+;
