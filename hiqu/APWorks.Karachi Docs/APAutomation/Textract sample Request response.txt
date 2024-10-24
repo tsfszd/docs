@@ -1,0 +1,31 @@
+Request
+{
+"DocumentLocation": {
+"S3Object": {
+"Bucket": "bucket",
+"Name": "image.pdf"
+}
+},
+"ClientRequestToken": "DocumentDetectionToken",
+"NotificationChannel": {
+"SNSTopicArn": "arn:aws:sns:us-east-1:nnnnnnnnnn:topic",
+"RoleArn": "arn:aws:iam::nnnnnnnnnn:role/roleopic"
+},
+"JobTag": "Receipt"
+}
+
+REsponse
+{"JobId":"270c1cc5e1d0ea2fbc59d97cb69a72a5495da75851976b14a1784ca90fc180e3"}
+
+Notification
+{
+"JobId": "642492aea78a86a40665555dc375ee97bc963f342b29cd05030f19bd8fd1bc5f",
+"Status": "SUCCEEDED",
+"API": "StartDocumentTextDetection",
+"JobTag": "Receipt",
+"Timestamp": 1543599965969,
+"DocumentLocation": {
+"S3ObjectName": "document",
+"S3Bucket": "bucket"
+}
+}

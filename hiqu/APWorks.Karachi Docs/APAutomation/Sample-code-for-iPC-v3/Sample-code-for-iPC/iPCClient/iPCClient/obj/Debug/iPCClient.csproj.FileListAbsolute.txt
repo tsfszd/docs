@@ -1,0 +1,10 @@
+F:\Test Projects\Google Ad\Sample-code-for-iPC\iPCClient\iPCClient\bin\Debug\iPCClient.exe.config
+F:\Test Projects\Google Ad\Sample-code-for-iPC\iPCClient\iPCClient\bin\Debug\iPCClient.exe
+F:\Test Projects\Google Ad\Sample-code-for-iPC\iPCClient\iPCClient\bin\Debug\iPCClient.pdb
+F:\Test Projects\Google Ad\Sample-code-for-iPC\iPCClient\iPCClient\obj\Debug\iPCClient.csproj.CoreCompileInputs.cache
+F:\Test Projects\Google Ad\Sample-code-for-iPC\iPCClient\iPCClient\obj\Debug\iPCClient.exe
+F:\Test Projects\Google Ad\Sample-code-for-iPC\iPCClient\iPCClient\obj\Debug\iPCClient.pdb
+F:\Test Projects\Google Ad\Sample-code-for-iPC\iPCClient\iPCClient\bin\Debug\itextsharp.dll
+F:\Test Projects\Google Ad\Sample-code-for-iPC\iPCClient\iPCClient\bin\Debug\itextsharp.xml
+F:\Test Projects\Google Ad\Sample-code-for-iPC\iPCClient\iPCClient\obj\Debug\iPCClient.csproj.CopyComplete
+F:\Test Projects\Google Ad\Sample-code-for-iPC\iPCClient\iPCClient\obj\Debug\iPCClient.csprojAssemblyReference.cache

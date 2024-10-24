@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" entityID="https://[subdomain-for-client].apworks.ai/" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+<SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+                                Location="https://[subdomain-for-client].apworks.ai/ssoauthentication/logout" />
+        <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                     Location="https://[subdomain-for-client].apworks.ai/ssoauthentication/acs"
+                                     index="1" />
+        
+    </SPSSODescriptor>
+	<Organization>
+    <OrganizationName xml:lang="en-US">Nexelus</OrganizationName>
+    <OrganizationDisplayName xml:lang="en-US">Nexelus</OrganizationDisplayName>
+    <OrganizationURL xml:lang="en-US">https://www.nexelus.com</OrganizationURL>
+  </Organization>
+  <ContactPerson contactType="technical">
+    <GivenName>Tao Lin</GivenName>
+    <EmailAddress>taol@nexelus.net</EmailAddress>
+  </ContactPerson>
+  <ContactPerson contactType="support">
+    <GivenName>Nexelus</GivenName>
+    <EmailAddress>support@nexelus.net</EmailAddress>
+  </ContactPerson>
+</EntityDescriptor>

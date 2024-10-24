@@ -1,0 +1,4570 @@
+{
+    "metadata": {
+        "limit": 1000,
+        "offset": 0,
+        "resultCount": 12,
+        "totalAmount": 0.0
+    },
+    "data": [
+        {
+            "company_code": 2,
+            "cost_type": 1,
+            "cost_type_name": "1 EMP-Billable",
+            "cost_type_description": "Employee Expense Rpt - Billable Client",
+            "cost_type_status": 0,
+            "effective_date": "2000-01-01T00:00:00",
+            "expiration_date": "2014-12-31T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 237,
+                    "rtype_name": "Creative Ser Cst",
+                    "rtype_description": "Creative Services Costs",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 247,
+                    "rtype_name": "Travel- Other",
+                    "rtype_description": "Travel - Other",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 248,
+                    "rtype_name": "Airfare",
+                    "rtype_description": "Airfare",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 253,
+                    "rtype_name": "M&E - TeamLunch",
+                    "rtype_description": "Meals and Entertainment",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 349,
+                    "rtype_name": "Travel- TrainBus",
+                    "rtype_description": "Travel - Train / Bus",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 350,
+                    "rtype_name": "Travel- Car Svc",
+                    "rtype_description": "Travel - Car Service",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 352,
+                    "rtype_name": "Lunch",
+                    "rtype_description": "Lunch",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 353,
+                    "rtype_name": "M&E - ClientEnt",
+                    "rtype_description": "M&E - Client Lunch",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 355,
+                    "rtype_name": "Dinner - I",
+                    "rtype_description": "Dinner Inactive",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 360,
+                    "rtype_name": "Internet-Wireles",
+                    "rtype_description": "Internet - Wireless",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 362,
+                    "rtype_name": "Tolls",
+                    "rtype_description": "Tolls",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 363,
+                    "rtype_name": "Travel- AutoRent",
+                    "rtype_description": "Travel- Auto Rental",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 364,
+                    "rtype_name": "Milage",
+                    "rtype_description": "Milage",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 365,
+                    "rtype_name": "Parking",
+                    "rtype_description": "Parking",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 371,
+                    "rtype_name": "SEO",
+                    "rtype_description": "SEO",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 383,
+                    "rtype_name": "Overtime Meals",
+                    "rtype_description": "Overtime Meals",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 384,
+                    "rtype_name": "Listening-CI Cos",
+                    "rtype_description": "Listening-CI Cost",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 385,
+                    "rtype_name": "Analytics Cost",
+                    "rtype_description": "Analytics Cost",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 386,
+                    "rtype_name": "Strategy Costs",
+                    "rtype_description": "Strategy Costs",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 387,
+                    "rtype_name": "Com. Mgmt Cost",
+                    "rtype_description": "Community Management Costs",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 389,
+                    "rtype_name": "Travel - Mass Tr",
+                    "rtype_description": "Travel - Mass Transportation",
+                    "effective_date": "2014-03-03T00:00:00"
+                }
+            ]
+        },
+        {
+            "company_code": 2,
+            "cost_type": 2,
+            "cost_type_name": "2 VEN-NonBill",
+            "cost_type_description": "Vendor Invoice -Non Billable - Client",
+            "cost_type_status": 1,
+            "effective_date": "2000-01-01T00:00:00",
+            "expiration_date": "2016-06-30T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 205,
+                    "rtype_name": "Mass Trans.",
+                    "rtype_description": "Mass Transportation",
+                    "effective_date": "2014-03-03T00:00:00"
+                },
+                {
+                    "res_type": 209,
+                    "rtype_name": "Adserving",
+                    "rtype_description": "Adserving",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 210,
+                    "rtype_name": "Website Hosting",
+                    "rtype_description": "Website Hosting",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 228,
+                    "rtype_name": "COR-I/C-Elimn.",
+                    "rtype_description": "Cost of Revenues - I/C-Elimination",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 229,
+                    "rtype_name": "COGS Other",
+                    "rtype_description": "Cost of Goods Sold Other",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 232,
+                    "rtype_name": "Text Link D. Sys",
+                    "rtype_description": "Text Link Dispersal System",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 233,
+                    "rtype_name": "Directory Submis",
+                    "rtype_description": "Directory Submission Fees",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 234,
+                    "rtype_name": "Paid Inclusion C",
+                    "rtype_description": "Paid Inclusion Costs",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 235,
+                    "rtype_name": "Media Costs",
+                    "rtype_description": "Media Costs",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 237,
+                    "rtype_name": "Creative Ser Cst",
+                    "rtype_description": "Creative Services Costs",
+                    "effective_date": "2014-01-01T00:00:00"
+                },
+                {
+                    "res_type": 238,
+                    "rtype_name": "Emerging Media",
+                    "rtype_description": "Emerging Media Costs",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 239,
+                    "rtype_name": "Cust Ins. Costs",
+                    "rtype_description": "Customer Insights Costs",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 240,
+                    "rtype_name": "Epilot",
+                    "rtype_description": "Epilot",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 241,
+                    "rtype_name": "Enhance",
+                    "rtype_description": "Enhance",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 242,
+                    "rtype_name": "Yahoo!",
+                    "rtype_description": "Yahoo!",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 243,
+                    "rtype_name": "Google",
+                    "rtype_description": "Google",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 244,
+                    "rtype_name": "Doubleclick",
+                    "rtype_description": "Doubleclick",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 246,
+                    "rtype_name": "Lic Fee-Elimin.",
+                    "rtype_description": "Licensing Fee--Elimination",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 247,
+                    "rtype_name": "Travel- Other",
+                    "rtype_description": "Travel - Other",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 248,
+                    "rtype_name": "Airfare",
+                    "rtype_description": "Airfare",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 253,
+                    "rtype_name": "M&E - TeamLunch",
+                    "rtype_description": "Meals and Entertainment",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 254,
+                    "rtype_name": "Business Gifts",
+                    "rtype_description": "Business Gifts",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 255,
+                    "rtype_name": "Trade Show Costs",
+                    "rtype_description": "Trade Show Costs",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 256,
+                    "rtype_name": "Marketing Costs",
+                    "rtype_description": "Marketing Costs",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 259,
+                    "rtype_name": "Software License",
+                    "rtype_description": "Software Licensing",
+                    "effective_date": "2014-08-01T00:00:00"
+                },
+                {
+                    "res_type": 290,
+                    "rtype_name": "M&E - In House",
+                    "rtype_description": "Meals & Entertainment - In House",
+                    "effective_date": "2014-03-31T00:00:00"
+                },
+                {
+                    "res_type": 291,
+                    "rtype_name": "Copier Lease",
+                    "rtype_description": "Copier Lease",
+                    "effective_date": "2014-03-03T00:00:00"
+                },
+                {
+                    "res_type": 292,
+                    "rtype_name": "Leased Furn&Eqpt",
+                    "rtype_description": "Leased Furniture and Equipment",
+                    "effective_date": "2014-03-03T00:00:00"
+                },
+                {
+                    "res_type": 293,
+                    "rtype_name": "Dues & Subs",
+                    "rtype_description": "Dues and Subscriptions",
+                    "effective_date": "2014-08-01T00:00:00"
+                },
+                {
+                    "res_type": 299,
+                    "rtype_name": "Consulting Costs",
+                    "rtype_description": "Consulting Costs",
+                    "effective_date": "2012-02-28T00:00:00"
+                },
+                {
+                    "res_type": 303,
+                    "rtype_name": "Supplies",
+                    "rtype_description": "Supplies",
+                    "effective_date": "2014-10-01T00:00:00"
+                },
+                {
+                    "res_type": 310,
+                    "rtype_name": "Postage&Delivery",
+                    "rtype_description": "Postage and Delivery",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 311,
+                    "rtype_name": "Non-Cap Furn&Fix",
+                    "rtype_description": "NonCapitalized Furniture and Fixtures",
+                    "effective_date": "2014-08-01T00:00:00"
+                },
+                {
+                    "res_type": 312,
+                    "rtype_name": "Non-Cap SW&Equip",
+                    "rtype_description": "Non Capitalized Software and Equipment",
+                    "effective_date": "2014-08-01T00:00:00"
+                },
+                {
+                    "res_type": 313,
+                    "rtype_name": "Gen Office Exp",
+                    "rtype_description": "General Office Expenses",
+                    "effective_date": "2014-01-01T00:00:00"
+                },
+                {
+                    "res_type": 321,
+                    "rtype_name": "Contributions",
+                    "rtype_description": "Contributions",
+                    "effective_date": "2014-02-03T00:00:00"
+                },
+                {
+                    "res_type": 321,
+                    "rtype_name": "Contributions",
+                    "rtype_description": "Contributions",
+                    "effective_date": "2014-03-03T00:00:00"
+                },
+                {
+                    "res_type": 347,
+                    "rtype_name": "Dinner - inactiv",
+                    "rtype_description": "Dinner - inactive",
+                    "effective_date": "2014-03-03T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 349,
+                    "rtype_name": "Travel- TrainBus",
+                    "rtype_description": "Travel - Train / Bus",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 350,
+                    "rtype_name": "Travel- Car Svc",
+                    "rtype_description": "Travel - Car Service",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 352,
+                    "rtype_name": "Lunch",
+                    "rtype_description": "Lunch",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 353,
+                    "rtype_name": "M&E - ClientEnt",
+                    "rtype_description": "M&E - Client Lunch",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 355,
+                    "rtype_name": "Dinner - I",
+                    "rtype_description": "Dinner Inactive",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 358,
+                    "rtype_name": "Tele Exp - Road",
+                    "rtype_description": "Telephone Expense - On the Road",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 360,
+                    "rtype_name": "Internet-Wireles",
+                    "rtype_description": "Internet - Wireless",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 362,
+                    "rtype_name": "Tolls",
+                    "rtype_description": "Tolls",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 363,
+                    "rtype_name": "Travel- AutoRent",
+                    "rtype_description": "Travel- Auto Rental",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 364,
+                    "rtype_name": "Milage",
+                    "rtype_description": "Milage",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 365,
+                    "rtype_name": "Parking",
+                    "rtype_description": "Parking",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 370,
+                    "rtype_name": "Media Passthru",
+                    "rtype_description": "Media Passthrough Postpay",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 370,
+                    "rtype_name": "Media Passthru",
+                    "rtype_description": "Media Passthrough Postpay",
+                    "effective_date": "2015-01-20T00:00:00"
+                },
+                {
+                    "res_type": 371,
+                    "rtype_name": "SEO",
+                    "rtype_description": "SEO",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 374,
+                    "rtype_name": "PP & E",
+                    "rtype_description": "Technology Purchases",
+                    "effective_date": "2014-02-28T00:00:00"
+                },
+                {
+                    "res_type": 375,
+                    "rtype_name": "Freelancer",
+                    "rtype_description": "Freelancer's Expense",
+                    "effective_date": "2015-01-20T00:00:00"
+                },
+                {
+                    "res_type": 376,
+                    "rtype_name": "Dinner",
+                    "rtype_description": "Dinner",
+                    "effective_date": "2012-07-01T00:00:00"
+                },
+                {
+                    "res_type": 377,
+                    "rtype_name": "M&E  - ClientLun",
+                    "rtype_description": "M&E  - Client Lunch",
+                    "effective_date": "2009-01-01T00:00:00"
+                },
+                {
+                    "res_type": 378,
+                    "rtype_name": "M&E – ClientBF",
+                    "rtype_description": "M&E – Client Breakfast",
+                    "effective_date": "2012-07-01T00:00:00"
+                },
+                {
+                    "res_type": 379,
+                    "rtype_name": "Travel-TraShAir",
+                    "rtype_description": "Travel-Tradeshow Airfare",
+                    "effective_date": "2012-10-17T00:00:00"
+                },
+                {
+                    "res_type": 383,
+                    "rtype_name": "Overtime Meals",
+                    "rtype_description": "Overtime Meals",
+                    "effective_date": "2014-01-01T00:00:00"
+                },
+                {
+                    "res_type": 384,
+                    "rtype_name": "Listening-CI Cos",
+                    "rtype_description": "Listening-CI Cost",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 385,
+                    "rtype_name": "Analytics Cost",
+                    "rtype_description": "Analytics Cost",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 386,
+                    "rtype_name": "Strategy Costs",
+                    "rtype_description": "Strategy Costs",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 387,
+                    "rtype_name": "Com. Mgmt Cost",
+                    "rtype_description": "Community Management Costs",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 389,
+                    "rtype_name": "Travel - Mass Tr",
+                    "rtype_description": "Travel - Mass Transportation",
+                    "effective_date": "2014-03-03T00:00:00"
+                },
+                {
+                    "res_type": 439,
+                    "rtype_name": "Social Marketing",
+                    "rtype_description": "Social Marketing Cost",
+                    "effective_date": "2014-11-03T00:00:00"
+                },
+                {
+                    "res_type": 455,
+                    "rtype_name": "PrePay (Gen)",
+                    "rtype_description": "PrePay (Gen)",
+                    "effective_date": "2014-08-01T00:00:00"
+                },
+                {
+                    "res_type": 456,
+                    "rtype_name": "PrePay (Dues)",
+                    "rtype_description": "PrePay (Dues)",
+                    "effective_date": "2014-10-01T00:00:00"
+                },
+                {
+                    "res_type": 457,
+                    "rtype_name": "PrePay (SW Lic)",
+                    "rtype_description": "PrePay (SW Lic)",
+                    "effective_date": "2014-09-01T00:00:00"
+                }
+            ]
+        },
+        {
+            "company_code": 2,
+            "cost_type": 3,
+            "cost_type_name": "3 VEN-NewBiz",
+            "cost_type_description": "Vendor Invoice - New Business",
+            "cost_type_status": 1,
+            "effective_date": "2000-01-01T00:00:00",
+            "expiration_date": "2012-06-30T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 247,
+                    "rtype_name": "Travel- Other",
+                    "rtype_description": "Travel - Other",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 248,
+                    "rtype_name": "Airfare",
+                    "rtype_description": "Airfare",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 253,
+                    "rtype_name": "M&E - TeamLunch",
+                    "rtype_description": "Meals and Entertainment",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 254,
+                    "rtype_name": "Business Gifts",
+                    "rtype_description": "Business Gifts",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 255,
+                    "rtype_name": "Trade Show Costs",
+                    "rtype_description": "Trade Show Costs",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 256,
+                    "rtype_name": "Marketing Costs",
+                    "rtype_description": "Marketing Costs",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 276,
+                    "rtype_name": "Benefits Admin",
+                    "rtype_description": "Benefits Administration",
+                    "effective_date": "2011-05-09T00:00:00"
+                },
+                {
+                    "res_type": 299,
+                    "rtype_name": "Consulting Costs",
+                    "rtype_description": "Consulting Costs",
+                    "effective_date": "2012-01-02T00:00:00"
+                },
+                {
+                    "res_type": 310,
+                    "rtype_name": "Postage&Delivery",
+                    "rtype_description": "Postage and Delivery",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 349,
+                    "rtype_name": "Travel- TrainBus",
+                    "rtype_description": "Travel - Train / Bus",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 350,
+                    "rtype_name": "Travel- Car Svc",
+                    "rtype_description": "Travel - Car Service",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 352,
+                    "rtype_name": "Lunch",
+                    "rtype_description": "Lunch",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 353,
+                    "rtype_name": "M&E - ClientEnt",
+                    "rtype_description": "M&E - Client Lunch",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 355,
+                    "rtype_name": "Dinner - I",
+                    "rtype_description": "Dinner Inactive",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 358,
+                    "rtype_name": "Tele Exp - Road",
+                    "rtype_description": "Telephone Expense - On the Road",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 360,
+                    "rtype_name": "Internet-Wireles",
+                    "rtype_description": "Internet - Wireless",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 362,
+                    "rtype_name": "Tolls",
+                    "rtype_description": "Tolls",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 363,
+                    "rtype_name": "Travel- AutoRent",
+                    "rtype_description": "Travel- Auto Rental",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 364,
+                    "rtype_name": "Milage",
+                    "rtype_description": "Milage",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 365,
+                    "rtype_name": "Parking",
+                    "rtype_description": "Parking",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 372,
+                    "rtype_name": "Tuesday Treat",
+                    "rtype_description": "Tuesday Treat",
+                    "effective_date": "2012-01-02T00:00:00"
+                },
+                {
+                    "res_type": 373,
+                    "rtype_name": "Amex Gift Cards",
+                    "rtype_description": "Amex Gift Cards (Non-BSEM/Creative)",
+                    "effective_date": "2012-01-02T00:00:00"
+                },
+                {
+                    "res_type": 376,
+                    "rtype_name": "Dinner",
+                    "rtype_description": "Dinner",
+                    "effective_date": "2012-07-01T00:00:00"
+                },
+                {
+                    "res_type": 378,
+                    "rtype_name": "M&E – ClientBF",
+                    "rtype_description": "M&E – Client Breakfast",
+                    "effective_date": "2012-07-01T00:00:00"
+                },
+                {
+                    "res_type": 379,
+                    "rtype_name": "Travel-TraShAir",
+                    "rtype_description": "Travel-Tradeshow Airfare",
+                    "effective_date": "2012-10-17T00:00:00"
+                }
+            ]
+        },
+        {
+            "company_code": 2,
+            "cost_type": 4,
+            "cost_type_name": "4 EMP-NonBll",
+            "cost_type_description": "Emp Expense Rpt - Nonbillable Client",
+            "cost_type_status": 0,
+            "effective_date": "2000-01-01T00:00:00",
+            "expiration_date": "2012-06-30T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 247,
+                    "rtype_name": "Travel- Other",
+                    "rtype_description": "Travel - Other",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 248,
+                    "rtype_name": "Airfare",
+                    "rtype_description": "Airfare",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 253,
+                    "rtype_name": "M&E - TeamLunch",
+                    "rtype_description": "Meals and Entertainment",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 254,
+                    "rtype_name": "Business Gifts",
+                    "rtype_description": "Business Gifts",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 255,
+                    "rtype_name": "Trade Show Costs",
+                    "rtype_description": "Trade Show Costs",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 256,
+                    "rtype_name": "Marketing Costs",
+                    "rtype_description": "Marketing Costs",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 349,
+                    "rtype_name": "Travel- TrainBus",
+                    "rtype_description": "Travel - Train / Bus",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 350,
+                    "rtype_name": "Travel- Car Svc",
+                    "rtype_description": "Travel - Car Service",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 352,
+                    "rtype_name": "Lunch",
+                    "rtype_description": "Lunch",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 353,
+                    "rtype_name": "M&E - ClientEnt",
+                    "rtype_description": "M&E - Client Lunch",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 355,
+                    "rtype_name": "Dinner - I",
+                    "rtype_description": "Dinner Inactive",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 358,
+                    "rtype_name": "Tele Exp - Road",
+                    "rtype_description": "Telephone Expense - On the Road",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 360,
+                    "rtype_name": "Internet-Wireles",
+                    "rtype_description": "Internet - Wireless",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 362,
+                    "rtype_name": "Tolls",
+                    "rtype_description": "Tolls",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 363,
+                    "rtype_name": "Travel- AutoRent",
+                    "rtype_description": "Travel- Auto Rental",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 364,
+                    "rtype_name": "Milage",
+                    "rtype_description": "Milage",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 365,
+                    "rtype_name": "Parking",
+                    "rtype_description": "Parking",
+                    "effective_date": "2000-09-01T00:00:00"
+                },
+                {
+                    "res_type": 378,
+                    "rtype_name": "M&E – ClientBF",
+                    "rtype_description": "M&E – Client Breakfast",
+                    "effective_date": "2012-09-07T00:00:00"
+                }
+            ]
+        },
+        {
+            "company_code": 2,
+            "cost_type": 5,
+            "cost_type_name": "5 EMP-NewBiz",
+            "cost_type_description": "Employee Expense Rpt - New Business",
+            "cost_type_status": 0,
+            "effective_date": "2000-01-01T00:00:00",
+            "expiration_date": "2012-06-30T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 247,
+                    "rtype_name": "Travel- Other",
+                    "rtype_description": "Travel - Other",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 248,
+                    "rtype_name": "Airfare",
+                    "rtype_description": "Airfare",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 253,
+                    "rtype_name": "M&E - TeamLunch",
+                    "rtype_description": "Meals and Entertainment",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 254,
+                    "rtype_name": "Business Gifts",
+                    "rtype_description": "Business Gifts",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 255,
+                    "rtype_name": "Trade Show Costs",
+                    "rtype_description": "Trade Show Costs",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 256,
+                    "rtype_name": "Marketing Costs",
+                    "rtype_description": "Marketing Costs",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 349,
+                    "rtype_name": "Travel- TrainBus",
+                    "rtype_description": "Travel - Train / Bus",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 350,
+                    "rtype_name": "Travel- Car Svc",
+                    "rtype_description": "Travel - Car Service",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 352,
+                    "rtype_name": "Lunch",
+                    "rtype_description": "Lunch",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 353,
+                    "rtype_name": "M&E - ClientEnt",
+                    "rtype_description": "M&E - Client Lunch",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 355,
+                    "rtype_name": "Dinner - I",
+                    "rtype_description": "Dinner Inactive",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 356,
+                    "rtype_name": "Tele Exp - Cell",
+                    "rtype_description": "Telephone Expense - Cell",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 358,
+                    "rtype_name": "Tele Exp - Road",
+                    "rtype_description": "Telephone Expense - On the Road",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 362,
+                    "rtype_name": "Tolls",
+                    "rtype_description": "Tolls",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 363,
+                    "rtype_name": "Travel- AutoRent",
+                    "rtype_description": "Travel- Auto Rental",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 364,
+                    "rtype_name": "Milage",
+                    "rtype_description": "Milage",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 365,
+                    "rtype_name": "Parking",
+                    "rtype_description": "Parking",
+                    "effective_date": "2000-01-01T00:00:00"
+                }
+            ]
+        },
+        {
+            "company_code": 2,
+            "cost_type": 6,
+            "cost_type_name": "6 EMP-Admin",
+            "cost_type_description": "Employee Expense Rpt - Admin/Overhead",
+            "cost_type_status": 0,
+            "effective_date": "2000-01-01T00:00:00",
+            "expiration_date": "2012-06-30T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 229,
+                    "rtype_name": "COGS Other",
+                    "rtype_description": "Cost of Goods Sold Other",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 247,
+                    "rtype_name": "Travel- Other",
+                    "rtype_description": "Travel - Other",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 248,
+                    "rtype_name": "Airfare",
+                    "rtype_description": "Airfare",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 253,
+                    "rtype_name": "M&E - TeamLunch",
+                    "rtype_description": "Meals and Entertainment",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 255,
+                    "rtype_name": "Trade Show Costs",
+                    "rtype_description": "Trade Show Costs",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 256,
+                    "rtype_name": "Marketing Costs",
+                    "rtype_description": "Marketing Costs",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 285,
+                    "rtype_name": "Moving Expense",
+                    "rtype_description": "Moving Expense",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 286,
+                    "rtype_name": "Relocation Exp",
+                    "rtype_description": "Relocation - employee- - - -",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 290,
+                    "rtype_name": "M&E - In House",
+                    "rtype_description": "Meals & Entertainment - In House",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 294,
+                    "rtype_name": "Training and Edu",
+                    "rtype_description": "Training and Education",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 296,
+                    "rtype_name": "Moving Expenses",
+                    "rtype_description": "Moving Expenses",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 303,
+                    "rtype_name": "Supplies",
+                    "rtype_description": "Supplies",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 310,
+                    "rtype_name": "Postage&Delivery",
+                    "rtype_description": "Postage and Delivery",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 311,
+                    "rtype_name": "Non-Cap Furn&Fix",
+                    "rtype_description": "NonCapitalized Furniture and Fixtures",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 312,
+                    "rtype_name": "Non-Cap SW&Equip",
+                    "rtype_description": "Non Capitalized Software and Equipment",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 313,
+                    "rtype_name": "Gen Office Exp",
+                    "rtype_description": "General Office Expenses",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 316,
+                    "rtype_name": "Telephone Exp",
+                    "rtype_description": "Telephone Expense",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 321,
+                    "rtype_name": "Contributions",
+                    "rtype_description": "Contributions",
+                    "effective_date": "2014-02-03T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 349,
+                    "rtype_name": "Travel- TrainBus",
+                    "rtype_description": "Travel - Train / Bus",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 350,
+                    "rtype_name": "Travel- Car Svc",
+                    "rtype_description": "Travel - Car Service",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 352,
+                    "rtype_name": "Lunch",
+                    "rtype_description": "Lunch",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 354,
+                    "rtype_name": "M&E -NewHireLnch",
+                    "rtype_description": "M&E - New Hire Lunch",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 355,
+                    "rtype_name": "Dinner - I",
+                    "rtype_description": "Dinner Inactive",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 356,
+                    "rtype_name": "Tele Exp - Cell",
+                    "rtype_description": "Telephone Expense - Cell",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 357,
+                    "rtype_name": "Tele Exp - Home",
+                    "rtype_description": "Telephone Expense - Home",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 358,
+                    "rtype_name": "Tele Exp - Road",
+                    "rtype_description": "Telephone Expense - On the Road",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 359,
+                    "rtype_name": "Internet - Home",
+                    "rtype_description": "Internet - Home",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 360,
+                    "rtype_name": "Internet-Wireles",
+                    "rtype_description": "Internet - Wireless",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 361,
+                    "rtype_name": "Internet - T1",
+                    "rtype_description": "Internet - T1",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 362,
+                    "rtype_name": "Tolls",
+                    "rtype_description": "Tolls",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 363,
+                    "rtype_name": "Travel- AutoRent",
+                    "rtype_description": "Travel- Auto Rental",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 364,
+                    "rtype_name": "Milage",
+                    "rtype_description": "Milage",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 365,
+                    "rtype_name": "Parking",
+                    "rtype_description": "Parking",
+                    "effective_date": "2000-01-01T00:00:00"
+                }
+            ]
+        },
+        {
+            "company_code": 2,
+            "cost_type": 7,
+            "cost_type_name": "7 VEN-Admin",
+            "cost_type_description": "Vendor Invoice - Admin/Overhead",
+            "cost_type_status": 0,
+            "effective_date": "2000-01-01T00:00:00",
+            "expiration_date": "2014-12-31T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 209,
+                    "rtype_name": "Adserving",
+                    "rtype_description": "Adserving",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 210,
+                    "rtype_name": "Website Hosting",
+                    "rtype_description": "Website Hosting",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 222,
+                    "rtype_name": "Media Costs (AP)",
+                    "rtype_description": "Media Costs-(AP only)",
+                    "effective_date": "2014-01-01T00:00:00"
+                },
+                {
+                    "res_type": 228,
+                    "rtype_name": "COR-I/C-Elimn.",
+                    "rtype_description": "Cost of Revenues - I/C-Elimination",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 229,
+                    "rtype_name": "COGS Other",
+                    "rtype_description": "Cost of Goods Sold Other",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 232,
+                    "rtype_name": "Text Link D. Sys",
+                    "rtype_description": "Text Link Dispersal System",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 233,
+                    "rtype_name": "Directory Submis",
+                    "rtype_description": "Directory Submission Fees",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 234,
+                    "rtype_name": "Paid Inclusion C",
+                    "rtype_description": "Paid Inclusion Costs",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 235,
+                    "rtype_name": "Media Costs",
+                    "rtype_description": "Media Costs",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 237,
+                    "rtype_name": "Creative Ser Cst",
+                    "rtype_description": "Creative Services Costs",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 238,
+                    "rtype_name": "Emerging Media",
+                    "rtype_description": "Emerging Media Costs",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 239,
+                    "rtype_name": "Cust Ins. Costs",
+                    "rtype_description": "Customer Insights Costs",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 240,
+                    "rtype_name": "Epilot",
+                    "rtype_description": "Epilot",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 241,
+                    "rtype_name": "Enhance",
+                    "rtype_description": "Enhance",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 242,
+                    "rtype_name": "Yahoo!",
+                    "rtype_description": "Yahoo!",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 243,
+                    "rtype_name": "Google",
+                    "rtype_description": "Google",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 244,
+                    "rtype_name": "Doubleclick",
+                    "rtype_description": "Doubleclick",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 247,
+                    "rtype_name": "Travel- Other",
+                    "rtype_description": "Travel - Other",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 248,
+                    "rtype_name": "Airfare",
+                    "rtype_description": "Airfare",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 253,
+                    "rtype_name": "M&E - TeamLunch",
+                    "rtype_description": "Meals and Entertainment",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 254,
+                    "rtype_name": "Business Gifts",
+                    "rtype_description": "Business Gifts",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 255,
+                    "rtype_name": "Trade Show Costs",
+                    "rtype_description": "Trade Show Costs",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 256,
+                    "rtype_name": "Marketing Costs",
+                    "rtype_description": "Marketing Costs",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 257,
+                    "rtype_name": "R&D",
+                    "rtype_description": "Research and Development",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 258,
+                    "rtype_name": "Salesforce.com",
+                    "rtype_description": "Salesforce.com Expense",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 259,
+                    "rtype_name": "Software License",
+                    "rtype_description": "Software Licensing",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 260,
+                    "rtype_name": "SG-A Allocations",
+                    "rtype_description": "SG & A Allocations",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 261,
+                    "rtype_name": "Office Salaries",
+                    "rtype_description": "Office Salaries",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 262,
+                    "rtype_name": "Vacation",
+                    "rtype_description": "Vacation",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 263,
+                    "rtype_name": "Special Payroll",
+                    "rtype_description": "Special Payroll",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 264,
+                    "rtype_name": "HousingAllowance",
+                    "rtype_description": "Housing Allowance",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 265,
+                    "rtype_name": "Severance",
+                    "rtype_description": "Severance",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 266,
+                    "rtype_name": "1099",
+                    "rtype_description": "1099",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 267,
+                    "rtype_name": "Fica & Medicare",
+                    "rtype_description": "Fica & Medicare",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 268,
+                    "rtype_name": "Futa",
+                    "rtype_description": "Futa",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 269,
+                    "rtype_name": "SUI/SDI",
+                    "rtype_description": "SUI/SDI",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 270,
+                    "rtype_name": "Short Term DBL",
+                    "rtype_description": "Short Term DBL",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 271,
+                    "rtype_name": "401k Matching",
+                    "rtype_description": "401k Matching",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 272,
+                    "rtype_name": "Long-Term DBL",
+                    "rtype_description": "Long-Term DBL",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 273,
+                    "rtype_name": "Dental",
+                    "rtype_description": "Dental",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 274,
+                    "rtype_name": "Vision",
+                    "rtype_description": "Vision",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 275,
+                    "rtype_name": "Workers Comp",
+                    "rtype_description": "Workers Compensation",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 276,
+                    "rtype_name": "Benefits Admin",
+                    "rtype_description": "Benefits Administration",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 277,
+                    "rtype_name": "Health Insurance",
+                    "rtype_description": "Health Insurance",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 277,
+                    "rtype_name": "Health Insurance",
+                    "rtype_description": "Health Insurance",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 278,
+                    "rtype_name": "Life Insurance",
+                    "rtype_description": "Life Insurance",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 279,
+                    "rtype_name": "Parking Expense",
+                    "rtype_description": "Parking Expense",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 280,
+                    "rtype_name": "Commissions",
+                    "rtype_description": "Commissions Expense",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 281,
+                    "rtype_name": "Draw",
+                    "rtype_description": "Draw",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 282,
+                    "rtype_name": "Bonus Expense",
+                    "rtype_description": "Bonus Expense",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 283,
+                    "rtype_name": "Bonus - Special",
+                    "rtype_description": "Bonus Expense - Special",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 284,
+                    "rtype_name": "Vehicle Expense",
+                    "rtype_description": "Vehicle Expense",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 285,
+                    "rtype_name": "Moving Expense",
+                    "rtype_description": "Moving Expense",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 286,
+                    "rtype_name": "Relocation Exp",
+                    "rtype_description": "Relocation - employee- - - -",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 287,
+                    "rtype_name": "Non-Cash Comp",
+                    "rtype_description": "Non-Cash Compensation",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 288,
+                    "rtype_name": "Corporate Alloc",
+                    "rtype_description": "Corporate Allocations",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 289,
+                    "rtype_name": "Corp Mailbox",
+                    "rtype_description": "Corporate Mailboxes",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 290,
+                    "rtype_name": "M&E - In House",
+                    "rtype_description": "Meals & Entertainment - In House",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 291,
+                    "rtype_name": "Copier Lease",
+                    "rtype_description": "Copier Lease",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 292,
+                    "rtype_name": "Leased Furn&Eqpt",
+                    "rtype_description": "Leased Furniture and Equipment",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 293,
+                    "rtype_name": "Dues & Subs",
+                    "rtype_description": "Dues and Subscriptions",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 294,
+                    "rtype_name": "Training and Edu",
+                    "rtype_description": "Training and Education",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 295,
+                    "rtype_name": "Emp Ben S Corp",
+                    "rtype_description": "Employee Benefit Support Corporate",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 296,
+                    "rtype_name": "Moving Expenses",
+                    "rtype_description": "Moving Expenses",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 297,
+                    "rtype_name": "CollectionAgency",
+                    "rtype_description": "Collection Agency Fees",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 298,
+                    "rtype_name": "Professional Fee",
+                    "rtype_description": "Professional Fees",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 299,
+                    "rtype_name": "Consulting Costs",
+                    "rtype_description": "Consulting Costs",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 300,
+                    "rtype_name": "Bad Debt Accrual",
+                    "rtype_description": "Bad Debt Accrual",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 301,
+                    "rtype_name": "Legal Fees",
+                    "rtype_description": "Legal Fees",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 302,
+                    "rtype_name": "Rent Expense",
+                    "rtype_description": "Rent Expense",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 303,
+                    "rtype_name": "Supplies",
+                    "rtype_description": "Supplies",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 304,
+                    "rtype_name": "Bank Svc Fee",
+                    "rtype_description": "Bank Service Fees",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 305,
+                    "rtype_name": "CredCdr Svc Fees",
+                    "rtype_description": "Credit Card Service Fees",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 306,
+                    "rtype_name": "Credit Card - BF",
+                    "rtype_description": "Credit Card Service Fees - Brainfox",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 307,
+                    "rtype_name": "Payroll Svc Fees",
+                    "rtype_description": "Payroll Service Fees",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 308,
+                    "rtype_name": "Recruiting",
+                    "rtype_description": "Recruiting Expense",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 309,
+                    "rtype_name": "Insurance",
+                    "rtype_description": "Insurance",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 310,
+                    "rtype_name": "Postage&Delivery",
+                    "rtype_description": "Postage and Delivery",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 311,
+                    "rtype_name": "Non-Cap Furn&Fix",
+                    "rtype_description": "NonCapitalized Furniture and Fixtures",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 312,
+                    "rtype_name": "Non-Cap SW&Equip",
+                    "rtype_description": "Non Capitalized Software and Equipment",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 313,
+                    "rtype_name": "Gen Office Exp",
+                    "rtype_description": "General Office Expenses",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 314,
+                    "rtype_name": "Repairs & Maint",
+                    "rtype_description": "Repairs and Maintenance",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 315,
+                    "rtype_name": "T - 1 Web Access",
+                    "rtype_description": "T - 1 Web Access",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 316,
+                    "rtype_name": "Telephone Exp",
+                    "rtype_description": "Telephone Expense",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 318,
+                    "rtype_name": "Utilities",
+                    "rtype_description": "Utilities",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 319,
+                    "rtype_name": "Real Estate Tax",
+                    "rtype_description": "Real Estate Taxes",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 320,
+                    "rtype_name": "Security",
+                    "rtype_description": "Security",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 321,
+                    "rtype_name": "Contributions",
+                    "rtype_description": "Contributions",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 321,
+                    "rtype_name": "Contributions",
+                    "rtype_description": "Contributions",
+                    "effective_date": "2013-12-02T00:00:00"
+                },
+                {
+                    "res_type": 322,
+                    "rtype_name": "G&A Allocations",
+                    "rtype_description": "G&A Allocations",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 323,
+                    "rtype_name": "Depreciation",
+                    "rtype_description": "Depreciation",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 324,
+                    "rtype_name": "Amortization",
+                    "rtype_description": "Amortization",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 326,
+                    "rtype_name": "Comm Rent Tax",
+                    "rtype_description": "Commercial Rent Tax",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 328,
+                    "rtype_name": "GainSaleAssets",
+                    "rtype_description": "Gain on Sale of Assets",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 329,
+                    "rtype_name": "Interest Expense",
+                    "rtype_description": "Interest Expense",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 330,
+                    "rtype_name": "Other expense",
+                    "rtype_description": "Other expense",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 331,
+                    "rtype_name": "Int. & Div. Inc.",
+                    "rtype_description": "Interest and Dividend Income",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 332,
+                    "rtype_name": "Penalty&Interest",
+                    "rtype_description": "Penalties and Interest",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 333,
+                    "rtype_name": "AcquisitionCosts",
+                    "rtype_description": "Acquisition costs",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 334,
+                    "rtype_name": "Exchge rate var",
+                    "rtype_description": "Exchange rate variance",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 335,
+                    "rtype_name": "FX Rounding",
+                    "rtype_description": "FX Rounding",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 336,
+                    "rtype_name": "DE Franch Tax",
+                    "rtype_description": "Delaware Franchise Tax",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 337,
+                    "rtype_name": "State Taxes",
+                    "rtype_description": "State Taxes",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 338,
+                    "rtype_name": "City Taxes",
+                    "rtype_description": "City Taxes",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 339,
+                    "rtype_name": "Foreign Tax",
+                    "rtype_description": "Foreign Tax",
+                    "effective_date": "2009-01-06T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2001-01-01T00:00:00"
+                },
+                {
+                    "res_type": 349,
+                    "rtype_name": "Travel- TrainBus",
+                    "rtype_description": "Travel - Train / Bus",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 350,
+                    "rtype_name": "Travel- Car Svc",
+                    "rtype_description": "Travel - Car Service",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 352,
+                    "rtype_name": "Lunch",
+                    "rtype_description": "Lunch",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 353,
+                    "rtype_name": "M&E - ClientEnt",
+                    "rtype_description": "M&E - Client Lunch",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 354,
+                    "rtype_name": "M&E -NewHireLnch",
+                    "rtype_description": "M&E - New Hire Lunch",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 355,
+                    "rtype_name": "Dinner - I",
+                    "rtype_description": "Dinner Inactive",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 356,
+                    "rtype_name": "Tele Exp - Cell",
+                    "rtype_description": "Telephone Expense - Cell",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 357,
+                    "rtype_name": "Tele Exp - Home",
+                    "rtype_description": "Telephone Expense - Home",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 358,
+                    "rtype_name": "Tele Exp - Road",
+                    "rtype_description": "Telephone Expense - On the Road",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 359,
+                    "rtype_name": "Internet - Home",
+                    "rtype_description": "Internet - Home",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 360,
+                    "rtype_name": "Internet-Wireles",
+                    "rtype_description": "Internet - Wireless",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 361,
+                    "rtype_name": "Internet - T1",
+                    "rtype_description": "Internet - T1",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 362,
+                    "rtype_name": "Tolls",
+                    "rtype_description": "Tolls",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 363,
+                    "rtype_name": "Travel- AutoRent",
+                    "rtype_description": "Travel- Auto Rental",
+                    "effective_date": "2000-01-06T00:00:00"
+                },
+                {
+                    "res_type": 364,
+                    "rtype_name": "Milage",
+                    "rtype_description": "Milage",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 365,
+                    "rtype_name": "Parking",
+                    "rtype_description": "Parking",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 370,
+                    "rtype_name": "Media Passthru",
+                    "rtype_description": "Media Passthrough Postpay",
+                    "effective_date": "2000-01-01T00:00:00"
+                },
+                {
+                    "res_type": 371,
+                    "rtype_name": "SEO",
+                    "rtype_description": "SEO",
+                    "effective_date": "2011-08-01T00:00:00"
+                },
+                {
+                    "res_type": 372,
+                    "rtype_name": "Tuesday Treat",
+                    "rtype_description": "Tuesday Treat",
+                    "effective_date": "2012-02-28T00:00:00"
+                },
+                {
+                    "res_type": 373,
+                    "rtype_name": "Amex Gift Cards",
+                    "rtype_description": "Amex Gift Cards (Non-BSEM/Creative)",
+                    "effective_date": "2012-02-28T00:00:00"
+                },
+                {
+                    "res_type": 374,
+                    "rtype_name": "PP & E",
+                    "rtype_description": "Technology Purchases",
+                    "effective_date": "2012-03-27T00:00:00"
+                },
+                {
+                    "res_type": 375,
+                    "rtype_name": "Freelancer",
+                    "rtype_description": "Freelancer's Expense",
+                    "effective_date": "2012-01-02T00:00:00"
+                },
+                {
+                    "res_type": 376,
+                    "rtype_name": "Dinner",
+                    "rtype_description": "Dinner",
+                    "effective_date": "2012-07-01T00:00:00"
+                },
+                {
+                    "res_type": 378,
+                    "rtype_name": "M&E – ClientBF",
+                    "rtype_description": "M&E – Client Breakfast",
+                    "effective_date": "2012-07-01T00:00:00"
+                },
+                {
+                    "res_type": 379,
+                    "rtype_name": "Travel-TraShAir",
+                    "rtype_description": "Travel-Tradeshow Airfare",
+                    "effective_date": "2012-10-17T00:00:00"
+                },
+                {
+                    "res_type": 381,
+                    "rtype_name": "Gym Membership",
+                    "rtype_description": "Gym Membership",
+                    "effective_date": "2014-07-01T00:00:00"
+                },
+                {
+                    "res_type": 382,
+                    "rtype_name": "Rec-DHUSA",
+                    "rtype_description": "Rec from DHUSA",
+                    "effective_date": "2014-05-09T00:00:00"
+                },
+                {
+                    "res_type": 385,
+                    "rtype_name": "Analytics Cost",
+                    "rtype_description": "Analytics Cost",
+                    "effective_date": "2014-12-01T00:00:00"
+                },
+                {
+                    "res_type": 388,
+                    "rtype_name": "Other i/c Receiv",
+                    "rtype_description": "Other i/c Receivable",
+                    "effective_date": "2013-09-02T00:00:00"
+                },
+                {
+                    "res_type": 397,
+                    "rtype_name": "DWOM/Inf Mktg C",
+                    "rtype_description": "DWOM/ Influencer Mktg Cost",
+                    "effective_date": "2014-10-01T00:00:00"
+                },
+                {
+                    "res_type": 407,
+                    "rtype_name": "Insights",
+                    "rtype_description": "Insights & Planning",
+                    "effective_date": "2014-09-01T00:00:00"
+                },
+                {
+                    "res_type": 439,
+                    "rtype_name": "Social Marketing",
+                    "rtype_description": "Social Marketing Cost",
+                    "effective_date": "2014-10-01T00:00:00"
+                },
+                {
+                    "res_type": 443,
+                    "rtype_name": "Strategy Cost",
+                    "rtype_description": "Strategy Cost",
+                    "effective_date": "2014-09-01T00:00:00"
+                },
+                {
+                    "res_type": 455,
+                    "rtype_name": "PrePay (Gen)",
+                    "rtype_description": "PrePay (Gen)",
+                    "effective_date": "2014-09-01T00:00:00"
+                },
+                {
+                    "res_type": 456,
+                    "rtype_name": "PrePay (Dues)",
+                    "rtype_description": "PrePay (Dues)",
+                    "effective_date": "2014-09-01T00:00:00"
+                },
+                {
+                    "res_type": 457,
+                    "rtype_name": "PrePay (SW Lic)",
+                    "rtype_description": "PrePay (SW Lic)",
+                    "effective_date": "2014-08-01T00:00:00"
+                },
+                {
+                    "res_type": 458,
+                    "rtype_name": "Premises DAN",
+                    "rtype_description": "Premises DAN Only",
+                    "effective_date": "2015-01-01T00:00:00"
+                }
+            ]
+        },
+        {
+            "company_code": 2,
+            "cost_type": 11,
+            "cost_type_name": "11 VEN-Billable",
+            "cost_type_description": "Vendor Invoice - Billable Client",
+            "cost_type_status": 0,
+            "effective_date": "2008-01-01T00:00:00",
+            "expiration_date": "2015-10-06T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 203,
+                    "rtype_name": "Auto Rental",
+                    "rtype_description": "Auto Rental",
+                    "effective_date": "2014-01-01T00:00:00"
+                },
+                {
+                    "res_type": 205,
+                    "rtype_name": "Mass Trans.",
+                    "rtype_description": "Mass Transportation",
+                    "effective_date": "2014-01-01T00:00:00"
+                },
+                {
+                    "res_type": 206,
+                    "rtype_name": "Bill Meals-Ent.",
+                    "rtype_description": "Billable Meals and Entertainment",
+                    "effective_date": "2014-01-01T00:00:00"
+                },
+                {
+                    "res_type": 237,
+                    "rtype_name": "Creative Ser Cst",
+                    "rtype_description": "Creative Services Costs",
+                    "effective_date": "2013-09-02T00:00:00"
+                },
+                {
+                    "res_type": 247,
+                    "rtype_name": "Travel- Other",
+                    "rtype_description": "Travel - Other",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 248,
+                    "rtype_name": "Airfare",
+                    "rtype_description": "Airfare",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 253,
+                    "rtype_name": "M&E - TeamLunch",
+                    "rtype_description": "Meals and Entertainment",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 254,
+                    "rtype_name": "Business Gifts",
+                    "rtype_description": "Business Gifts",
+                    "effective_date": "2001-01-01T00:00:00"
+                },
+                {
+                    "res_type": 256,
+                    "rtype_name": "Marketing Costs",
+                    "rtype_description": "Marketing Costs",
+                    "effective_date": "2014-01-06T00:00:00"
+                },
+                {
+                    "res_type": 290,
+                    "rtype_name": "M&E - In House",
+                    "rtype_description": "Meals & Entertainment - In House",
+                    "effective_date": "2014-03-05T00:00:00"
+                },
+                {
+                    "res_type": 299,
+                    "rtype_name": "Consulting Costs",
+                    "rtype_description": "Consulting Costs",
+                    "effective_date": "2012-02-28T00:00:00"
+                },
+                {
+                    "res_type": 301,
+                    "rtype_name": "Legal Fees",
+                    "rtype_description": "Legal Fees",
+                    "effective_date": "2014-12-01T00:00:00"
+                },
+                {
+                    "res_type": 303,
+                    "rtype_name": "Supplies",
+                    "rtype_description": "Supplies",
+                    "effective_date": "2014-02-03T00:00:00"
+                },
+                {
+                    "res_type": 310,
+                    "rtype_name": "Postage&Delivery",
+                    "rtype_description": "Postage and Delivery",
+                    "effective_date": "2001-01-01T00:00:00"
+                },
+                {
+                    "res_type": 311,
+                    "rtype_name": "Non-Cap Furn&Fix",
+                    "rtype_description": "NonCapitalized Furniture and Fixtures",
+                    "effective_date": "2014-01-01T00:00:00"
+                },
+                {
+                    "res_type": 313,
+                    "rtype_name": "Gen Office Exp",
+                    "rtype_description": "General Office Expenses",
+                    "effective_date": "2014-03-03T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 349,
+                    "rtype_name": "Travel- TrainBus",
+                    "rtype_description": "Travel - Train / Bus",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 350,
+                    "rtype_name": "Travel- Car Svc",
+                    "rtype_description": "Travel - Car Service",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 352,
+                    "rtype_name": "Lunch",
+                    "rtype_description": "Lunch",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 353,
+                    "rtype_name": "M&E - ClientEnt",
+                    "rtype_description": "M&E - Client Lunch",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 355,
+                    "rtype_name": "Dinner - I",
+                    "rtype_description": "Dinner Inactive",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 358,
+                    "rtype_name": "Tele Exp - Road",
+                    "rtype_description": "Telephone Expense - On the Road",
+                    "effective_date": "2001-01-01T00:00:00"
+                },
+                {
+                    "res_type": 360,
+                    "rtype_name": "Internet-Wireles",
+                    "rtype_description": "Internet - Wireless",
+                    "effective_date": "2001-01-01T00:00:00"
+                },
+                {
+                    "res_type": 362,
+                    "rtype_name": "Tolls",
+                    "rtype_description": "Tolls",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 363,
+                    "rtype_name": "Travel- AutoRent",
+                    "rtype_description": "Travel- Auto Rental",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 364,
+                    "rtype_name": "Milage",
+                    "rtype_description": "Milage",
+                    "effective_date": "2000-08-01T00:00:00"
+                },
+                {
+                    "res_type": 365,
+                    "rtype_name": "Parking",
+                    "rtype_description": "Parking",
+                    "effective_date": "2001-01-01T00:00:00"
+                },
+                {
+                    "res_type": 370,
+                    "rtype_name": "Media Passthru",
+                    "rtype_description": "Media Passthrough Postpay",
+                    "effective_date": "2001-01-01T00:00:00"
+                },
+                {
+                    "res_type": 371,
+                    "rtype_name": "SEO",
+                    "rtype_description": "SEO",
+                    "effective_date": "2012-01-01T00:00:00"
+                },
+                {
+                    "res_type": 372,
+                    "rtype_name": "Tuesday Treat",
+                    "rtype_description": "Tuesday Treat",
+                    "effective_date": "2012-01-01T00:00:00"
+                },
+                {
+                    "res_type": 373,
+                    "rtype_name": "Amex Gift Cards",
+                    "rtype_description": "Amex Gift Cards (Non-BSEM/Creative)",
+                    "effective_date": "2012-01-01T00:00:00"
+                },
+                {
+                    "res_type": 375,
+                    "rtype_name": "Freelancer",
+                    "rtype_description": "Freelancer's Expense",
+                    "effective_date": "2012-01-01T00:00:00"
+                },
+                {
+                    "res_type": 376,
+                    "rtype_name": "Dinner",
+                    "rtype_description": "Dinner",
+                    "effective_date": "2012-01-01T00:00:00"
+                },
+                {
+                    "res_type": 377,
+                    "rtype_name": "M&E  - ClientLun",
+                    "rtype_description": "M&E  - Client Lunch",
+                    "effective_date": "2012-01-01T00:00:00"
+                },
+                {
+                    "res_type": 378,
+                    "rtype_name": "M&E – ClientBF",
+                    "rtype_description": "M&E – Client Breakfast",
+                    "effective_date": "2012-01-01T00:00:00"
+                },
+                {
+                    "res_type": 379,
+                    "rtype_name": "Travel-TraShAir",
+                    "rtype_description": "Travel-Tradeshow Airfare",
+                    "effective_date": "2012-10-17T00:00:00"
+                },
+                {
+                    "res_type": 380,
+                    "rtype_name": "Brand Content Co",
+                    "rtype_description": "Brand Content Cost",
+                    "effective_date": "2014-03-05T00:00:00"
+                },
+                {
+                    "res_type": 383,
+                    "rtype_name": "Overtime Meals",
+                    "rtype_description": "Overtime Meals",
+                    "effective_date": "2013-10-01T00:00:00"
+                },
+                {
+                    "res_type": 384,
+                    "rtype_name": "Listening-CI Cos",
+                    "rtype_description": "Listening-CI Cost",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 385,
+                    "rtype_name": "Analytics Cost",
+                    "rtype_description": "Analytics Cost",
+                    "effective_date": "2014-01-01T00:00:00"
+                },
+                {
+                    "res_type": 386,
+                    "rtype_name": "Strategy Costs",
+                    "rtype_description": "Strategy Costs",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 387,
+                    "rtype_name": "Com. Mgmt Cost",
+                    "rtype_description": "Community Management Costs",
+                    "effective_date": "2014-05-20T00:00:00"
+                },
+                {
+                    "res_type": 389,
+                    "rtype_name": "Travel - Mass Tr",
+                    "rtype_description": "Travel - Mass Transportation",
+                    "effective_date": "2014-03-03T00:00:00"
+                }
+            ]
+        },
+        {
+            "company_code": 2,
+            "cost_type": 12,
+            "cost_type_name": "12 INTERCO",
+            "cost_type_description": "Inter Company",
+            "cost_type_status": 1,
+            "effective_date": "2000-01-01T00:00:00",
+            "expiration_date": "2020-01-31T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 1,
+                    "rtype_name": "Employee",
+                    "rtype_description": "Employee",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 2,
+                    "rtype_name": "Intern",
+                    "rtype_description": "Intern",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 200,
+                    "rtype_name": "TravelOther",
+                    "rtype_description": "Billable Travel - Other",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 201,
+                    "rtype_name": "Billable Airfare",
+                    "rtype_description": "Travel - Airfare",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 202,
+                    "rtype_name": "Blbl Tolls-Park",
+                    "rtype_description": "Billable Travel - Tolls & Parking",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 203,
+                    "rtype_name": "Auto Rental",
+                    "rtype_description": "Auto Rental",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 204,
+                    "rtype_name": "Billable Lodging",
+                    "rtype_description": "Billable Travel - Lodging",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 205,
+                    "rtype_name": "Mass Trans.",
+                    "rtype_description": "Mass Transportation",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 206,
+                    "rtype_name": "Bill Meals-Ent.",
+                    "rtype_description": "Billable Meals and Entertainment",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 207,
+                    "rtype_name": "Bill Bus. Gifts",
+                    "rtype_description": "Billable Business Gifts",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 208,
+                    "rtype_name": "Ad Ser-Behav.",
+                    "rtype_description": "Ad Serving - Behavorial",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 209,
+                    "rtype_name": "Adserving",
+                    "rtype_description": "Adserving",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 210,
+                    "rtype_name": "Website Hosting",
+                    "rtype_description": "Website Hosting",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 211,
+                    "rtype_name": "CPC Text Costs",
+                    "rtype_description": "CPC Text Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 212,
+                    "rtype_name": "CPA Costs",
+                    "rtype_description": "CPA Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 213,
+                    "rtype_name": "CPA Ad N/W Costs",
+                    "rtype_description": "CPA Ad Network Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 214,
+                    "rtype_name": "Co Reg Costs",
+                    "rtype_description": "Co Reg Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 215,
+                    "rtype_name": "Dmn Trfc A/Costs",
+                    "rtype_description": "Domain Traffic Acquistion Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 216,
+                    "rtype_name": "Dmn Registration",
+                    "rtype_description": "Domain Registration",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 217,
+                    "rtype_name": "Video Costs",
+                    "rtype_description": "Video Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 218,
+                    "rtype_name": "CPM Ad N/W Costs",
+                    "rtype_description": "CPM Ad Network Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 219,
+                    "rtype_name": "CPV Feeds",
+                    "rtype_description": "CPV Feeds",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 220,
+                    "rtype_name": "Affiliate S/W",
+                    "rtype_description": "Affiliate Software",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 221,
+                    "rtype_name": "Brainfox Aff.",
+                    "rtype_description": "Brainfox Affiliates",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 222,
+                    "rtype_name": "Media Costs (AP)",
+                    "rtype_description": "Media Costs-(AP only)",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 223,
+                    "rtype_name": "Usr A.Cst-NM N/W",
+                    "rtype_description": "User Acquisition Costs - NM Network",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 224,
+                    "rtype_name": "Bargain BDL Cst",
+                    "rtype_description": "Bargain Buddy Download Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 225,
+                    "rtype_name": "Bargain BDl Mktg",
+                    "rtype_description": "Bargain Buddy Download Marketing Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 226,
+                    "rtype_name": "Bargain BA Fee",
+                    "rtype_description": "Bargain Buddy Amerimerchant Fee",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 227,
+                    "rtype_name": "eXactSearch Cost",
+                    "rtype_description": "eXactSearch Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 228,
+                    "rtype_name": "COR-I/C-Elimn.",
+                    "rtype_description": "Cost of Revenues - I/C-Elimination",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 229,
+                    "rtype_name": "COGS Other",
+                    "rtype_description": "Cost of Goods Sold Other",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 230,
+                    "rtype_name": "NetMining COR",
+                    "rtype_description": "NetMining COR",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 231,
+                    "rtype_name": "NM COR - Interco",
+                    "rtype_description": "NetMining COR - Interco",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 232,
+                    "rtype_name": "Text Link D. Sys",
+                    "rtype_description": "Text Link Dispersal System",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 233,
+                    "rtype_name": "Directory Submis",
+                    "rtype_description": "Directory Submission Fees",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 234,
+                    "rtype_name": "Paid Inclusion C",
+                    "rtype_description": "Paid Inclusion Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 235,
+                    "rtype_name": "Media Costs",
+                    "rtype_description": "Media Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 236,
+                    "rtype_name": "Behavorial Costs",
+                    "rtype_description": "Behavorial Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 237,
+                    "rtype_name": "Creative Ser Cst",
+                    "rtype_description": "Creative Services Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 238,
+                    "rtype_name": "Emerging Media",
+                    "rtype_description": "Emerging Media Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 239,
+                    "rtype_name": "Cust Ins. Costs",
+                    "rtype_description": "Customer Insights Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 240,
+                    "rtype_name": "Epilot",
+                    "rtype_description": "Epilot",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 241,
+                    "rtype_name": "Enhance",
+                    "rtype_description": "Enhance",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 242,
+                    "rtype_name": "Yahoo!",
+                    "rtype_description": "Yahoo!",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 243,
+                    "rtype_name": "Google",
+                    "rtype_description": "Google",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 244,
+                    "rtype_name": "Doubleclick",
+                    "rtype_description": "Doubleclick",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 245,
+                    "rtype_name": "API Fees",
+                    "rtype_description": "API Fees",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 246,
+                    "rtype_name": "Lic Fee-Elimin.",
+                    "rtype_description": "Licensing Fee--Elimination",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 247,
+                    "rtype_name": "Travel- Other",
+                    "rtype_description": "Travel - Other",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 248,
+                    "rtype_name": "Airfare",
+                    "rtype_description": "Airfare",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 249,
+                    "rtype_name": "T-Tolls-Parking",
+                    "rtype_description": "Travel - Tolls & Parking",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 250,
+                    "rtype_name": "T-Auto Rental",
+                    "rtype_description": "Travel - Auto Rental",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 252,
+                    "rtype_name": "T-Mass Trans.",
+                    "rtype_description": "Travel - Mass Transportation",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 253,
+                    "rtype_name": "M&E - TeamLunch",
+                    "rtype_description": "Meals and Entertainment",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 254,
+                    "rtype_name": "Business Gifts",
+                    "rtype_description": "Business Gifts",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 255,
+                    "rtype_name": "Trade Show Costs",
+                    "rtype_description": "Trade Show Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 256,
+                    "rtype_name": "Marketing Costs",
+                    "rtype_description": "Marketing Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 257,
+                    "rtype_name": "R&D",
+                    "rtype_description": "Research and Development",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 258,
+                    "rtype_name": "Salesforce.com",
+                    "rtype_description": "Salesforce.com Expense",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 259,
+                    "rtype_name": "Software License",
+                    "rtype_description": "Software Licensing",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 260,
+                    "rtype_name": "SG-A Allocations",
+                    "rtype_description": "SG & A Allocations",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 261,
+                    "rtype_name": "Office Salaries",
+                    "rtype_description": "Office Salaries",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 262,
+                    "rtype_name": "Vacation",
+                    "rtype_description": "Vacation",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 263,
+                    "rtype_name": "Special Payroll",
+                    "rtype_description": "Special Payroll",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 264,
+                    "rtype_name": "HousingAllowance",
+                    "rtype_description": "Housing Allowance",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 265,
+                    "rtype_name": "Severance",
+                    "rtype_description": "Severance",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 266,
+                    "rtype_name": "1099",
+                    "rtype_description": "1099",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 267,
+                    "rtype_name": "Fica & Medicare",
+                    "rtype_description": "Fica & Medicare",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 268,
+                    "rtype_name": "Futa",
+                    "rtype_description": "Futa",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 269,
+                    "rtype_name": "SUI/SDI",
+                    "rtype_description": "SUI/SDI",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 270,
+                    "rtype_name": "Short Term DBL",
+                    "rtype_description": "Short Term DBL",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 271,
+                    "rtype_name": "401k Matching",
+                    "rtype_description": "401k Matching",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 272,
+                    "rtype_name": "Long-Term DBL",
+                    "rtype_description": "Long-Term DBL",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 273,
+                    "rtype_name": "Dental",
+                    "rtype_description": "Dental",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 274,
+                    "rtype_name": "Vision",
+                    "rtype_description": "Vision",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 275,
+                    "rtype_name": "Workers Comp",
+                    "rtype_description": "Workers Compensation",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 276,
+                    "rtype_name": "Benefits Admin",
+                    "rtype_description": "Benefits Administration",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 277,
+                    "rtype_name": "Health Insurance",
+                    "rtype_description": "Health Insurance",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 278,
+                    "rtype_name": "Life Insurance",
+                    "rtype_description": "Life Insurance",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 279,
+                    "rtype_name": "Parking Expense",
+                    "rtype_description": "Parking Expense",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 280,
+                    "rtype_name": "Commissions",
+                    "rtype_description": "Commissions Expense",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 281,
+                    "rtype_name": "Draw",
+                    "rtype_description": "Draw",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 282,
+                    "rtype_name": "Bonus Expense",
+                    "rtype_description": "Bonus Expense",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 283,
+                    "rtype_name": "Bonus - Special",
+                    "rtype_description": "Bonus Expense - Special",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 284,
+                    "rtype_name": "Vehicle Expense",
+                    "rtype_description": "Vehicle Expense",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 285,
+                    "rtype_name": "Moving Expense",
+                    "rtype_description": "Moving Expense",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 286,
+                    "rtype_name": "Relocation Exp",
+                    "rtype_description": "Relocation - employee- - - -",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 287,
+                    "rtype_name": "Non-Cash Comp",
+                    "rtype_description": "Non-Cash Compensation",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 288,
+                    "rtype_name": "Corporate Alloc",
+                    "rtype_description": "Corporate Allocations",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 289,
+                    "rtype_name": "Corp Mailbox",
+                    "rtype_description": "Corporate Mailboxes",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 290,
+                    "rtype_name": "M&E - In House",
+                    "rtype_description": "Meals & Entertainment - In House",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 291,
+                    "rtype_name": "Copier Lease",
+                    "rtype_description": "Copier Lease",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 292,
+                    "rtype_name": "Leased Furn&Eqpt",
+                    "rtype_description": "Leased Furniture and Equipment",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 293,
+                    "rtype_name": "Dues & Subs",
+                    "rtype_description": "Dues and Subscriptions",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 294,
+                    "rtype_name": "Training and Edu",
+                    "rtype_description": "Training and Education",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 295,
+                    "rtype_name": "Emp Ben S Corp",
+                    "rtype_description": "Employee Benefit Support Corporate",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 296,
+                    "rtype_name": "Moving Expenses",
+                    "rtype_description": "Moving Expenses",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 297,
+                    "rtype_name": "CollectionAgency",
+                    "rtype_description": "Collection Agency Fees",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 298,
+                    "rtype_name": "Professional Fee",
+                    "rtype_description": "Professional Fees",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 299,
+                    "rtype_name": "Consulting Costs",
+                    "rtype_description": "Consulting Costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 300,
+                    "rtype_name": "Bad Debt Accrual",
+                    "rtype_description": "Bad Debt Accrual",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 301,
+                    "rtype_name": "Legal Fees",
+                    "rtype_description": "Legal Fees",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 302,
+                    "rtype_name": "Rent Expense",
+                    "rtype_description": "Rent Expense",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 303,
+                    "rtype_name": "Supplies",
+                    "rtype_description": "Supplies",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 304,
+                    "rtype_name": "Bank Svc Fee",
+                    "rtype_description": "Bank Service Fees",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 305,
+                    "rtype_name": "CredCdr Svc Fees",
+                    "rtype_description": "Credit Card Service Fees",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 306,
+                    "rtype_name": "Credit Card - BF",
+                    "rtype_description": "Credit Card Service Fees - Brainfox",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 307,
+                    "rtype_name": "Payroll Svc Fees",
+                    "rtype_description": "Payroll Service Fees",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 308,
+                    "rtype_name": "Recruiting",
+                    "rtype_description": "Recruiting Expense",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 309,
+                    "rtype_name": "Insurance",
+                    "rtype_description": "Insurance",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 310,
+                    "rtype_name": "Postage&Delivery",
+                    "rtype_description": "Postage and Delivery",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 311,
+                    "rtype_name": "Non-Cap Furn&Fix",
+                    "rtype_description": "NonCapitalized Furniture and Fixtures",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 312,
+                    "rtype_name": "Non-Cap SW&Equip",
+                    "rtype_description": "Non Capitalized Software and Equipment",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 313,
+                    "rtype_name": "Gen Office Exp",
+                    "rtype_description": "General Office Expenses",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 314,
+                    "rtype_name": "Repairs & Maint",
+                    "rtype_description": "Repairs and Maintenance",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 315,
+                    "rtype_name": "T - 1 Web Access",
+                    "rtype_description": "T - 1 Web Access",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 316,
+                    "rtype_name": "Telephone Exp",
+                    "rtype_description": "Telephone Expense",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 317,
+                    "rtype_name": "Misc Expense",
+                    "rtype_description": "Miscellaneous Expenses",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 318,
+                    "rtype_name": "Utilities",
+                    "rtype_description": "Utilities",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 319,
+                    "rtype_name": "Real Estate Tax",
+                    "rtype_description": "Real Estate Taxes",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 320,
+                    "rtype_name": "Security",
+                    "rtype_description": "Security",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 321,
+                    "rtype_name": "Contributions",
+                    "rtype_description": "Contributions",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 322,
+                    "rtype_name": "G&A Allocations",
+                    "rtype_description": "G&A Allocations",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 323,
+                    "rtype_name": "Depreciation",
+                    "rtype_description": "Depreciation",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 324,
+                    "rtype_name": "Amortization",
+                    "rtype_description": "Amortization",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 326,
+                    "rtype_name": "Comm Rent Tax",
+                    "rtype_description": "Commercial Rent Tax",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 328,
+                    "rtype_name": "GainSaleAssets",
+                    "rtype_description": "Gain on Sale of Assets",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 329,
+                    "rtype_name": "Interest Expense",
+                    "rtype_description": "Interest Expense",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 330,
+                    "rtype_name": "Other expense",
+                    "rtype_description": "Other expense",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 331,
+                    "rtype_name": "Int. & Div. Inc.",
+                    "rtype_description": "Interest and Dividend Income",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 332,
+                    "rtype_name": "Penalty&Interest",
+                    "rtype_description": "Penalties and Interest",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 333,
+                    "rtype_name": "AcquisitionCosts",
+                    "rtype_description": "Acquisition costs",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 334,
+                    "rtype_name": "Exchge rate var",
+                    "rtype_description": "Exchange rate variance",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 335,
+                    "rtype_name": "FX Rounding",
+                    "rtype_description": "FX Rounding",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 336,
+                    "rtype_name": "DE Franch Tax",
+                    "rtype_description": "Delaware Franchise Tax",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 337,
+                    "rtype_name": "State Taxes",
+                    "rtype_description": "State Taxes",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 338,
+                    "rtype_name": "City Taxes",
+                    "rtype_description": "City Taxes",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 339,
+                    "rtype_name": "Foreign Tax",
+                    "rtype_description": "Foreign Tax",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 340,
+                    "rtype_name": "BilableTrvMilage",
+                    "rtype_description": "Billable Travel - Personal Miles Driven",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 341,
+                    "rtype_name": "Billable  - Taxi",
+                    "rtype_description": "Billable Travel - Taxi",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 342,
+                    "rtype_name": "BillableTrainBus",
+                    "rtype_description": "Billable Travel - Train / Bus",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 343,
+                    "rtype_name": "Billable Car Ser",
+                    "rtype_description": "Billable Travel - Car Service",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 344,
+                    "rtype_name": "Bfast.",
+                    "rtype_description": "Breakfast.",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 345,
+                    "rtype_name": "Lunch - inactive",
+                    "rtype_description": "Lunch - inactive",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 346,
+                    "rtype_name": "BlableM&E-Client",
+                    "rtype_description": "M&E - Client Lunch",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 347,
+                    "rtype_name": "Dinner - inactiv",
+                    "rtype_description": "Dinner - inactive",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 349,
+                    "rtype_name": "Travel- TrainBus",
+                    "rtype_description": "Travel - Train / Bus",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 350,
+                    "rtype_name": "Travel- Car Svc",
+                    "rtype_description": "Travel - Car Service",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 352,
+                    "rtype_name": "Lunch",
+                    "rtype_description": "Lunch",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 353,
+                    "rtype_name": "M&E - ClientEnt",
+                    "rtype_description": "M&E - Client Lunch",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 354,
+                    "rtype_name": "M&E -NewHireLnch",
+                    "rtype_description": "M&E - New Hire Lunch",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 355,
+                    "rtype_name": "Dinner - I",
+                    "rtype_description": "Dinner Inactive",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 356,
+                    "rtype_name": "Tele Exp - Cell",
+                    "rtype_description": "Telephone Expense - Cell",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 357,
+                    "rtype_name": "Tele Exp - Home",
+                    "rtype_description": "Telephone Expense - Home",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 358,
+                    "rtype_name": "Tele Exp - Road",
+                    "rtype_description": "Telephone Expense - On the Road",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 359,
+                    "rtype_name": "Internet - Home",
+                    "rtype_description": "Internet - Home",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 360,
+                    "rtype_name": "Internet-Wireles",
+                    "rtype_description": "Internet - Wireless",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 361,
+                    "rtype_name": "Internet - T1",
+                    "rtype_description": "Internet - T1",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 362,
+                    "rtype_name": "Tolls",
+                    "rtype_description": "Tolls",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 363,
+                    "rtype_name": "Travel- AutoRent",
+                    "rtype_description": "Travel- Auto Rental",
+                    "effective_date": "2001-08-01T00:00:00"
+                },
+                {
+                    "res_type": 364,
+                    "rtype_name": "Milage",
+                    "rtype_description": "Milage",
+                    "effective_date": "2001-08-01T00:00:00"
+                }
+            ]
+        },
+        {
+            "company_code": 2,
+            "cost_type": 14,
+            "cost_type_name": "13-Media",
+            "cost_type_description": "Media Costs - Campaigns",
+            "cost_type_status": 1,
+            "effective_date": "2000-01-01T00:00:00",
+            "expiration_date": "2040-12-31T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 235,
+                    "rtype_name": "Media Costs",
+                    "rtype_description": "Media Costs",
+                    "effective_date": "2011-05-20T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2014-09-01T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2014-09-01T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2014-09-01T00:00:00"
+                },
+                {
+                    "res_type": 376,
+                    "rtype_name": "Dinner",
+                    "rtype_description": "Dinner",
+                    "effective_date": "2014-09-01T00:00:00"
+                }
+            ]
+        },
+        {
+            "company_code": 2,
+            "cost_type": 15,
+            "cost_type_name": "15 PRODBILL",
+            "cost_type_description": "Production Billable",
+            "cost_type_status": 1,
+            "effective_date": "2000-01-01T00:00:00",
+            "expiration_date": "2040-12-31T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 203,
+                    "rtype_name": "Auto Rental",
+                    "rtype_description": "Auto Rental",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 205,
+                    "rtype_name": "Mass Trans.",
+                    "rtype_description": "Mass Transportation",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 237,
+                    "rtype_name": "Creative Ser Cst",
+                    "rtype_description": "Creative Services Costs",
+                    "effective_date": "2014-12-01T00:00:00"
+                },
+                {
+                    "res_type": 247,
+                    "rtype_name": "Travel- Other",
+                    "rtype_description": "Travel - Other",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 248,
+                    "rtype_name": "Airfare",
+                    "rtype_description": "Airfare",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 253,
+                    "rtype_name": "M&E - TeamLunch",
+                    "rtype_description": "Meals and Entertainment",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 255,
+                    "rtype_name": "Trade Show Costs",
+                    "rtype_description": "Trade Show Costs",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 301,
+                    "rtype_name": "Legal Fees",
+                    "rtype_description": "Legal Fees",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 303,
+                    "rtype_name": "Supplies",
+                    "rtype_description": "Supplies",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 309,
+                    "rtype_name": "Insurance",
+                    "rtype_description": "Insurance",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 310,
+                    "rtype_name": "Postage&Delivery",
+                    "rtype_description": "Postage and Delivery",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 352,
+                    "rtype_name": "Lunch",
+                    "rtype_description": "Lunch",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 356,
+                    "rtype_name": "Tele Exp - Cell",
+                    "rtype_description": "Telephone Expense - Cell",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 360,
+                    "rtype_name": "Internet-Wireles",
+                    "rtype_description": "Internet - Wireless",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 362,
+                    "rtype_name": "Tolls",
+                    "rtype_description": "Tolls",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 364,
+                    "rtype_name": "Milage",
+                    "rtype_description": "Milage",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 365,
+                    "rtype_name": "Parking",
+                    "rtype_description": "Parking",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 371,
+                    "rtype_name": "SEO",
+                    "rtype_description": "SEO",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 376,
+                    "rtype_name": "Dinner",
+                    "rtype_description": "Dinner",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 383,
+                    "rtype_name": "Overtime Meals",
+                    "rtype_description": "Overtime Meals",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 385,
+                    "rtype_name": "Analytics Cost",
+                    "rtype_description": "Analytics Cost",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 390,
+                    "rtype_name": "Art/Illustration",
+                    "rtype_description": "Art/Illustrations",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 391,
+                    "rtype_name": "Casting",
+                    "rtype_description": "Casting",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 392,
+                    "rtype_name": "Casting N/C",
+                    "rtype_description": "Casting N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 393,
+                    "rtype_name": "CGI/Ani/Grfx",
+                    "rtype_description": "CGI/Animation/Graphics",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 394,
+                    "rtype_name": "Closed Caption",
+                    "rtype_description": "Closed Captioning",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 395,
+                    "rtype_name": "Color Correct",
+                    "rtype_description": "Color Correct",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 396,
+                    "rtype_name": "Dub/Vault/Ship",
+                    "rtype_description": "Dub/Vault/Ship",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 397,
+                    "rtype_name": "DWOM/Inf Mktg C",
+                    "rtype_description": "DWOM/ Influencer Mktg Cost",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 398,
+                    "rtype_name": "Editorial (TV)",
+                    "rtype_description": "Editorial (TV)",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 399,
+                    "rtype_name": "Editorial (TV)NC",
+                    "rtype_description": "Editorial (TV) N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 400,
+                    "rtype_name": "Equipment Purch",
+                    "rtype_description": "Equipment Purchase",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 401,
+                    "rtype_name": "Event Spons N/C",
+                    "rtype_description": "Event Sponsorship N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 402,
+                    "rtype_name": "Exhibit Mat N/C",
+                    "rtype_description": "Exhibit Materials NC",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 403,
+                    "rtype_name": "FL/Outside Srvcs",
+                    "rtype_description": "Freelance/Outside Services",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 404,
+                    "rtype_name": "Flash Animation",
+                    "rtype_description": "Flash Animation",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 405,
+                    "rtype_name": "Holding Fee",
+                    "rtype_description": "Holding Fee",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 406,
+                    "rtype_name": "Industrial",
+                    "rtype_description": "Industrial",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 407,
+                    "rtype_name": "Insights",
+                    "rtype_description": "Insights & Planning",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 408,
+                    "rtype_name": "Internal Product",
+                    "rtype_description": "Internal Production",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 409,
+                    "rtype_name": "Legal Fees N/C",
+                    "rtype_description": "Legal Fees N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 410,
+                    "rtype_name": "Local Trans.",
+                    "rtype_description": "Local Transportation",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 411,
+                    "rtype_name": "Media Cost",
+                    "rtype_description": "Media Cost",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 412,
+                    "rtype_name": "Misc. N/C",
+                    "rtype_description": "Miscellaneous N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 413,
+                    "rtype_name": "Miscellaneous",
+                    "rtype_description": "Miscellaneous",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 414,
+                    "rtype_name": "Model Fees",
+                    "rtype_description": "Model Fees",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 415,
+                    "rtype_name": "Music",
+                    "rtype_description": "Music",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 416,
+                    "rtype_name": "Online Coding",
+                    "rtype_description": "Online Coding",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 417,
+                    "rtype_name": "Online Product.",
+                    "rtype_description": "Online Production",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 418,
+                    "rtype_name": "P/R Tax & Hand",
+                    "rtype_description": "P/R Tax & Handling",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 419,
+                    "rtype_name": "Pension & W/fare",
+                    "rtype_description": "Pension & Welfare",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 420,
+                    "rtype_name": "Photo Re-Use",
+                    "rtype_description": "Photo Re-Use",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 421,
+                    "rtype_name": "Photographs",
+                    "rtype_description": "Photographs",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 422,
+                    "rtype_name": "Photography Exps",
+                    "rtype_description": "Photography Expenses",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 423,
+                    "rtype_name": "Photography Fee",
+                    "rtype_description": "Photography Fee",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 424,
+                    "rtype_name": "Prepress/Offset",
+                    "rtype_description": "Prepress/Offset",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 425,
+                    "rtype_name": "Presentation Exp",
+                    "rtype_description": "Presentation Expense",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 426,
+                    "rtype_name": "Printing",
+                    "rtype_description": "Printing",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 427,
+                    "rtype_name": "Printing N/C",
+                    "rtype_description": "Printing N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 428,
+                    "rtype_name": "Prod-Print N/C",
+                    "rtype_description": "Production - Print N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 429,
+                    "rtype_name": "Producer",
+                    "rtype_description": "Producer",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 430,
+                    "rtype_name": "Production",
+                    "rtype_description": "Production",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 431,
+                    "rtype_name": "Production-Print",
+                    "rtype_description": "Production - Print",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 432,
+                    "rtype_name": "Project Fee",
+                    "rtype_description": "X493-Project Fee",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 433,
+                    "rtype_name": "Project Mgmt",
+                    "rtype_description": "Project Management",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 434,
+                    "rtype_name": "Props",
+                    "rtype_description": "Props",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 435,
+                    "rtype_name": "Retouching",
+                    "rtype_description": "Retouching",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 436,
+                    "rtype_name": "Retouching N/C",
+                    "rtype_description": "Retouching N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 437,
+                    "rtype_name": "Sales Tax",
+                    "rtype_description": "Sales Tax",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 438,
+                    "rtype_name": "Shipping/Msnger",
+                    "rtype_description": "Shipping/Messenger",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 439,
+                    "rtype_name": "Social Marketing",
+                    "rtype_description": "Social Marketing Cost",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 440,
+                    "rtype_name": "Sponsorship",
+                    "rtype_description": "Sponsorship",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 441,
+                    "rtype_name": "Stock Photos",
+                    "rtype_description": "Stock Photos",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 442,
+                    "rtype_name": "Storage Fees",
+                    "rtype_description": "Storage Fees",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 443,
+                    "rtype_name": "Strategy Cost",
+                    "rtype_description": "Strategy Cost",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 444,
+                    "rtype_name": "StudioTime-Radio",
+                    "rtype_description": "Studio Time (Radio)",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 445,
+                    "rtype_name": "Talent",
+                    "rtype_description": "Talent",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 446,
+                    "rtype_name": "Talnt Sess/R N/C",
+                    "rtype_description": "Talent Session/Resid N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 447,
+                    "rtype_name": "Talnt Sess/Resid",
+                    "rtype_description": "Talent Session/Resid",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 448,
+                    "rtype_name": "Translation",
+                    "rtype_description": "Translation",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 449,
+                    "rtype_name": "TV Product. N/C",
+                    "rtype_description": "TV Production N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 450,
+                    "rtype_name": "TV Production",
+                    "rtype_description": "TV Production",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 451,
+                    "rtype_name": "TV/Radio Dubs",
+                    "rtype_description": "TV/Radio Dubs",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 452,
+                    "rtype_name": "V/O Sup & Rec",
+                    "rtype_description": "V/O Supervision & Recording",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 453,
+                    "rtype_name": "Video & Pres N/C",
+                    "rtype_description": "Video and Presentation NC",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 454,
+                    "rtype_name": "Website Dev/Main",
+                    "rtype_description": "Website Development/Maintenance",
+                    "effective_date": "2015-01-01T00:00:00"
+                }
+            ]
+        },
+        {
+            "company_code": 2,
+            "cost_type": 16,
+            "cost_type_name": "16 PRODNB",
+            "cost_type_description": "Production Nonbillable",
+            "cost_type_status": 1,
+            "effective_date": "2000-01-01T00:00:00",
+            "expiration_date": "2040-12-31T00:00:00",
+            "cost_codes": [
+                {
+                    "res_type": 203,
+                    "rtype_name": "Auto Rental",
+                    "rtype_description": "Auto Rental",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 205,
+                    "rtype_name": "Mass Trans.",
+                    "rtype_description": "Mass Transportation",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 247,
+                    "rtype_name": "Travel- Other",
+                    "rtype_description": "Travel - Other",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 248,
+                    "rtype_name": "Airfare",
+                    "rtype_description": "Airfare",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 251,
+                    "rtype_name": "Lodging",
+                    "rtype_description": "Lodging",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 253,
+                    "rtype_name": "M&E - TeamLunch",
+                    "rtype_description": "Meals and Entertainment",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 255,
+                    "rtype_name": "Trade Show Costs",
+                    "rtype_description": "Trade Show Costs",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 301,
+                    "rtype_name": "Legal Fees",
+                    "rtype_description": "Legal Fees",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 303,
+                    "rtype_name": "Supplies",
+                    "rtype_description": "Supplies",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 309,
+                    "rtype_name": "Insurance",
+                    "rtype_description": "Insurance",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 310,
+                    "rtype_name": "Postage&Delivery",
+                    "rtype_description": "Postage and Delivery",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 348,
+                    "rtype_name": "Taxi/Car Ser",
+                    "rtype_description": "Travel - Taxi / Car Service",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 351,
+                    "rtype_name": "Breakfast",
+                    "rtype_description": "Breakfast",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 352,
+                    "rtype_name": "Lunch",
+                    "rtype_description": "Lunch",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 356,
+                    "rtype_name": "Tele Exp - Cell",
+                    "rtype_description": "Telephone Expense - Cell",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 360,
+                    "rtype_name": "Internet-Wireles",
+                    "rtype_description": "Internet - Wireless",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 362,
+                    "rtype_name": "Tolls",
+                    "rtype_description": "Tolls",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 364,
+                    "rtype_name": "Milage",
+                    "rtype_description": "Milage",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 365,
+                    "rtype_name": "Parking",
+                    "rtype_description": "Parking",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 371,
+                    "rtype_name": "SEO",
+                    "rtype_description": "SEO",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 376,
+                    "rtype_name": "Dinner",
+                    "rtype_description": "Dinner",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 383,
+                    "rtype_name": "Overtime Meals",
+                    "rtype_description": "Overtime Meals",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 385,
+                    "rtype_name": "Analytics Cost",
+                    "rtype_description": "Analytics Cost",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 390,
+                    "rtype_name": "Art/Illustration",
+                    "rtype_description": "Art/Illustrations",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 391,
+                    "rtype_name": "Casting",
+                    "rtype_description": "Casting",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 392,
+                    "rtype_name": "Casting N/C",
+                    "rtype_description": "Casting N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 393,
+                    "rtype_name": "CGI/Ani/Grfx",
+                    "rtype_description": "CGI/Animation/Graphics",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 394,
+                    "rtype_name": "Closed Caption",
+                    "rtype_description": "Closed Captioning",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 395,
+                    "rtype_name": "Color Correct",
+                    "rtype_description": "Color Correct",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 396,
+                    "rtype_name": "Dub/Vault/Ship",
+                    "rtype_description": "Dub/Vault/Ship",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 397,
+                    "rtype_name": "DWOM/Inf Mktg C",
+                    "rtype_description": "DWOM/ Influencer Mktg Cost",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 398,
+                    "rtype_name": "Editorial (TV)",
+                    "rtype_description": "Editorial (TV)",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 399,
+                    "rtype_name": "Editorial (TV)NC",
+                    "rtype_description": "Editorial (TV) N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 400,
+                    "rtype_name": "Equipment Purch",
+                    "rtype_description": "Equipment Purchase",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 401,
+                    "rtype_name": "Event Spons N/C",
+                    "rtype_description": "Event Sponsorship N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 402,
+                    "rtype_name": "Exhibit Mat N/C",
+                    "rtype_description": "Exhibit Materials NC",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 403,
+                    "rtype_name": "FL/Outside Srvcs",
+                    "rtype_description": "Freelance/Outside Services",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 404,
+                    "rtype_name": "Flash Animation",
+                    "rtype_description": "Flash Animation",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 405,
+                    "rtype_name": "Holding Fee",
+                    "rtype_description": "Holding Fee",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 406,
+                    "rtype_name": "Industrial",
+                    "rtype_description": "Industrial",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 407,
+                    "rtype_name": "Insights",
+                    "rtype_description": "Insights & Planning",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 408,
+                    "rtype_name": "Internal Product",
+                    "rtype_description": "Internal Production",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 409,
+                    "rtype_name": "Legal Fees N/C",
+                    "rtype_description": "Legal Fees N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 410,
+                    "rtype_name": "Local Trans.",
+                    "rtype_description": "Local Transportation",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 411,
+                    "rtype_name": "Media Cost",
+                    "rtype_description": "Media Cost",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 412,
+                    "rtype_name": "Misc. N/C",
+                    "rtype_description": "Miscellaneous N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 413,
+                    "rtype_name": "Miscellaneous",
+                    "rtype_description": "Miscellaneous",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 414,
+                    "rtype_name": "Model Fees",
+                    "rtype_description": "Model Fees",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 415,
+                    "rtype_name": "Music",
+                    "rtype_description": "Music",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 416,
+                    "rtype_name": "Online Coding",
+                    "rtype_description": "Online Coding",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 417,
+                    "rtype_name": "Online Product.",
+                    "rtype_description": "Online Production",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 418,
+                    "rtype_name": "P/R Tax & Hand",
+                    "rtype_description": "P/R Tax & Handling",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 419,
+                    "rtype_name": "Pension & W/fare",
+                    "rtype_description": "Pension & Welfare",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 420,
+                    "rtype_name": "Photo Re-Use",
+                    "rtype_description": "Photo Re-Use",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 421,
+                    "rtype_name": "Photographs",
+                    "rtype_description": "Photographs",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 422,
+                    "rtype_name": "Photography Exps",
+                    "rtype_description": "Photography Expenses",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 423,
+                    "rtype_name": "Photography Fee",
+                    "rtype_description": "Photography Fee",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 424,
+                    "rtype_name": "Prepress/Offset",
+                    "rtype_description": "Prepress/Offset",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 425,
+                    "rtype_name": "Presentation Exp",
+                    "rtype_description": "Presentation Expense",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 426,
+                    "rtype_name": "Printing",
+                    "rtype_description": "Printing",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 427,
+                    "rtype_name": "Printing N/C",
+                    "rtype_description": "Printing N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 428,
+                    "rtype_name": "Prod-Print N/C",
+                    "rtype_description": "Production - Print N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 429,
+                    "rtype_name": "Producer",
+                    "rtype_description": "Producer",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 430,
+                    "rtype_name": "Production",
+                    "rtype_description": "Production",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 431,
+                    "rtype_name": "Production-Print",
+                    "rtype_description": "Production - Print",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 432,
+                    "rtype_name": "Project Fee",
+                    "rtype_description": "X493-Project Fee",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 433,
+                    "rtype_name": "Project Mgmt",
+                    "rtype_description": "Project Management",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 434,
+                    "rtype_name": "Props",
+                    "rtype_description": "Props",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 435,
+                    "rtype_name": "Retouching",
+                    "rtype_description": "Retouching",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 436,
+                    "rtype_name": "Retouching N/C",
+                    "rtype_description": "Retouching N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 437,
+                    "rtype_name": "Sales Tax",
+                    "rtype_description": "Sales Tax",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 438,
+                    "rtype_name": "Shipping/Msnger",
+                    "rtype_description": "Shipping/Messenger",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 439,
+                    "rtype_name": "Social Marketing",
+                    "rtype_description": "Social Marketing Cost",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 440,
+                    "rtype_name": "Sponsorship",
+                    "rtype_description": "Sponsorship",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 441,
+                    "rtype_name": "Stock Photos",
+                    "rtype_description": "Stock Photos",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 442,
+                    "rtype_name": "Storage Fees",
+                    "rtype_description": "Storage Fees",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 443,
+                    "rtype_name": "Strategy Cost",
+                    "rtype_description": "Strategy Cost",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 444,
+                    "rtype_name": "StudioTime-Radio",
+                    "rtype_description": "Studio Time (Radio)",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 445,
+                    "rtype_name": "Talent",
+                    "rtype_description": "Talent",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 446,
+                    "rtype_name": "Talnt Sess/R N/C",
+                    "rtype_description": "Talent Session/Resid N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 447,
+                    "rtype_name": "Talnt Sess/Resid",
+                    "rtype_description": "Talent Session/Resid",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 448,
+                    "rtype_name": "Translation",
+                    "rtype_description": "Translation",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 449,
+                    "rtype_name": "TV Product. N/C",
+                    "rtype_description": "TV Production N/C",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 450,
+                    "rtype_name": "TV Production",
+                    "rtype_description": "TV Production",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 451,
+                    "rtype_name": "TV/Radio Dubs",
+                    "rtype_description": "TV/Radio Dubs",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 452,
+                    "rtype_name": "V/O Sup & Rec",
+                    "rtype_description": "V/O Supervision & Recording",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 453,
+                    "rtype_name": "Video & Pres N/C",
+                    "rtype_description": "Video and Presentation NC",
+                    "effective_date": "2015-01-01T00:00:00"
+                },
+                {
+                    "res_type": 454,
+                    "rtype_name": "Website Dev/Main",
+                    "rtype_description": "Website Development/Maintenance",
+                    "effective_date": "2015-01-01T00:00:00"
+                }
+            ]
+        }
+    ]
+}

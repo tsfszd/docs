@@ -1,0 +1,31 @@
+{
+	"external_id": "test2",
+    "vendor_code": "V03003/US44",
+    "vendor_inv_number": "PRODPNOPO01",
+    "purchase_order_number":"",
+	"invoice_date": "1/01/2021",
+	"terms_code": "N30",
+	"due_date": "1/31/2021",
+	"gl_date": "1/01/2021",
+	"comment": "",
+	"currency_code": "USD",
+	"invoice_file_web_url": "https://dentsu.nexelus.net/Web/documents/2/Voucher/TVCH098364/Kenshoo_20USIV04481.pdf",
+	"lines": [{
+		"line_id":1,
+        "level2_key":"NOLA001-20-008",
+        "level3_key":"Billable Client",
+        "res_type":255,
+		"comment":"",
+		"amount":1000,
+		"tax_amount":0
+	},
+	{
+		"line_id":2,
+		"level2_key":"NOLA001-20-008",
+        "level3_key":"Non-Billable",
+        "res_type":255,
+		"comment":"",
+		"amount":2000,
+		"tax_amount":0
+	}]
+}

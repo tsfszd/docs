@@ -1,0 +1,110 @@
+
+Docusign Envelope ID: 9614F8F3-9DA8-49AE-9CC2.99ACDO1FEA64
+(1 theTradeDesk
+INVOICE
+The Trade Desk
+InvoiceDate: 04/30/2018
+42 N. Chestnut St.
+Invoice #:
+INV-0080269
+Ventura, CA 93001
+CustomeriD: P-00502
+Due Date:
+06/14/2018
+Term:
+Net 45
+Term Description:
+BILL
+360i LLC
+360i LLC
+TO: 32 Avenue of the Americas, 6th floor,
+SOLD
+32 Avenue of the Americas, 6th floor
+New York,N) 10013
+TO:
+New York, NY 10013
+United States
+United States
+DIGITAL ADVERTISING TRANSACTION DETAILS
+Month of service: April 2018
+ADVERTISER
+CAMPAIGN
+IO#
+IMPRESSIONS
+CHARGE DESCRIPTION
+AMOUNT
+DSW
+DSW Spring Trends 2018
+360i - DSW - DSW Spring
+Influencer
+872542
+Trends 2018 - Influencer
+$6,232.37
+Media Cost
+DSW Spring Trends 2018 -
+360i - DSW - DSW Spring
+DSW
+Influencer
+O
+Trends 2018 - Influencer -
+$1,202.34
+Data Cost
+DSW Spring Trends 2018 -
+360i - DSW DSW Spring
+DSW
+Influencer
+O
+Trends 2018 Influencer
+$438.22
+Feature Cost
+360i - DSW - DSW Spring
+DSW
+DSW Spring Trends 2018 -
+Influencer
+O
+Trends 2018 - Influencer -
+$1,176.42
+TTD Platform Fee
+SUBTOTAL
+$9,049.35
+TOTAL
+$9,049.35
+Invoice Currency:
+USD
+Checks should be mailed to Lockbox:
+THE TRADE DESK, INC
+Invoice Questions: billing@thetradedesk.com
+PO Box 894903
+Remittance Questions: ar@thetradedesk.com
+Los Angeles, CA 90189-4903
+DocuSigned by:
+kdin kleveno
+Overnight Lockbox Address:
+First Data/Remitco
+7CD2508112C24B8.
+The Trade Desk, INC. Lockbox #4903
+2525 Corporate Place, Suite 250
+Monterey Park, CA 91754
+Wires/ACH Payments Should Be Sent To:
+For Credit To:
+THE TRADE DESK INC
+Bank Name:
+Citibank, N.A.
+ABA or Routing #:
+322271724
+Account #: (USD Wires)
+206516023
+Account #: (Non-USD Wires)
+31019046
+International Wires Should Be Sent To:
+Swift Code:
+CITIUS33
+For invoices in Non-USD currencies, please note the following code in the reference field of your wire: "CBGCON"
+Invoice Date: 04/30/2018
+Terms: Net 45
+Due
+Date:
+06/14/2018
+Customer ID: P-00502
+Page:
+1

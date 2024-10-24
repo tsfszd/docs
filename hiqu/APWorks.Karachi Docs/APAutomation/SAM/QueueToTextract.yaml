@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  QueueToTextract:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: 'QueueToTextract::QueueToTextract.Function::FunctionHandler'
+      Runtime: dotnetcore2.1
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 60
+      Role: 'arn:aws:iam::657503418595:role/service-role/SQS_Poller_Role'
+      Events:
+        SQS1:
+          Type: SQS
+          Properties:
+            Queue:
+              'Fn::GetAtt':
+                - SQSQueue1
+                - Arn
+            BatchSize: 10
+      Environment:
+        Variables:
+          APA_TEXTRACT_FEATURES: 'TABLES,FORMS'
+          APA_TEXTRACT_ROLE: 'arn:aws:iam::657503418595:role/TextratRole_APAutomation_FaisalF'
+          APA_TEXTRACT_SNSTOPIC: >-
+            arn:aws:sns:us-east-1:657503418595:Dev_APAutomation_Textract_Notification_FaisalF
+      DeadLetterQueue:
+        Type: SQS
+        TargetArn: 'arn:aws:sqs:us-east-1:657503418595:Dev_APAutomation_DeadLetter_FaisalF'
+  SQSQueue1:
+    Type: 'AWS::SQS::Queue'
+    Properties: {}

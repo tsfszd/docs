@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="com.paradigm.ipc.adservice" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="IPCAdServiceAPI" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="com.paradigm.ipc.adservice" location="" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IIPCAdServiceAPI" type="i0:IIPCAdServiceAPI">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetEdition">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetEdition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReleaseDate">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetReleaseDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Authenticate">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/Authenticate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSession">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetUserSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFullAdToolList">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetFullAdToolList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccessibleAdToolList">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAccessibleAdToolList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliverableEntityList">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetDeliverableEntityList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityData">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetEntityData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityDataPage">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetEntityDataPage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseEntityData">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CloseEntityData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableSelectableElementsList">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableSelectableElementsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllElementsList">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAllElementsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableSortableElementsList">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableSortableElementsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableFilterableElementsList">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableFilterableElementsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBlanketEntity">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CreateBlanketEntity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateBlanketEntities">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CreateBlanketEntities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableAlterOperations">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableAlterOperations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AlterEntityData">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/AlterEntityData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AlterEntitiesData">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/AlterEntitiesData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartAsyncReport">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/StartAsyncReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAsyncReportRunStatus">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CheckAsyncReportRunStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAsyncReportData">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAsyncReportData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StopAsyncReport">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/StopAsyncReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitGetEntityDataRequest">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/SubmitGetEntityDataRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckGetEntityDataRunStatus">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CheckGetEntityDataRunStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeferedEntityData">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetDeferedEntityData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseDeferedEntityData">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CloseDeferedEntityData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetSyncProgress">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/SetSyncProgress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSyncProgress">
+      <soap:operation soapAction="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetSyncProgress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IPCAdServiceAPI">
+    <wsdl:port name="BasicHttpBinding_IIPCAdServiceAPI" binding="tns:BasicHttpBinding_IIPCAdServiceAPI">
+      <soap:address location="http://dr-win-web-03.nex.loc/IPC-TEST/IPCAdServiceAPI.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
