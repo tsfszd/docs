@@ -1,3 +1,4 @@
+use nex_pdm;
 select 
 1 as company_code,
 'ps000457 ' as level2_key,
@@ -46,15 +47,28 @@ approval_comment,
 approved_by,
 approval_date,
 mail_date,
-timestamp,
-extra_param_1,
+concat('New ', '2024-10-25') as extra_param_1,
 extra_param_2,
 business_reason,
 finalise_flag,
 finalised_by,
 finalised_date
  from pld_transactions
- where level2_key='APWORKS 2024.2 - PHASE 3 ' and 
-   applied_date > '08/31/2024' and 
-   applied_date < '10/10/2024'
+ where 
+      level2_key like 'AP%'
+and level2_key not like 'APWORKS PHASE1'	  
+  and not comments like  '%JG%'
+  and not comments like  '%Just Global%'
+  and not comments like  '%JustGlobal%'
+  and not comments like  '%Phase 1%'
+  and not comments like '%TSY%'
+  and not comments like '%THY%'
+  and not comments like '%hotfix%'
+  and not comments like '%Eid ul azha%'
+  and not comments like '%DON %'
+  and not comments like '%Japan %'
+  and pld_transactions.resource_id not in ('EMP001980','EMP001981       ','EMP001931       ','EMP001972       ')
+  and applied_date > '03/31/2024' 
+  and applied_date < '10/16/2024'
+
 
