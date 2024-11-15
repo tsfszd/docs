@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "limit": 1000,
+        "offset": 0,
+        "resultCount": 3,
+        "totalAmount": 0.0
+    },
+    "data": [
+        {
+            "level3_status": 0,
+            "status_description": "Closed"
+        },
+        {
+            "level3_status": 1,
+            "status_description": "Open"
+        },
+        {
+            "level3_status": 2,
+            "status_description": "Suspend"
+        }
+    ]
+}

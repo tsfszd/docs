@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://test.nexelus.net/wf/login.aspx">
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.nexelus.net/wf/login.aspx" index="1"/>
+	<md:AttributeConsumingService index="0">
+		<md:RequestedAttribute isRequired="true" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" Name="firstName" FriendlyName="First Name"/>
+		<md:RequestedAttribute isRequired="true" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" Name="lastName" FriendlyName="Last Name"/>
+		<md:RequestedAttribute isRequired="true" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" Name="email" FriendlyName="Email"/>
+	</md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en-US">Nexelus</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en-US">Nexelus</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en-US">https://www.nexelus.com</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Tao Lin</md:GivenName>
+    <md:EmailAddress>taol@nexelus.net</md:EmailAddress>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="support">
+    <md:GivenName>Nexelus</md:GivenName>
+    <md:EmailAddress>support@nexelus.net</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

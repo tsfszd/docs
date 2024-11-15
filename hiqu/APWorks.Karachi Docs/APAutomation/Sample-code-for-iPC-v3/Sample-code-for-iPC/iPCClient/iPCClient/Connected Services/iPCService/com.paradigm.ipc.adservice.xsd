@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="com.paradigm.ipc.adservice" elementFormDefault="qualified" targetNamespace="com.paradigm.ipc.adservice" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/com.paradigm.ipc.adservice" />
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="GetEdition">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEditionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetEditionResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVersion">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVersionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetVersionResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReleaseDate">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReleaseDateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetReleaseDateResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Authenticate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IPCAccountID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IPCUserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IPCDevToken" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DigitalToolID" type="xs:int" />
+        <xs:element minOccurs="0" name="AccessTag" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ConnectionProperties" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AuthenticateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AuthenticateResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserSession">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserSessionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetUserSessionResult" nillable="true" type="tns:IPCSession" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="IPCSession">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/com.paradigm.ipc.adservice" minOccurs="0" name="AdToolInfo" nillable="true" type="q1:AdToolInfoData" />
+      <xs:element minOccurs="0" name="AuthenticationToken" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsAuthenticated" type="xs:boolean" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/com.paradigm.ipc.adservice" minOccurs="0" name="UserInfo" nillable="true" type="q2:UserInfoData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPCSession" nillable="true" type="tns:IPCSession" />
+  <xs:element name="GetFullAdToolList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFullAdToolListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetFullAdToolListResult" nillable="true" type="tns:ArrayOfIPCAdToolInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfIPCAdToolInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IPCAdToolInfo" nillable="true" type="tns:IPCAdToolInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIPCAdToolInfo" nillable="true" type="tns:ArrayOfIPCAdToolInfo" />
+  <xs:complexType name="IPCAdToolInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccessTag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IPCToolDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IPCToolName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsConnectorActive" type="xs:boolean" />
+      <xs:element minOccurs="0" name="OrigToolName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SequenceID" type="xs:int" />
+      <xs:element minOccurs="0" name="ToolCategory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToolID" type="xs:int" />
+      <xs:element minOccurs="0" name="ToolProperties" nillable="true" type="tns:ArrayOfIPCNameValue" />
+      <xs:element minOccurs="0" name="ToolVersion" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPCAdToolInfo" nillable="true" type="tns:IPCAdToolInfo" />
+  <xs:complexType name="ArrayOfIPCNameValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IPCNameValue" nillable="true" type="tns:IPCNameValue" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIPCNameValue" nillable="true" type="tns:ArrayOfIPCNameValue" />
+  <xs:complexType name="IPCNameValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPCNameValue" nillable="true" type="tns:IPCNameValue" />
+  <xs:element name="GetAccessibleAdToolList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IPCAccountID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="IPCUserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAccessibleAdToolListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetAccessibleAdToolListResult" nillable="true" type="tns:ArrayOfIPCAdToolInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeliverableEntityList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeliverableEntityListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDeliverableEntityListResult" nillable="true" type="tns:ArrayOfIPCEntityDesignator" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfIPCEntityDesignator">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IPCEntityDesignator" nillable="true" type="tns:IPCEntityDesignator" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIPCEntityDesignator" nillable="true" type="tns:ArrayOfIPCEntityDesignator" />
+  <xs:complexType name="IPCEntityDesignator">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdToolName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CategoryType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CategoryTypeCode" type="xs:int" />
+      <xs:element minOccurs="0" name="IPCEntityID" type="xs:int" />
+      <xs:element minOccurs="0" name="IPCName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPCEntityDesignator" nillable="true" type="tns:IPCEntityDesignator" />
+  <xs:element name="GetEntityData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EntityID" type="xs:int" />
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SelectableElementsList" nillable="true" type="q3:ArrayOfstring" />
+        <xs:element minOccurs="0" name="SortableElementsList" nillable="true" type="tns:ArrayOfIPCRecordsSorter" />
+        <xs:element minOccurs="0" name="FilterableElementsList" nillable="true" type="tns:ArrayOfIPCRecordsFilter" />
+        <xs:element minOccurs="0" name="ElementNameClass" type="tns:IPCDataElementNameClass" />
+        <xs:element minOccurs="0" name="PageSize" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfIPCRecordsSorter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IPCRecordsSorter" nillable="true" type="tns:IPCRecordsSorter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIPCRecordsSorter" nillable="true" type="tns:ArrayOfIPCRecordsSorter" />
+  <xs:complexType name="IPCRecordsSorter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ElementName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Operator" type="tns:IPCRecordsSorterOperator" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPCRecordsSorter" nillable="true" type="tns:IPCRecordsSorter" />
+  <xs:simpleType name="IPCRecordsSorterOperator">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ASCENDING" />
+      <xs:enumeration value="DESCENDING" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="IPCRecordsSorterOperator" nillable="true" type="tns:IPCRecordsSorterOperator" />
+  <xs:complexType name="ArrayOfIPCRecordsFilter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IPCRecordsFilter" nillable="true" type="tns:IPCRecordsFilter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIPCRecordsFilter" nillable="true" type="tns:ArrayOfIPCRecordsFilter" />
+  <xs:complexType name="IPCRecordsFilter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ElementName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Operator" type="tns:IPCRecordsFilterOperator" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="values" nillable="true" type="q4:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPCRecordsFilter" nillable="true" type="tns:IPCRecordsFilter" />
+  <xs:simpleType name="IPCRecordsFilterOperator">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="UNKNOWN" />
+      <xs:enumeration value="EQUALS" />
+      <xs:enumeration value="NOT_EQUALS" />
+      <xs:enumeration value="IN" />
+      <xs:enumeration value="NOT_IN" />
+      <xs:enumeration value="CONTAINS_IGNORE_CASE" />
+      <xs:enumeration value="STARTS_WITH_IGNORE_CASE" />
+      <xs:enumeration value="BETWEEN" />
+      <xs:enumeration value="LESS_THAN_EQUALS" />
+      <xs:enumeration value="MORE_THAN_EQUALS" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="IPCRecordsFilterOperator" nillable="true" type="tns:IPCRecordsFilterOperator" />
+  <xs:simpleType name="IPCDataElementNameClass">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="IPC" />
+      <xs:enumeration value="ADTOOL" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="IPCDataElementNameClass" nillable="true" type="tns:IPCDataElementNameClass" />
+  <xs:element name="GetEntityDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetEntityDataResult" nillable="true" type="tns:IPCEntityData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="IPCEntityData">
+    <xs:sequence>
+      <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Data" nillable="true" type="q5:ArrayOfArrayOfstring" />
+      <xs:element minOccurs="0" name="ElementDescriptors" nillable="true" type="tns:ArrayOfIPCDataElementDescriptor" />
+      <xs:element minOccurs="0" name="Paging" nillable="true" type="tns:IPCPagingInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPCEntityData" nillable="true" type="tns:IPCEntityData" />
+  <xs:complexType name="ArrayOfIPCDataElementDescriptor">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IPCDataElementDescriptor" nillable="true" type="tns:IPCDataElementDescriptor" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIPCDataElementDescriptor" nillable="true" type="tns:ArrayOfIPCDataElementDescriptor" />
+  <xs:complexType name="IPCDataElementDescriptor">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdToolElementName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ArrayLevel" type="xs:int" />
+      <xs:element minOccurs="0" name="DataType" type="tns:IPCDataElementType" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ElementID" type="xs:int" />
+      <xs:element minOccurs="0" name="EnumList" nillable="true" type="tns:ArrayOfIPCEnumElement" />
+      <xs:element minOccurs="0" name="FilterOperatorsList" nillable="true" type="tns:ArrayOfIPCEnumElement" />
+      <xs:element minOccurs="0" name="IPCElementName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsFilterable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsSortable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="OrderID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPCDataElementDescriptor" nillable="true" type="tns:IPCDataElementDescriptor" />
+  <xs:simpleType name="IPCDataElementType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="UNKNOWN" />
+      <xs:enumeration value="STRING" />
+      <xs:enumeration value="INT" />
+      <xs:enumeration value="LONG" />
+      <xs:enumeration value="DATE" />
+      <xs:enumeration value="MONEY" />
+      <xs:enumeration value="DOUBLE" />
+      <xs:enumeration value="ENUM" />
+      <xs:enumeration value="BOOLEAN" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="IPCDataElementType" nillable="true" type="tns:IPCDataElementType" />
+  <xs:complexType name="ArrayOfIPCEnumElement">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IPCEnumElement" nillable="true" type="tns:IPCEnumElement" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIPCEnumElement" nillable="true" type="tns:ArrayOfIPCEnumElement" />
+  <xs:complexType name="IPCEnumElement">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EnumName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EnumNameDisplay" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EnumValue" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPCEnumElement" nillable="true" type="tns:IPCEnumElement" />
+  <xs:complexType name="IPCPagingInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdditionalInfo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrentPageNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:int" />
+      <xs:element minOccurs="0" name="RequestQueryID" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalNumberOfPages" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalNumberOfRecords" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPCPagingInfo" nillable="true" type="tns:IPCPagingInfo" />
+  <xs:element name="GetEntityDataPage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RequestQueryID" type="xs:int" />
+        <xs:element minOccurs="0" name="PageNumber" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEntityDataPageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetEntityDataPageResult" nillable="true" type="tns:IPCEntityData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CloseEntityData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RequestQueryID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CloseEntityDataResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAvailableSelectableElementsList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EntityID" type="xs:int" />
+        <xs:element minOccurs="0" name="ElementNameClass" type="tns:IPCDataElementNameClass" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAvailableSelectableElementsListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetAvailableSelectableElementsListResult" nillable="true" type="q6:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllElementsList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EntityID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllElementsListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetAllElementsListResult" nillable="true" type="tns:ArrayOfIPCDataElementDescriptor" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAvailableSortableElementsList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EntityID" type="xs:int" />
+        <xs:element minOccurs="0" name="ElementNameClass" type="tns:IPCDataElementNameClass" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAvailableSortableElementsListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetAvailableSortableElementsListResult" nillable="true" type="q7:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAvailableFilterableElementsList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EntityID" type="xs:int" />
+        <xs:element minOccurs="0" name="ElementNameClass" type="tns:IPCDataElementNameClass" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAvailableFilterableElementsListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetAvailableFilterableElementsListResult" nillable="true" type="q8:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateBlanketEntity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EntityID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateBlanketEntityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateBlanketEntityResult" nillable="true" type="tns:IPCEntityData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateBlanketEntities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EntityID" type="xs:int" />
+        <xs:element minOccurs="0" name="DataHeight" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateBlanketEntitiesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateBlanketEntitiesResult" nillable="true" type="tns:IPCEntityData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAvailableAlterOperations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EntityID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAvailableAlterOperationsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetAvailableAlterOperationsResult" nillable="true" type="q9:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AlterEntityData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EntityID" type="xs:int" />
+        <xs:element minOccurs="0" name="Operation" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="data" nillable="true" type="tns:IPCEntityData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AlterEntityDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AlterEntityDataResult" nillable="true" type="tns:IPCEntityData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AlterEntitiesData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EntityID" type="xs:int" />
+        <xs:element xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Operations" nillable="true" type="q10:ArrayOfstring" />
+        <xs:element minOccurs="0" name="data" nillable="true" type="tns:IPCEntityData" />
+        <xs:element minOccurs="0" name="SyncReq" nillable="true" type="tns:IPCSyncRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="IPCSyncRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CurrentRecords" type="xs:int" />
+      <xs:element minOccurs="0" name="ErrorDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FailedRecord" type="xs:int" />
+      <xs:element minOccurs="0" name="IsComplete" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ProgressKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProgressType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SuccessRecord" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPCSyncRequest" nillable="true" type="tns:IPCSyncRequest" />
+  <xs:element name="AlterEntitiesDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AlterEntitiesDataResult" nillable="true" type="tns:IPCEntityData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StartAsyncReport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ReportQueryID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PageSize" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StartAsyncReportResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckAsyncReportRunStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ReportQueryID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckAsyncReportRunStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckAsyncReportRunStatusResult" type="tns:IPCAsyncReportRunStatusType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="IPCAsyncReportRunStatusType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="UNKNOWN" />
+      <xs:enumeration value="PENDING" />
+      <xs:enumeration value="RUNNING" />
+      <xs:enumeration value="COMPLETE" />
+      <xs:enumeration value="ERROR" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="IPCAsyncReportRunStatusType" nillable="true" type="tns:IPCAsyncReportRunStatusType" />
+  <xs:element name="GetAsyncReportData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ReportQueryID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PageNumber" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAsyncReportDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetAsyncReportDataResult" nillable="true" type="tns:IPCEntityData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StopAsyncReport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ReportQueryID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StopAsyncReportResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubmitGetEntityDataRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EntityID" type="xs:int" />
+        <xs:element xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SelectableElementsList" nillable="true" type="q11:ArrayOfstring" />
+        <xs:element minOccurs="0" name="SortableElementsList" nillable="true" type="tns:ArrayOfIPCRecordsSorter" />
+        <xs:element minOccurs="0" name="FilterableElementsList" nillable="true" type="tns:ArrayOfIPCRecordsFilter" />
+        <xs:element minOccurs="0" name="ElementNameClass" type="tns:IPCDataElementNameClass" />
+        <xs:element minOccurs="0" name="PageSize" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubmitGetEntityDataRequestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SubmitGetEntityDataRequestResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckGetEntityDataRunStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SubmitRequestID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckGetEntityDataRunStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckGetEntityDataRunStatusResult" type="tns:IPCSubmitGetEntityDataStatusType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="IPCSubmitGetEntityDataStatusType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="UNKNOWN" />
+      <xs:enumeration value="RUNNING" />
+      <xs:enumeration value="COMPLETE" />
+      <xs:enumeration value="ERROR" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="IPCSubmitGetEntityDataStatusType" nillable="true" type="tns:IPCSubmitGetEntityDataStatusType" />
+  <xs:element name="GetDeferedEntityData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SubmitRequestID" type="xs:int" />
+        <xs:element minOccurs="0" name="PageNumber" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeferedEntityDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDeferedEntityDataResult" nillable="true" type="tns:IPCEntityData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CloseDeferedEntityData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SubmitRequestID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CloseDeferedEntityDataResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetSyncProgress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SyncReq" nillable="true" type="tns:IPCSyncRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetSyncProgressResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSyncProgress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SyncReq" nillable="true" type="tns:IPCSyncRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSyncProgressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetSyncProgressResult" nillable="true" type="tns:ArrayOfIPCSyncRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfIPCSyncRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IPCSyncRequest" nillable="true" type="tns:IPCSyncRequest" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIPCSyncRequest" nillable="true" type="tns:ArrayOfIPCSyncRequest" />
+</xs:schema>

@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="com.paradigm.ipc.adservice" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="com.paradigm.ipc.adservice" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="com.paradigm.ipc.adservice/Imports">
+      <xsd:import namespace="com.paradigm.ipc.adservice" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/com.paradigm.ipc.adservice" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IIPCAdServiceAPI_GetEdition_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEdition" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetEdition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEditionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetVersion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVersion" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetVersion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetReleaseDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReleaseDate" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetReleaseDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReleaseDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_Authenticate_InputMessage">
+    <wsdl:part name="parameters" element="tns:Authenticate" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_Authenticate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetUserSession_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserSession" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetUserSession_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetFullAdToolList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFullAdToolList" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetFullAdToolList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFullAdToolListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAccessibleAdToolList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccessibleAdToolList" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAccessibleAdToolList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccessibleAdToolListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetDeliverableEntityList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeliverableEntityList" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetDeliverableEntityList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeliverableEntityListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetEntityData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEntityData" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetEntityData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEntityDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetEntityDataPage_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEntityDataPage" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetEntityDataPage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEntityDataPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CloseEntityData_InputMessage">
+    <wsdl:part name="parameters" element="tns:CloseEntityData" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CloseEntityData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CloseEntityDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAvailableSelectableElementsList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableSelectableElementsList" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAvailableSelectableElementsList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableSelectableElementsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAllElementsList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllElementsList" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAllElementsList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllElementsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAvailableSortableElementsList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableSortableElementsList" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAvailableSortableElementsList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableSortableElementsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAvailableFilterableElementsList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableFilterableElementsList" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAvailableFilterableElementsList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableFilterableElementsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CreateBlanketEntity_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBlanketEntity" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CreateBlanketEntity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBlanketEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CreateBlanketEntities_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBlanketEntities" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CreateBlanketEntities_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateBlanketEntitiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAvailableAlterOperations_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableAlterOperations" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAvailableAlterOperations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableAlterOperationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_AlterEntityData_InputMessage">
+    <wsdl:part name="parameters" element="tns:AlterEntityData" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_AlterEntityData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AlterEntityDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_AlterEntitiesData_InputMessage">
+    <wsdl:part name="parameters" element="tns:AlterEntitiesData" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_AlterEntitiesData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AlterEntitiesDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_StartAsyncReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartAsyncReport" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_StartAsyncReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartAsyncReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CheckAsyncReportRunStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckAsyncReportRunStatus" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CheckAsyncReportRunStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckAsyncReportRunStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAsyncReportData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAsyncReportData" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetAsyncReportData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAsyncReportDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_StopAsyncReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:StopAsyncReport" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_StopAsyncReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StopAsyncReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_SubmitGetEntityDataRequest_InputMessage">
+    <wsdl:part name="parameters" element="tns:SubmitGetEntityDataRequest" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_SubmitGetEntityDataRequest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SubmitGetEntityDataRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CheckGetEntityDataRunStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckGetEntityDataRunStatus" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CheckGetEntityDataRunStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckGetEntityDataRunStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetDeferedEntityData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeferedEntityData" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetDeferedEntityData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeferedEntityDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CloseDeferedEntityData_InputMessage">
+    <wsdl:part name="parameters" element="tns:CloseDeferedEntityData" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_CloseDeferedEntityData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CloseDeferedEntityDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_SetSyncProgress_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetSyncProgress" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_SetSyncProgress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetSyncProgressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetSyncProgress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSyncProgress" />
+  </wsdl:message>
+  <wsdl:message name="IIPCAdServiceAPI_GetSyncProgress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSyncProgressResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IIPCAdServiceAPI">
+    <wsdl:operation name="GetEdition">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetEdition" message="tns:IIPCAdServiceAPI_GetEdition_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetEditionResponse" message="tns:IIPCAdServiceAPI_GetEdition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetVersion" message="tns:IIPCAdServiceAPI_GetVersion_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetVersionResponse" message="tns:IIPCAdServiceAPI_GetVersion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReleaseDate">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetReleaseDate" message="tns:IIPCAdServiceAPI_GetReleaseDate_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetReleaseDateResponse" message="tns:IIPCAdServiceAPI_GetReleaseDate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Authenticate">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/Authenticate" message="tns:IIPCAdServiceAPI_Authenticate_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/AuthenticateResponse" message="tns:IIPCAdServiceAPI_Authenticate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSession">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetUserSession" message="tns:IIPCAdServiceAPI_GetUserSession_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetUserSessionResponse" message="tns:IIPCAdServiceAPI_GetUserSession_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFullAdToolList">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetFullAdToolList" message="tns:IIPCAdServiceAPI_GetFullAdToolList_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetFullAdToolListResponse" message="tns:IIPCAdServiceAPI_GetFullAdToolList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccessibleAdToolList">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAccessibleAdToolList" message="tns:IIPCAdServiceAPI_GetAccessibleAdToolList_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAccessibleAdToolListResponse" message="tns:IIPCAdServiceAPI_GetAccessibleAdToolList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliverableEntityList">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetDeliverableEntityList" message="tns:IIPCAdServiceAPI_GetDeliverableEntityList_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetDeliverableEntityListResponse" message="tns:IIPCAdServiceAPI_GetDeliverableEntityList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityData">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetEntityData" message="tns:IIPCAdServiceAPI_GetEntityData_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetEntityDataResponse" message="tns:IIPCAdServiceAPI_GetEntityData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityDataPage">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetEntityDataPage" message="tns:IIPCAdServiceAPI_GetEntityDataPage_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetEntityDataPageResponse" message="tns:IIPCAdServiceAPI_GetEntityDataPage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseEntityData">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CloseEntityData" message="tns:IIPCAdServiceAPI_CloseEntityData_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CloseEntityDataResponse" message="tns:IIPCAdServiceAPI_CloseEntityData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableSelectableElementsList">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableSelectableElementsList" message="tns:IIPCAdServiceAPI_GetAvailableSelectableElementsList_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableSelectableElementsListResponse" message="tns:IIPCAdServiceAPI_GetAvailableSelectableElementsList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllElementsList">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAllElementsList" message="tns:IIPCAdServiceAPI_GetAllElementsList_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAllElementsListResponse" message="tns:IIPCAdServiceAPI_GetAllElementsList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableSortableElementsList">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableSortableElementsList" message="tns:IIPCAdServiceAPI_GetAvailableSortableElementsList_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableSortableElementsListResponse" message="tns:IIPCAdServiceAPI_GetAvailableSortableElementsList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableFilterableElementsList">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableFilterableElementsList" message="tns:IIPCAdServiceAPI_GetAvailableFilterableElementsList_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableFilterableElementsListResponse" message="tns:IIPCAdServiceAPI_GetAvailableFilterableElementsList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateBlanketEntity">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CreateBlanketEntity" message="tns:IIPCAdServiceAPI_CreateBlanketEntity_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CreateBlanketEntityResponse" message="tns:IIPCAdServiceAPI_CreateBlanketEntity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateBlanketEntities">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CreateBlanketEntities" message="tns:IIPCAdServiceAPI_CreateBlanketEntities_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CreateBlanketEntitiesResponse" message="tns:IIPCAdServiceAPI_CreateBlanketEntities_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableAlterOperations">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableAlterOperations" message="tns:IIPCAdServiceAPI_GetAvailableAlterOperations_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAvailableAlterOperationsResponse" message="tns:IIPCAdServiceAPI_GetAvailableAlterOperations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AlterEntityData">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/AlterEntityData" message="tns:IIPCAdServiceAPI_AlterEntityData_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/AlterEntityDataResponse" message="tns:IIPCAdServiceAPI_AlterEntityData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AlterEntitiesData">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/AlterEntitiesData" message="tns:IIPCAdServiceAPI_AlterEntitiesData_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/AlterEntitiesDataResponse" message="tns:IIPCAdServiceAPI_AlterEntitiesData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartAsyncReport">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/StartAsyncReport" message="tns:IIPCAdServiceAPI_StartAsyncReport_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/StartAsyncReportResponse" message="tns:IIPCAdServiceAPI_StartAsyncReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckAsyncReportRunStatus">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CheckAsyncReportRunStatus" message="tns:IIPCAdServiceAPI_CheckAsyncReportRunStatus_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CheckAsyncReportRunStatusResponse" message="tns:IIPCAdServiceAPI_CheckAsyncReportRunStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAsyncReportData">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAsyncReportData" message="tns:IIPCAdServiceAPI_GetAsyncReportData_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetAsyncReportDataResponse" message="tns:IIPCAdServiceAPI_GetAsyncReportData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StopAsyncReport">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/StopAsyncReport" message="tns:IIPCAdServiceAPI_StopAsyncReport_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/StopAsyncReportResponse" message="tns:IIPCAdServiceAPI_StopAsyncReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitGetEntityDataRequest">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/SubmitGetEntityDataRequest" message="tns:IIPCAdServiceAPI_SubmitGetEntityDataRequest_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/SubmitGetEntityDataRequestResponse" message="tns:IIPCAdServiceAPI_SubmitGetEntityDataRequest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckGetEntityDataRunStatus">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CheckGetEntityDataRunStatus" message="tns:IIPCAdServiceAPI_CheckGetEntityDataRunStatus_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CheckGetEntityDataRunStatusResponse" message="tns:IIPCAdServiceAPI_CheckGetEntityDataRunStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeferedEntityData">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetDeferedEntityData" message="tns:IIPCAdServiceAPI_GetDeferedEntityData_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetDeferedEntityDataResponse" message="tns:IIPCAdServiceAPI_GetDeferedEntityData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseDeferedEntityData">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CloseDeferedEntityData" message="tns:IIPCAdServiceAPI_CloseDeferedEntityData_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/CloseDeferedEntityDataResponse" message="tns:IIPCAdServiceAPI_CloseDeferedEntityData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetSyncProgress">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/SetSyncProgress" message="tns:IIPCAdServiceAPI_SetSyncProgress_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/SetSyncProgressResponse" message="tns:IIPCAdServiceAPI_SetSyncProgress_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSyncProgress">
+      <wsdl:input wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetSyncProgress" message="tns:IIPCAdServiceAPI_GetSyncProgress_InputMessage" />
+      <wsdl:output wsaw:Action="com.paradigm.ipc.adservice/IIPCAdServiceAPI/GetSyncProgressResponse" message="tns:IIPCAdServiceAPI_GetSyncProgress_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

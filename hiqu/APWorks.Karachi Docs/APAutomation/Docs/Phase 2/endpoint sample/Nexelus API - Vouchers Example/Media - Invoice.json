@@ -1,0 +1,28 @@
+{
+	"external_id": "186775212",
+    "vendor_code": "V05547/US44",
+    "vendor_inv_number": "VendorMulti04",
+	"invoice_date": "1/01/2021",
+	"terms_code": "N30",
+	"due_date": "1/31/2021",
+	"gl_date": "1/01/2021",
+	"month_of_service_start_date": "7/1/2020",
+	"month_of_service_end_date": "7/31/2020",
+	"comment": "",
+	"currency_code": "USD",
+	"invoice_file_web_url": "https://dentsu.nexelus.net/Web/documents/2/Voucher/TVCH098364/Kenshoo_20USIV04481.pdf",
+	"lines": [{
+		"line_id":1,
+		"purchase_order_number":"PO058490",
+		"comment":"",
+		"amount":10,
+		"tax_amount":0
+	},
+	{
+		"line_id":2,
+		"purchase_order_number":"PO058490",
+		"comment":"",
+		"amount":20,
+		"tax_amount":0
+	}]
+}

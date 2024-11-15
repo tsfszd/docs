@@ -1,0 +1,80 @@
+select 
+1 as company_code,
+level2_key,
+level3_key,
+(select top 1 level3_description 
+from pdd_level3 
+   where pdd_level3.level2_key = pld_transactions.level2_key and 
+   PATINDEX (concat(rtrim(pld_transactions.level3_key),'%'),pdd_level3.level3_key)>0 ) Level3_description,
+transaction_id,
+applied_date,
+line_id,
+pld_transactions.trx_type,
+'DEVELOPMENT' as resource_id,
+'Development' as Res_usage_code, 
+units,
+concat(pdd_resources.name_first,' ',pdd_resources.name_last) employee,
+'Pakistan' as location_code, 
+'DevEng' as org_unit,
+task_code,
+comments,
+nonbill_flag,
+submitted_flag,
+submitted_date,
+upload_flag,
+upload_date,
+pld_transactions.res_type,
+vendor_id,
+payment_code,
+payment_name,
+pld_transactions.currency_code,
+currency_conversion_rate,
+allocation_prc,
+amount,
+amount_home,
+amount_billable,
+receipt_flag,
+reimbursment_flag,
+parent_id,
+record_id,
+trx_level,
+pld_transactions.create_id,
+pld_transactions.create_date,
+pld_transactions.modify_date,
+pld_transactions.modify_id,
+gst_tax_amt,
+gst_tax_code,
+net_amount,
+pmt_vendor_code,
+approval_flag,
+approval_comment,
+approved_by,
+approval_date,
+mail_date,
+pld_transactions.timestamp,
+extra_param_1,
+extra_param_2,
+business_reason,
+finalise_flag,
+finalised_by,
+finalised_date
+ from pld_transactions
+ inner join pdd_resources on pdd_resources.resource_id=pld_transactions.resource_id
+      where 
+      level2_key like 'AP%'
+and level2_key not like 'APWORKS PHASE1'	  
+  and not comments like  '%JG%'
+  and not comments like  '%Just Global%'
+  and not comments like  '%JustGlobal%'
+  and not comments like  '%Phase 1%'
+  and not comments like '%TSY%'
+  and not comments like '%THY%'
+  and not comments like '%hotfix%'
+  and not comments like '%Eid ul azha%'
+  and not comments like '%DON %'
+  and not comments like '%Japan %'
+  and pld_transactions.resource_id not in ('EMP001980','EMP001981       ','EMP001931       ','EMP001972       ')
+  and applied_date > '03/31/2024' 
+  and applied_date < '10/16/2024'
+
+

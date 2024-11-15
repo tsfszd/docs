@@ -1,0 +1,25 @@
+<md:?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://dentsux.apworks.ai/">
+<md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+                                Location="https://dentsux.apworks.ai/ssoauthentication/logout" />
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                     Location="https://dentsux.apworks.ai/ssoauthentication/acs"
+                                     index="1" />
+        
+    </md:SPSSODescriptor>
+	<md:Organization>
+    <md:OrganizationName xml:lang="en-US">Nexelus</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en-US">Nexelus</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en-US">https://www.nexelus.com</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Tao Lin</md:GivenName>
+    <md:EmailAddress>taol@nexelus.net</md:EmailAddress>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="support">
+    <md:GivenName>Nexelus</md:GivenName>
+    <md:EmailAddress>support@nexelus.net</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

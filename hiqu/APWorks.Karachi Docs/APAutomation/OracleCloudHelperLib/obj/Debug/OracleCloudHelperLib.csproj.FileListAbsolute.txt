@@ -1,0 +1,8 @@
+D:\ESM\eSMMain\eSM 13.1\OracleCloudHelperLib\bin\Debug\OracleCloudHelperLib.dll
+D:\ESM\eSMMain\eSM 13.1\OracleCloudHelperLib\bin\Debug\OracleCloudHelperLib.pdb
+D:\ESM\eSMMain\eSM 13.1\OracleCloudHelperLib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\ESM\eSMMain\eSM 13.1\OracleCloudHelperLib\obj\Debug\OracleCloudHelperLib.csproj.AssemblyReference.cache
+D:\ESM\eSMMain\eSM 13.1\OracleCloudHelperLib\obj\Debug\OracleCloudHelperLib.csproj.CoreCompileInputs.cache
+D:\ESM\eSMMain\eSM 13.1\OracleCloudHelperLib\obj\Debug\OracleCloudHelperLib.csproj.CopyComplete
+D:\ESM\eSMMain\eSM 13.1\OracleCloudHelperLib\obj\Debug\OracleCloudHelperLib.dll
+D:\ESM\eSMMain\eSM 13.1\OracleCloudHelperLib\obj\Debug\OracleCloudHelperLib.pdb

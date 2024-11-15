@@ -1,0 +1,31 @@
+{
+	"external_id": "test4",
+    "vendor_code": "V02994/US44",
+    "vendor_inv_number": "PRODVNOPO01",
+    "purchase_order_number":"",
+	"invoice_date": "1/01/2021",
+	"terms_code": "N30",
+	"due_date": "1/31/2021",
+	"gl_date": "1/01/2021",
+	"comment": "",
+	"currency_code": "USD",
+	"invoice_file_web_url": "https://dentsu.nexelus.net/Web/documents/2/Voucher/TVCH098364/Kenshoo_20USIV04481.pdf",
+	"lines": [{
+		"line_id":1,
+        "level2_key":"360I TECHNOLOGY-21-GEN",
+        "level3_key":"Billable Client",
+        "res_type":255,
+		"comment":"",
+		"amount":53232,
+		"tax_amount":0
+	},
+	{
+		"line_id":2,
+		"level2_key":"360I TECHNOLOGY-21-GEN",
+        "level3_key":"Non-Billable",
+        "res_type":255,
+		"comment":"",
+		"amount":32322,
+		"tax_amount":0
+	}]
+}

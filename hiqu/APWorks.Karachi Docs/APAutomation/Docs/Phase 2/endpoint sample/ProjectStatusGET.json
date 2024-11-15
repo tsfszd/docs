@@ -1,0 +1,30 @@
+{
+    "metadata": {
+        "limit": 1000,
+        "offset": 0,
+        "resultCount": 5,
+        "totalAmount": 0.0
+    },
+    "data": [
+        {
+            "level2_status": 0,
+            "status_description": "Closed"
+        },
+        {
+            "level2_status": 1,
+            "status_description": "Active"
+        },
+        {
+            "level2_status": 2,
+            "status_description": "Suspended"
+        },
+        {
+            "level2_status": 3,
+            "status_description": "Template"
+        },
+        {
+            "level2_status": 4,
+            "status_description": "MS Project Template"
+        }
+    ]
+}

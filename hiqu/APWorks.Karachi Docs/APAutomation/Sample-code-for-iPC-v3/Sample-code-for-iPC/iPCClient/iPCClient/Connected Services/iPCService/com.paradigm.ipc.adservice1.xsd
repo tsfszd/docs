@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/com.paradigm.ipc.adservice" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/com.paradigm.ipc.adservice" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="AdToolInfoData">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AdToolConnectParameters" nillable="true" type="q1:ArrayOfKeyValueOfstringstring" />
+      <xs:element minOccurs="0" name="AdToolID" type="xs:int" />
+      <xs:element minOccurs="0" name="IPCConnectorDLLName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IPCName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OriginalName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OriginalVersion" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AdToolInfoData" nillable="true" type="tns:AdToolInfoData" />
+  <xs:complexType name="UserInfoData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DigitalToolAccessTag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DigitalToolID" type="xs:int" />
+      <xs:element minOccurs="0" name="DigitalToolSequenceID" type="xs:int" />
+      <xs:element minOccurs="0" name="IPCAccountID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IPCDevToken" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IPCUserID" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserInfoData" nillable="true" type="tns:UserInfoData" />
+</xs:schema>
