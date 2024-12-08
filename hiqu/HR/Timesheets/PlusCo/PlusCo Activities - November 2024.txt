@@ -1,0 +1,79 @@
+use nex_pdm;
+select 
+1 as company_code,
+'ps000457 ' as level2_key,
+'Time Billable' as level3_key,
+transaction_id,
+applied_date,
+line_id,
+pld_transactions.trx_type,
+'DEVELOPMENT' as resource_id,
+'Development' as Res_usage_code, 
+units,
+'Pakistan' as location_code, 
+'DevEng' as org_unit,
+task_code,
+case
+  when lower(comments) in ('Dev','Development','Bug Fixing','updated ui') then concat(comments,': ',(select top 1 level3_description 
+                                 from pdd_level3 
+                                 where pdd_level3.level2_key = pld_transactions.level2_key and 
+                                 PATINDEX (concat(rtrim(pld_transactions.level3_key),'%'),pdd_level3.level3_key)>0 ))
+  when lower(comments) in ('testing and fixing','checking and verifing','unit testing','regression testing') then concat(comments,': ',(select top 1 level3_description 
+                                 from pdd_level3 
+                                 where pdd_level3.level2_key = pld_transactions.level2_key and 
+                                 PATINDEX (concat(rtrim(pld_transactions.level3_key),'%'),pdd_level3.level3_key)>0 ))
+  else comments
+end comments,
+nonbill_flag,
+1 as submitted_flag,
+(applied_date+3) as submitted_date,
+0 as upload_flag,
+null as upload_date,
+pld_transactions.res_type,
+vendor_id,
+payment_code,
+payment_name,
+pld_transactions.currency_code,
+currency_conversion_rate,
+allocation_prc,
+amount,
+amount_home,
+amount_billable,
+receipt_flag,
+reimbursment_flag,
+parent_id,
+record_id,
+trx_level,
+pld_transactions.create_id,
+pld_transactions.create_date,
+pld_transactions.modify_date,
+pld_transactions.modify_id,
+gst_tax_amt,
+gst_tax_code,
+net_amount,
+pmt_vendor_code,
+approval_flag,
+approval_comment,
+approved_by,
+approval_date,
+mail_date,
+concat('New ', '2024-12-06') as extra_param_1,
+extra_param_2,
+business_reason,
+finalise_flag,
+finalised_by,
+finalised_date
+ from pld_transactions
+ inner join pdd_resources on pdd_resources.resource_id=pld_transactions.resource_id
+      where 
+	  pld_transactions.resource_id not in ('EMP001980','EMP001981       ','EMP001931       ','EMP001972       ')
+  and applied_date >= '11/01/2024' 
+  and applied_date < '12/01/2024'
+  and
+      ((level2_key = 'APWORKS 2024.2 - PHASE 3') or
+	   (level2_key = 'APWORKS 2024.2 - PHASE 4'  and level3_key in (
+								'002', -- 'A report to spot check the invoices processed'
+								'013', -- 'EDI file updating and upload'
+								'099', -- 'EDI: Generate PDF - Updates'
+								'003' --'PDF based broadcast invoices - Invoice Scan') 
+	   )) )

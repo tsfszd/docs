@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="NexelusApp.Service.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NexelusApp_Service_eSMWebService_EsmWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://50.56.163.47/Test91-webservice/ESMWebService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
