@@ -1,0 +1,10 @@
+D:\Projects\NexelusAppService 3.4\ServiceProvider\obj\Debug\NexelusApp.Service.csproj.AssemblyReference.cache
+D:\Projects\NexelusAppService 3.4\ServiceProvider\obj\Debug\NexelusApp.Service.csproj.CoreCompileInputs.cache
+D:\Projects\NexelusAppService 3.4\ServiceProvider\bin\Debug\NexelusApp.Service.dll.config
+D:\Projects\NexelusAppService 3.4\ServiceProvider\bin\Debug\NexelusApp.Service.dll
+D:\Projects\NexelusAppService 3.4\ServiceProvider\bin\Debug\NexelusApp.Service.pdb
+D:\Projects\NexelusAppService 3.4\ServiceProvider\bin\Debug\GeneralLib.dll
+D:\Projects\NexelusAppService 3.4\ServiceProvider\bin\Debug\GeneralLib.pdb
+D:\Projects\NexelusAppService 3.4\ServiceProvider\obj\Debug\NexelusApp.Service.csproj.CopyComplete
+D:\Projects\NexelusAppService 3.4\ServiceProvider\obj\Debug\NexelusApp.Service.dll
+D:\Projects\NexelusAppService 3.4\ServiceProvider\obj\Debug\NexelusApp.Service.pdb

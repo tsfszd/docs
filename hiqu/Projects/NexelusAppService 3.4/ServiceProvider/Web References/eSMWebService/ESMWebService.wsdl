@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="Paradigm.Esm.WebService" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="Paradigm.Esm.WebService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="Paradigm.Esm.WebService">
+      <s:element name="GetEdition">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetEditionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetEditionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReleaseDate">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetReleaseDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReleaseDateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Authenticate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="company" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="userGroupCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenticateResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AuthToken" type="tns:AuthToken" />
+      <s:complexType name="AuthToken">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="WSUserInfo" type="tns:UserInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsAuthenticated" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="LoginDateTime" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="SysNames" type="tns:GENSysNames" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:complexType name="UserInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="companyCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="resourceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="user_group_code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="dateFormat" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="GENSysNames">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="LEVEL2_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LEVEL3_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ORG_UNIT_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LOCATION_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="COMPANY_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CLIENT_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="POSITION_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TASK_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DEPARTMENT_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CLASS_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EXPTYPES_SYSNAME_NAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EXPTYPES_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EMPRESOURCE_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EMPCATEGORY_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GENREF1_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GENREF2_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GENREF3_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GENREF4_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GENREF5_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LEVEL1_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RESOURCE_ID_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RESOURCE_TYPE_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RESOURCE_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VENDOR_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MEDIA_VENDOR_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SALESPERSON_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="COMMITBUDGET_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="COMMITEDBUDGET_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PRESENTTOCLIENT_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PRESENTEDTOCLIENT_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RESOURCE_SCHEDULE_RATE1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RESOURCE_SCHEDULE_RATE2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RESOURCE_SCHEDULE_RATE3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RESOURCE_SCHEDULE_RATE4" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BUDGET_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BUDGETED_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RESUSAGE_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DOCCTRLNUMBER_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RESOURCEID_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RESOURCETYPE_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SOFTBOOK_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HARDBOOK_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AMT1_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AMT3_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UNITS1_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WORKFLOW_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PRE_SCHEDULED_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NON_SCHEDULED_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SCHEDULED_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PENDING_APPROVAL_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PROJ_MANAGER_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WORKFLOW_END_DATE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PO_EXTRA_PARAM_1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PO_EXTRA_PARAM_2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PO_EXTRA_PARAM_3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PO_EXTRA_PARAM_4" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PO_EXTRA_PARAM_5" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="REFERENCE_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="POSITION_CATEGORY" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CLIENT_PRODUCT_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MENU_EXPAND" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MENU_COLLAPSE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PO_ACCOUNT_SERVICES" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PO_FUNCTIONAL_REP" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MEDIA_BUDGET_REF_1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MEDIA_BUDGET_REF_2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MEDIA_BUDGET_REF_3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="COST_CODE_NAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EXPENSE_REPORT_TEXT1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EXPENSE_REPORT_NUMERIC1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GST_TAX" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="supervisor_SysName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MEDIA_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ROLES_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FOB_SYSNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SERVICE_TYPE_UOM" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EXT_COST" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UOM" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RATE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SysNames" type="tns:ArrayOfNameValue" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfNameValue">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="NameValue" nillable="true" type="tns:NameValue" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="NameValue">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Value" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetInstalledCompanyList">
+        <s:complexType />
+      </s:element>
+      <s:complexType name="CompanyLight">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CompanyCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShortName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCompanyLight">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CompanyLight" nillable="true" type="tns:CompanyLight" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetInstalledCompanyListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInstalledCompanyListResult" type="tns:ArrayOfCompanyLight" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsAuthenticated">
+        <s:complexType />
+      </s:element>
+      <s:element name="IsAuthenticatedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IsAuthenticatedResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAuthenticationToken">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAuthenticationTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAuthenticationTokenResult" type="tns:AuthToken" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTrxTypes">
+        <s:complexType />
+      </s:element>
+      <s:complexType name="TrxType">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Time__WO_H_R_Time" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Time__WO_S_R_Time" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Time__WO_SUB_R_Time" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Time__Fees" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Expenses__Expenses" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Expenses__WO_Expense" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetTrxTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTrxTypesResult" type="tns:TrxType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReferenceDataRecords">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DataRecordType" type="tns:REFERENCE_DATA_RECORD_TYPE" />
+            <s:element minOccurs="0" maxOccurs="1" name="fieldsList" type="tns:ArrayOfFieldAttribute" />
+            <s:element minOccurs="0" maxOccurs="1" name="filter" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sortFields" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="REFERENCE_DATA_RECORD_TYPE">
+        <s:restriction base="s:string">
+          <s:enumeration value="LOCATION" />
+          <s:enumeration value="EMPLOYEE_TYPE" />
+          <s:enumeration value="EXPENSE_TYPE" />
+          <s:enumeration value="TASK_TYPE" />
+          <s:enumeration value="ORG_UNIT" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfFieldAttribute">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FieldAttribute" nillable="true" type="tns:FieldAttribute" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FieldAttribute">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="FieldName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ESM_FieldName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FieldType" type="tns:FIELD_TYPE" />
+          <s:element minOccurs="1" maxOccurs="1" name="FieldLength" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsNullable" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="FIELD_TYPE">
+        <s:restriction base="s:string">
+          <s:enumeration value="INT" />
+          <s:enumeration value="FLOAT" />
+          <s:enumeration value="STRING" />
+          <s:enumeration value="DATETIME" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="DataRecords">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="FiledList" type="tns:ArrayOfFieldAttribute" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data" type="tns:ArrayOfArrayOfAnyType" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfAnyType" nillable="true" type="tns:ArrayOfAnyType" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetReferenceDataRecordsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReferenceDataRecordsResult" type="tns:DataRecords" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReferenceAvailableFieldList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DataRecordType" type="tns:REFERENCE_DATA_RECORD_TYPE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReferenceAvailableFieldListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReferenceAvailableFieldListResult" type="tns:ArrayOfFieldAttribute" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReportingAvailableParameters">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DataRecordType" type="tns:REPORTING_DATA_RECORD_TYPE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="REPORTING_DATA_RECORD_TYPE">
+        <s:restriction base="s:string">
+          <s:enumeration value="DATA_RECORD_TYPE_1" />
+          <s:enumeration value="DATA_RECORD_TYPE_2" />
+          <s:enumeration value="DATA_RECORD_TYPE_3" />
+          <s:enumeration value="DATA_RECORD_TYPE_4" />
+          <s:enumeration value="DATA_RECORD_TYPE_5" />
+          <s:enumeration value="JOB_COST_DETAIL" />
+          <s:enumeration value="CLIENT_PROFILE_APPROVALS" />
+          <s:enumeration value="LEVEL1_APPROVALS" />
+          <s:enumeration value="LEVEL2_APPROVALS" />
+          <s:enumeration value="BUDGET_L2_L3_APPROVALS" />
+          <s:enumeration value="IO_BUDGET_APPROVALS" />
+          <s:enumeration value="EXPENSE_SUMMARY" />
+          <s:enumeration value="EXPENSE_SUMMARY_CHART" />
+          <s:enumeration value="TIME_SUMMARY" />
+          <s:enumeration value="TIME_SUMMARY_CHART" />
+          <s:enumeration value="RM_EMP_WORKLOAD_BY_WEEK_CHART" />
+          <s:enumeration value="RM_MGR_WORKLOAD_BY_WEEK_CHART" />
+          <s:enumeration value="WORKFLOW_ALLOCATION" />
+          <s:enumeration value="TIME_UTILIZATION_CHART" />
+          <s:enumeration value="YEAR_TO_DATE_REVENUE" />
+          <s:enumeration value="CLIENT_REVENUE" />
+          <s:enumeration value="TIME_SUMMARY_STATUS" />
+          <s:enumeration value="CLIENTS_HOURS_BY_MONTH" />
+          <s:enumeration value="BUDGET_L2_STATUS" />
+          <s:enumeration value="BUDGET_L2_APPROVALS" />
+          <s:enumeration value="FR_REVENUE_MEDIA_CLIENT" />
+          <s:enumeration value="SSO_SITES_USER" />
+          <s:enumeration value="SSO_TOOL_SITES" />
+          <s:enumeration value="REVENUE_MEDIA_VENDOR" />
+          <s:enumeration value="REVENUE_MEDIA_CLIENT" />
+          <s:enumeration value="LEVEL2_NO_BUDGET" />
+          <s:enumeration value="RESOURCE_EMAILS" />
+          <s:enumeration value="UNPOSTED_VOUCHERS" />
+          <s:enumeration value="WEEKLY_RM_ALLOCATION_DAYWISE" />
+          <s:enumeration value="MYTIME_HOURS_GADGET" />
+          <s:enumeration value="PO_APPROVAL" />
+          <s:enumeration value="MONTHLY_RM_ALLOCATION_QUARTER" />
+          <s:enumeration value="BUDGET_ORDER_NOTIFICATIONS" />
+          <s:enumeration value="BUDGET_ORDER_PENDING" />
+          <s:enumeration value="API_INVOICES" />
+          <s:enumeration value="TIME_UTILIZATION_SUMMARY" />
+          <s:enumeration value="PTO_SUMMARY" />
+          <s:enumeration value="TIME_ANALYSIS" />
+          <s:enumeration value="GTO_PTO_SUMMARY" />
+          <s:enumeration value="LEVEL2_ACTIVE_LIST" />
+          <s:enumeration value="REVENUE_BY_CLIENTS" />
+          <s:enumeration value="REVENUE_TARGETS_ACTUAL" />
+          <s:enumeration value="MANPOWER_ANALYSIS" />
+          <s:enumeration value="AGENCY_CLIENT_P_AND_L" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetReportingAvailableParametersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReportingAvailableParametersResult" type="tns:ArrayOfFieldAttribute" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReportingDataRecords">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DataRecordType" type="tns:REPORTING_DATA_RECORD_TYPE" />
+            <s:element minOccurs="0" maxOccurs="1" name="spParams" type="tns:ArrayOfNameValue" />
+            <s:element minOccurs="0" maxOccurs="1" name="fieldsList" type="tns:ArrayOfFieldAttribute" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReportingDataRecordsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReportingDataRecordsResult" type="tns:DataRecords" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSysName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSysNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSysNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReplaceWithGenNames">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="start" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="end" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReplaceWithGenNamesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReplaceWithGenNamesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PerformAction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DataRecordType" type="tns:ACTION_TYPE" />
+            <s:element minOccurs="0" maxOccurs="1" name="spParams" type="tns:ArrayOfArrayOfNameValue" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="ACTION_TYPE">
+        <s:restriction base="s:string">
+          <s:enumeration value="TIMESHEET_APPROVAL" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfArrayOfNameValue">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfNameValue" nillable="true" type="tns:ArrayOfNameValue" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PerformActionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PerformActionResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetExpenseTransactionImage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="company_code" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="record_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="transaction_id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetExpenseTransactionImageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetExpenseTransactionImageResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetExpenseTransactionImage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="company_code" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="record_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="transaction_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="imageData" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetExpenseTransactionImageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SetExpenseTransactionImageResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetEditionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEdition" />
+  </wsdl:message>
+  <wsdl:message name="GetEditionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEditionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetVersion" />
+  </wsdl:message>
+  <wsdl:message name="GetVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReleaseDateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReleaseDate" />
+  </wsdl:message>
+  <wsdl:message name="GetReleaseDateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReleaseDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateSoapIn">
+    <wsdl:part name="parameters" element="tns:Authenticate" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateSoapOut">
+    <wsdl:part name="parameters" element="tns:AuthenticateResponse" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:message name="GetInstalledCompanyListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInstalledCompanyList" />
+  </wsdl:message>
+  <wsdl:message name="GetInstalledCompanyListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInstalledCompanyListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsAuthenticatedSoapIn">
+    <wsdl:part name="parameters" element="tns:IsAuthenticated" />
+  </wsdl:message>
+  <wsdl:message name="IsAuthenticatedSoapOut">
+    <wsdl:part name="parameters" element="tns:IsAuthenticatedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsAuthenticatedAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:message name="GetAuthenticationTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAuthenticationToken" />
+  </wsdl:message>
+  <wsdl:message name="GetAuthenticationTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAuthenticationTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAuthenticationTokenAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:message name="GetTrxTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTrxTypes" />
+  </wsdl:message>
+  <wsdl:message name="GetTrxTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTrxTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReferenceDataRecordsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReferenceDataRecords" />
+  </wsdl:message>
+  <wsdl:message name="GetReferenceDataRecordsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReferenceDataRecordsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReferenceDataRecordsAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:message name="GetReferenceAvailableFieldListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReferenceAvailableFieldList" />
+  </wsdl:message>
+  <wsdl:message name="GetReferenceAvailableFieldListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReferenceAvailableFieldListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReferenceAvailableFieldListAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:message name="GetReportingAvailableParametersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReportingAvailableParameters" />
+  </wsdl:message>
+  <wsdl:message name="GetReportingAvailableParametersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReportingAvailableParametersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReportingAvailableParametersAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:message name="GetReportingDataRecordsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReportingDataRecords" />
+  </wsdl:message>
+  <wsdl:message name="GetReportingDataRecordsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReportingDataRecordsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReportingDataRecordsAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:message name="GetSysNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSysName" />
+  </wsdl:message>
+  <wsdl:message name="GetSysNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSysNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSysNameAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:message name="ReplaceWithGenNamesSoapIn">
+    <wsdl:part name="parameters" element="tns:ReplaceWithGenNames" />
+  </wsdl:message>
+  <wsdl:message name="ReplaceWithGenNamesSoapOut">
+    <wsdl:part name="parameters" element="tns:ReplaceWithGenNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReplaceWithGenNamesAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:message name="PerformActionSoapIn">
+    <wsdl:part name="parameters" element="tns:PerformAction" />
+  </wsdl:message>
+  <wsdl:message name="PerformActionSoapOut">
+    <wsdl:part name="parameters" element="tns:PerformActionResponse" />
+  </wsdl:message>
+  <wsdl:message name="PerformActionAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:message name="GetExpenseTransactionImageSoapIn">
+    <wsdl:part name="parameters" element="tns:GetExpenseTransactionImage" />
+  </wsdl:message>
+  <wsdl:message name="GetExpenseTransactionImageSoapOut">
+    <wsdl:part name="parameters" element="tns:GetExpenseTransactionImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetExpenseTransactionImageAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:message name="SetExpenseTransactionImageSoapIn">
+    <wsdl:part name="parameters" element="tns:SetExpenseTransactionImage" />
+  </wsdl:message>
+  <wsdl:message name="SetExpenseTransactionImageSoapOut">
+    <wsdl:part name="parameters" element="tns:SetExpenseTransactionImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetExpenseTransactionImageAuthToken">
+    <wsdl:part name="AuthToken" element="tns:AuthToken" />
+  </wsdl:message>
+  <wsdl:portType name="EsmWebServiceSoap">
+    <wsdl:operation name="GetEdition">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get ESM Web Services Edition</wsdl:documentation>
+      <wsdl:input message="tns:GetEditionSoapIn" />
+      <wsdl:output message="tns:GetEditionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get ESM Web Services Version</wsdl:documentation>
+      <wsdl:input message="tns:GetVersionSoapIn" />
+      <wsdl:output message="tns:GetVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReleaseDate">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get ESM Web Services Release Date</wsdl:documentation>
+      <wsdl:input message="tns:GetReleaseDateSoapIn" />
+      <wsdl:output message="tns:GetReleaseDateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Authenticate">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Authenticate user within a single company</wsdl:documentation>
+      <wsdl:input message="tns:AuthenticateSoapIn" />
+      <wsdl:output message="tns:AuthenticateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInstalledCompanyList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get All ESM Companies</wsdl:documentation>
+      <wsdl:input message="tns:GetInstalledCompanyListSoapIn" />
+      <wsdl:output message="tns:GetInstalledCompanyListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAuthenticated">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Is User Authenticated</wsdl:documentation>
+      <wsdl:input message="tns:IsAuthenticatedSoapIn" />
+      <wsdl:output message="tns:IsAuthenticatedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAuthenticationToken">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get Full Authentication Token</wsdl:documentation>
+      <wsdl:input message="tns:GetAuthenticationTokenSoapIn" />
+      <wsdl:output message="tns:GetAuthenticationTokenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTrxTypes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get Transaction Types</wsdl:documentation>
+      <wsdl:input message="tns:GetTrxTypesSoapIn" />
+      <wsdl:output message="tns:GetTrxTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReferenceDataRecords">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get Reference Data Records; sortFields: e.g. currency_code ASC, loc_name DESC</wsdl:documentation>
+      <wsdl:input message="tns:GetReferenceDataRecordsSoapIn" />
+      <wsdl:output message="tns:GetReferenceDataRecordsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReferenceAvailableFieldList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get List of Available Fields for the specific Reference Data Type</wsdl:documentation>
+      <wsdl:input message="tns:GetReferenceAvailableFieldListSoapIn" />
+      <wsdl:output message="tns:GetReferenceAvailableFieldListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingAvailableParameters">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get List of Available Input Parameters for SP for the specific Reporting Data Type</wsdl:documentation>
+      <wsdl:input message="tns:GetReportingAvailableParametersSoapIn" />
+      <wsdl:output message="tns:GetReportingAvailableParametersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingDataRecords">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get Reporting Data Records</wsdl:documentation>
+      <wsdl:input message="tns:GetReportingDataRecordsSoapIn" />
+      <wsdl:output message="tns:GetReportingDataRecordsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSysName">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get System Variable Names</wsdl:documentation>
+      <wsdl:input message="tns:GetSysNameSoapIn" />
+      <wsdl:output message="tns:GetSysNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceWithGenNames">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Replace token with Variable Name between start (usually [) and end (usually ]) of token</wsdl:documentation>
+      <wsdl:input message="tns:ReplaceWithGenNamesSoapIn" />
+      <wsdl:output message="tns:ReplaceWithGenNamesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PerformAction">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Perform Action</wsdl:documentation>
+      <wsdl:input message="tns:PerformActionSoapIn" />
+      <wsdl:output message="tns:PerformActionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExpenseTransactionImage">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get the Image for the Expense Detail from eSM in Base64 String format</wsdl:documentation>
+      <wsdl:input message="tns:GetExpenseTransactionImageSoapIn" />
+      <wsdl:output message="tns:GetExpenseTransactionImageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetExpenseTransactionImage">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Save the Image for the Expense Detail from eSM in Base64 String format</wsdl:documentation>
+      <wsdl:input message="tns:SetExpenseTransactionImageSoapIn" />
+      <wsdl:output message="tns:SetExpenseTransactionImageSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EsmWebServiceSoap" type="tns:EsmWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetEdition">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetEdition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReleaseDate">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetReleaseDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Authenticate">
+      <soap:operation soapAction="Paradigm.Esm.WebService/Authenticate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:AuthenticateAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:AuthenticateAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInstalledCompanyList">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetInstalledCompanyList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAuthenticated">
+      <soap:operation soapAction="Paradigm.Esm.WebService/IsAuthenticated" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:IsAuthenticatedAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:IsAuthenticatedAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAuthenticationToken">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetAuthenticationToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAuthenticationTokenAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAuthenticationTokenAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTrxTypes">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetTrxTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReferenceDataRecords">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetReferenceDataRecords" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetReferenceDataRecordsAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetReferenceDataRecordsAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReferenceAvailableFieldList">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetReferenceAvailableFieldList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetReferenceAvailableFieldListAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetReferenceAvailableFieldListAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingAvailableParameters">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetReportingAvailableParameters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetReportingAvailableParametersAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetReportingAvailableParametersAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingDataRecords">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetReportingDataRecords" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetReportingDataRecordsAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetReportingDataRecordsAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSysName">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetSysName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetSysNameAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetSysNameAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceWithGenNames">
+      <soap:operation soapAction="Paradigm.Esm.WebService/ReplaceWithGenNames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:ReplaceWithGenNamesAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:ReplaceWithGenNamesAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PerformAction">
+      <soap:operation soapAction="Paradigm.Esm.WebService/PerformAction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:PerformActionAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:PerformActionAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExpenseTransactionImage">
+      <soap:operation soapAction="Paradigm.Esm.WebService/GetExpenseTransactionImage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetExpenseTransactionImageAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetExpenseTransactionImageAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetExpenseTransactionImage">
+      <soap:operation soapAction="Paradigm.Esm.WebService/SetExpenseTransactionImage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SetExpenseTransactionImageAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:SetExpenseTransactionImageAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EsmWebServiceSoap12" type="tns:EsmWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetEdition">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetEdition" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReleaseDate">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetReleaseDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Authenticate">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/Authenticate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:AuthenticateAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:AuthenticateAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInstalledCompanyList">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetInstalledCompanyList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAuthenticated">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/IsAuthenticated" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:IsAuthenticatedAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:IsAuthenticatedAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAuthenticationToken">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetAuthenticationToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetAuthenticationTokenAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetAuthenticationTokenAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTrxTypes">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetTrxTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReferenceDataRecords">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetReferenceDataRecords" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetReferenceDataRecordsAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetReferenceDataRecordsAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReferenceAvailableFieldList">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetReferenceAvailableFieldList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetReferenceAvailableFieldListAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetReferenceAvailableFieldListAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingAvailableParameters">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetReportingAvailableParameters" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetReportingAvailableParametersAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetReportingAvailableParametersAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingDataRecords">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetReportingDataRecords" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetReportingDataRecordsAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetReportingDataRecordsAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSysName">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetSysName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetSysNameAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetSysNameAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceWithGenNames">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/ReplaceWithGenNames" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:ReplaceWithGenNamesAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:ReplaceWithGenNamesAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PerformAction">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/PerformAction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:PerformActionAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:PerformActionAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExpenseTransactionImage">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/GetExpenseTransactionImage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetExpenseTransactionImageAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetExpenseTransactionImageAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetExpenseTransactionImage">
+      <soap12:operation soapAction="Paradigm.Esm.WebService/SetExpenseTransactionImage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:SetExpenseTransactionImageAuthToken" part="AuthToken" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:SetExpenseTransactionImageAuthToken" part="AuthToken" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EsmWebService">
+    <wsdl:port name="EsmWebServiceSoap" binding="tns:EsmWebServiceSoap">
+      <soap:address location="http://50.56.163.47/Test91-webservice/ESMWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EsmWebServiceSoap12" binding="tns:EsmWebServiceSoap12">
+      <soap12:address location="http://50.56.163.47/Test91-webservice/ESMWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
