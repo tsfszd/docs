@@ -1,0 +1,27 @@
+	---------------------------------------------
+Login Session ---20240905112345---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\tauseef.shahzad\Downloads\DB\DB\customization\Health Star\1_SPS_CHILD_sp.sql
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\tauseef.shahzad\Downloads\DB\DB\customization\Health Star\1_SPS_CHILD_sp.sql
+
+	
+~~ Script List Cleared! ~~
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\tauseef.shahzad\Downloads\DB\DB\customization\Health Star\1_SPS_CHILD_sp.sql
+
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	---------------------------------------------
+Login Session ---20240905114601---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\tauseef.shahzad\Downloads\DB\DB\customization\Health Star\1_SPS_CHILD_sp.sql
+
+	
+No SQL Jobs has been turned on.

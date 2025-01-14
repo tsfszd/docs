@@ -1,0 +1,88 @@
+	---------------------------------------------
+Login Session ---20240508080604---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\anees.rahman\Downloads\DB\1_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC] -- Time Start -- 5/8/2024 8:08:17 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [esm_360i] -- Time Start -- 5/8/2024 8:08:17 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+esm_360i -- Procedure Complete -- Time End -- 5/8/2024 8:08:21 AM
+Release Number: 2024-1.1.0.0076U
+Build Number: 24.1.1.0076
+Internal Version: 2024-1.1.0.0076U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_IILLC------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 5/8/2024 8:08:17 AM
+	
+Upgraded End: 
+	
+
+------Child DB esm_360i------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 5/8/2024 8:08:17 AM
+	
+Upgraded End: 5/8/2024 8:08:21 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST5/8/2024 8:08:21 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST5/8/2024 8:08:21 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

@@ -1,0 +1,292 @@
+	---------------------------------------------
+Login Session ---20240913110337---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\tause\Downloads\2024-1.1.0.0106U\DB\1_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_jg] -- Time Start -- 9/13/2024 11:04:56 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 9/13/2024 11:04:56 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG -- Procedure Complete -- Time End -- 9/13/2024 11:05:02 AM
+Release Number: 2024-1.1.0.0106U
+Build Number: 24-1.1.0106
+Internal Version: 2024-1.1.0.0106U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_AUS] -- Time Start -- 9/13/2024 11:04:56 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_AUS -- Procedure Complete -- Time End -- 9/13/2024 11:05:08 AM
+Release Number: 2024-1.1.0.0106U
+Build Number: 24-1.1.0106
+Internal Version: 2024-1.1.0.0106U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_JPN] -- Time Start -- 9/13/2024 11:04:56 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_JPN -- Procedure Complete -- Time End -- 9/13/2024 11:05:15 AM
+Release Number: 2024-1.1.0.0106U
+Build Number: 24-1.1.0106
+Internal Version: 2024-1.1.0.0106U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_SGP] -- Time Start -- 9/13/2024 11:04:56 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_SGP -- Procedure Complete -- Time End -- 9/13/2024 11:05:21 AM
+Release Number: 2024-1.1.0.0106U
+Build Number: 24-1.1.0106
+Internal Version: 2024-1.1.0.0106U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 9/13/2024 11:04:56 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 9/13/2024 11:05:27 AM
+Release Number: 2024-1.1.0.0106U
+Build Number: 24-1.1.0106
+Internal Version: 2024-1.1.0.0106U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB Nex_Enterprise_jg------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/13/2024 11:04:56 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/13/2024 11:04:56 AM
+	
+Upgraded End: 9/13/2024 11:05:02 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/13/2024 11:05:02 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/13/2024 11:05:02 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/13/2024 11:04:56 AM
+	
+Upgraded End: 9/13/2024 11:05:08 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/13/2024 11:05:08 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/13/2024 11:05:08 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_JPN------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/13/2024 11:04:56 AM
+	
+Upgraded End: 9/13/2024 11:05:15 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/13/2024 11:05:15 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/13/2024 11:05:15 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/13/2024 11:04:56 AM
+	
+Upgraded End: 9/13/2024 11:05:21 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/13/2024 11:05:21 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/13/2024 11:05:21 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/13/2024 11:04:56 AM
+	
+Upgraded End: 9/13/2024 11:05:27 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/13/2024 11:05:27 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/13/2024 11:05:27 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

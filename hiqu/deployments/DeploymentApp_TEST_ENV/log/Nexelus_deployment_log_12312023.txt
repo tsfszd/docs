@@ -1,0 +1,241 @@
+	---------------------------------------------
+Login Session ---20231231232055---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Music\DB\1_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 12/31/2023 11:22:00 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 12/31/2023 11:22:00 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG -- Procedure Complete -- Time End -- 12/31/2023 11:22:00 PM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0084
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_AUS] -- Time Start -- 12/31/2023 11:22:00 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_AUS -- Procedure Complete -- Time End -- 12/31/2023 11:22:01 PM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0084
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_SGP] -- Time Start -- 12/31/2023 11:22:00 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_SGP -- Procedure Complete -- Time End -- 12/31/2023 11:22:01 PM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0084
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 12/31/2023 11:22:00 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 12/31/2023 11:22:01 PM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0084
+Internal Version: Nexelus 2023.02
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 12/31/2023 11:22:00 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 12/31/2023 11:22:00 PM
+	
+Upgraded End: 12/31/2023 11:22:00 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST12/31/2023 11:22:00 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST12/31/2023 11:22:00 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 12/31/2023 11:22:00 PM
+	
+Upgraded End: 12/31/2023 11:22:01 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST12/31/2023 11:22:01 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST12/31/2023 11:22:01 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 12/31/2023 11:22:00 PM
+	
+Upgraded End: 12/31/2023 11:22:01 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST12/31/2023 11:22:01 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST12/31/2023 11:22:01 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 12/31/2023 11:22:00 PM
+	
+Upgraded End: 12/31/2023 11:22:01 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST12/31/2023 11:22:01 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST12/31/2023 11:22:01 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

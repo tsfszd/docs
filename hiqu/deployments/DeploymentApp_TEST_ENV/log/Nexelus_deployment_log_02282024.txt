@@ -1,0 +1,90 @@
+	---------------------------------------------
+Login Session ---20240228220432---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\tauseef.shahzad\Downloads\2024-1.1.0.0031U\2024-1.1.0.0031U\DB\DB\1_SPS_CHILD_sp.sql
+	
+[Backup Path] - No Path defined... Please define.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_HY] -- Time Start -- 2/28/2024 10:05:52 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_HY] -- Time Start -- 2/28/2024 10:05:52 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_HY -- Procedure Complete -- Time End -- 2/28/2024 10:05:52 PM
+Release Number: 2024-1.1.0.0031U
+Build Number: 1.1.0.0031
+Internal Version: 2024-1.1.0.0031U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB Nex_Enterprise_HY------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 2/28/2024 10:05:52 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_HY------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 2/28/2024 10:05:52 PM
+	
+Upgraded End: 2/28/2024 10:05:52 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST2/28/2024 10:05:52 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST2/28/2024 10:05:52 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

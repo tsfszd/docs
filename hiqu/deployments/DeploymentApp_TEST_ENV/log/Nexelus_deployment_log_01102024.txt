@@ -1,0 +1,251 @@
+	---------------------------------------------
+Login Session ---20240110223606---
+---------------------------------------------
+
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Videos\DB\1_SPS_CHILD_sp.sql
+	
+Cancelled.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 1/10/2024 10:38:04 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 1/10/2024 10:38:04 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG -- Procedure Complete -- Time End -- 1/10/2024 10:38:04 PM
+Release Number: Nexelus 2023
+Build Number: 23.2.1.0087
+Internal Version: 2023.2.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_AUS] -- Time Start -- 1/10/2024 10:38:04 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_AUS -- Procedure Complete -- Time End -- 1/10/2024 10:38:05 PM
+Release Number: Nexelus 2023
+Build Number: 23.2.1.0087
+Internal Version: 2023.2.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_SGP] -- Time Start -- 1/10/2024 10:38:04 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_SGP -- Procedure Complete -- Time End -- 1/10/2024 10:38:06 PM
+Release Number: Nexelus 2023
+Build Number: 23.2.1.0087
+Internal Version: 2023.2.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 1/10/2024 10:38:04 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 1/10/2024 10:38:07 PM
+Release Number: Nexelus 2023
+Build Number: 23.2.1.0087
+Internal Version: 2023.2.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/10/2024 10:38:04 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/10/2024 10:38:04 PM
+	
+Upgraded End: 1/10/2024 10:38:04 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/10/2024 10:38:04 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/10/2024 10:38:04 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/10/2024 10:38:04 PM
+	
+Upgraded End: 1/10/2024 10:38:05 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/10/2024 10:38:05 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/10/2024 10:38:05 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/10/2024 10:38:04 PM
+	
+Upgraded End: 1/10/2024 10:38:06 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/10/2024 10:38:06 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/10/2024 10:38:06 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/10/2024 10:38:04 PM
+	
+Upgraded End: 1/10/2024 10:38:07 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/10/2024 10:38:07 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/10/2024 10:38:07 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	---------------------------------------------
+Login Session ---20240110231132---
+---------------------------------------------
+

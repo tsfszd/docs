@@ -1,0 +1,2261 @@
+	---------------------------------------------
+Login Session ---20240131191757---
+---------------------------------------------
+
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\tauseef.shahzad\Downloads\2024-1.1.0.0.022\DB\2_SPS_CHILD_sp.sql
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\tauseef.shahzad\Downloads\2024-1.1.0.0.022\DB\1_GEN_CHILD_script.sql
+	
+Cancelled.
+	
+
+There is more than one build in the list!
+	
+-------------------------------------------
+	
+[23.2.1.0105] - Nex_JG , Nex_JG_AUS , Nex_JG_SGP , Nex_JG_UK , 
+	
+[1.1.0.092  ] - Nex_PS , Nex_HY , eSM_360iX , 
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 1/31/2024 7:26:21 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 1/31/2024 7:26:21 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+
+DB Name: Nex_JG
+File Name: 1_GEN_CHILD_script.sql
+----------------Error Message Start----------------
+Procedure Name: pdv_vp_nexelus_setting
+Line Number: 3
+Error Message: Invalid object name 'nex_vendorportal_dev..pdi_nexelus_setting'.
+-----------------Error Message End-----------------
+
+	
+Nex_JG -- Restore Start
+	
+Nex_JG -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:8cb59e84-0217-46c2-8f0d-d675453f3d28
+Error Number:201,State:4,Class:16
+	
+Nex_JG -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	---------------------------------------------
+Login Session ---20240131211913---
+---------------------------------------------
+
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\tauseef.shahzad\Downloads\2024-1.1.0.0.022\DB\1_GEN_CHILD_script.sql
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\tauseef.shahzad\Downloads\2024-1.1.0.0.022\DB\2_SPS_CHILD_sp.sql
+	
+Cancelled.
+	
+
+---------------------------------------------------------------------------
+-- Turning OFF SQL Jobs Related to the selected DBs -- 
+---------------------------------------------------------------------------
+
+	
+--- nex_enterprise_JG ---
+	
+--- Nex_JG ---
+	
+--- Nex_JG_AUS ---
+	
+--- Nex_JG_SGP ---
+	
+--- Nex_JG_UK ---
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 1/31/2024 9:22:20 PM
+---------------------------------------------------------------------------
+
+	
+Taking DB backup...
+	
+11 percent processed.
+	
+23 percent processed.
+	
+34 percent processed.
+	
+43 percent processed.
+	
+53 percent processed.
+	
+61 percent processed.
+	
+72 percent processed.
+	
+80 percent processed.
+	
+91 percent processed.
+	
+Processed 2184 pages for database 'nex_enterprise_JG', file 'pdm_enterprise_Data' on file 1.
+	
+100 percent processed.
+	
+Processed 2 pages for database 'nex_enterprise_JG', file 'pdm_enterprise_Log' on file 1.
+	
+BACKUP DATABASE successfully processed 2186 pages in 0.104 seconds (164.212 MB/sec).
+	
+Sucess Enterprise DB backup taken...S:\DB Backups\nex_enterprise_JG\db backup\nex_enterprise_JG_01312024_212220.bak
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 1/31/2024 9:22:20 PM
+---------------------------------------------------------------------------
+
+	
+Taking DB backup...
+	
+10 percent processed.
+	
+20 percent processed.
+	
+30 percent processed.
+	
+40 percent processed.
+	
+50 percent processed.
+	
+60 percent processed.
+	
+70 percent processed.
+	
+80 percent processed.
+	
+90 percent processed.
+	
+Processed 37952 pages for database 'Nex_JG', file 'eSM_LLKFB_Data' on file 1.
+	
+100 percent processed.
+	
+Processed 3 pages for database 'Nex_JG', file 'eSM_LLKFB_Log' on file 1.
+	
+BACKUP DATABASE successfully processed 37955 pages in 1.101 seconds (269.318 MB/sec).
+	
+Sucess child DB backup taken...S:\DB Backups\Nex_JG\db backup\Nex_JG_01312024_212220.bak
+	
+Taking modified SP and View backup...
+	
+There is 3 procedures that is modified/created.
+	
+They are available for review under path S:\DB Backups\Nex_JG\Modified procedures\                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+	
+There is 0 views that is modified/created.
+	
+Detected -- backup of 0 SP & 0 Views that will be replace by Script 1_GEN_CHILD_script.sql
+	
+Detected -- backup of 0 SP & 0 Views that will be replace by Script 2_SPS_CHILD_sp.sql
+	
+Backup of SP and View Complete
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+
+DB Name: Nex_JG
+File Name: 1_GEN_CHILD_script.sql
+----------------Error Message Start----------------
+Procedure Name: pdv_vp_nexelus_setting
+Line Number: 3
+Error Message: Invalid object name 'nex_vendorportal_dev..pdi_nexelus_setting'.
+-----------------Error Message End-----------------
+
+	
+Nex_JG -- Restore Start
+	
+Nex_JG -- Restoring from -- S:\DB Backups\Nex_JG\db backup\Nex_JG_01312024_212220.bak
+	
+System.Data.SqlClient.SqlException (0x80131904): Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+OLE DB provider "SQLNCLI11" for linked server "172.28.30.4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "172.28.30.4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:c3e980dc-aead-48d7-a040-0e9c818e3760
+Error Number:2,State:1,Class:16
+	
+Nex_JG -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Restore Cancelled
+	
+Nex_JG -- Procedure Complete -- Time End -- 1/31/2024 9:27:51 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 1.1.0.0.02
+Internal Version: 2024-1.1.0.0.022
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_AUS] -- Time Start -- 1/31/2024 9:22:20 PM
+---------------------------------------------------------------------------
+
+	
+Taking DB backup...
+	
+10 percent processed.
+	
+20 percent processed.
+	
+30 percent processed.
+	
+40 percent processed.
+	
+50 percent processed.
+	
+60 percent processed.
+	
+70 percent processed.
+	
+80 percent processed.
+	
+90 percent processed.
+	
+Processed 25752 pages for database 'Nex_JG_AUS', file 'eSM_LLKFB_Data' on file 1.
+	
+100 percent processed.
+	
+Processed 3 pages for database 'Nex_JG_AUS', file 'eSM_LLKFB_Log' on file 1.
+	
+BACKUP DATABASE successfully processed 25755 pages in 0.830 seconds (242.422 MB/sec).
+	
+Sucess child DB backup taken...S:\DB Backups\Nex_JG_AUS\db backup\Nex_JG_AUS_01312024_212751.bak
+	
+Taking modified SP and View backup...
+	
+There is 3 procedures that is modified/created.
+	
+They are available for review under path S:\DB Backups\Nex_JG_AUS\Modified procedures\                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+	
+There is 0 views that is modified/created.
+	
+Detected -- backup of 0 SP & 0 Views that will be replace by Script 1_GEN_CHILD_script.sql
+	
+Detected -- backup of 0 SP & 0 Views that will be replace by Script 2_SPS_CHILD_sp.sql
+	
+Backup of SP and View Complete
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+
+DB Name: Nex_JG_AUS
+File Name: 1_GEN_CHILD_script.sql
+----------------Error Message Start----------------
+Procedure Name: pdv_vp_nexelus_setting
+Line Number: 3
+Error Message: Invalid object name 'nex_vendorportal_dev..pdi_nexelus_setting'.
+-----------------Error Message End-----------------
+
+	
+Nex_JG_AUS -- Restore Start
+	
+Nex_JG_AUS -- Restoring from -- S:\DB Backups\Nex_JG_AUS\db backup\Nex_JG_AUS_01312024_212751.bak
+	
+System.Data.SqlClient.SqlException (0x80131904): Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+OLE DB provider "SQLNCLI11" for linked server "172.28.30.4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "172.28.30.4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:c3e980dc-aead-48d7-a040-0e9c818e3760
+Error Number:2,State:1,Class:16
+	
+Nex_JG_AUS -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Restore Cancelled
+	
+Nex_JG_AUS -- Procedure Complete -- Time End -- 1/31/2024 9:28:33 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 1.1.0.0.02
+Internal Version: 2024-1.1.0.0.022
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_SGP] -- Time Start -- 1/31/2024 9:22:20 PM
+---------------------------------------------------------------------------
+
+	
+Taking DB backup...
+	
+10 percent processed.
+	
+20 percent processed.
+	
+30 percent processed.
+	
+40 percent processed.
+	
+50 percent processed.
+	
+60 percent processed.
+	
+70 percent processed.
+	
+80 percent processed.
+	
+90 percent processed.
+	
+Processed 25704 pages for database 'Nex_JG_SGP', file 'eSM_LLKFB_Data' on file 1.
+	
+100 percent processed.
+	
+Processed 3 pages for database 'Nex_JG_SGP', file 'eSM_LLKFB_Log' on file 1.
+	
+BACKUP DATABASE successfully processed 25707 pages in 0.839 seconds (239.375 MB/sec).
+	
+Sucess child DB backup taken...S:\DB Backups\Nex_JG_SGP\db backup\Nex_JG_SGP_01312024_212833.bak
+	
+Taking modified SP and View backup...
+	
+There is 3 procedures that is modified/created.
+	
+They are available for review under path S:\DB Backups\Nex_JG_SGP\Modified procedures\                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+	
+There is 0 views that is modified/created.
+	
+Detected -- backup of 0 SP & 0 Views that will be replace by Script 1_GEN_CHILD_script.sql
+	
+Detected -- backup of 0 SP & 0 Views that will be replace by Script 2_SPS_CHILD_sp.sql
+	
+Backup of SP and View Complete
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+
+DB Name: Nex_JG_SGP
+File Name: 1_GEN_CHILD_script.sql
+----------------Error Message Start----------------
+Procedure Name: pdv_vp_nexelus_setting
+Line Number: 3
+Error Message: Invalid object name 'nex_vendorportal_dev..pdi_nexelus_setting'.
+-----------------Error Message End-----------------
+
+	
+Nex_JG_SGP -- Restore Start
+	
+Nex_JG_SGP -- Restoring from -- S:\DB Backups\Nex_JG_SGP\db backup\Nex_JG_SGP_01312024_212833.bak
+	
+System.Data.SqlClient.SqlException (0x80131904): Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+OLE DB provider "SQLNCLI11" for linked server "172.28.30.4" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "172.28.30.4" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:c3e980dc-aead-48d7-a040-0e9c818e3760
+Error Number:2,State:1,Class:16
+	
+Nex_JG_SGP -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	---------------------------------------------
+Login Session ---20240131212956---
+---------------------------------------------
+
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\tauseef.shahzad\Downloads\2024-1.1.0.0.022\DB\1_GEN_CHILD_script.sql
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\tauseef.shahzad\Downloads\2024-1.1.0.0.022\DB\2_SPS_CHILD_sp.sql
+	
+
+There is more than one build in the list!
+	
+-------------------------------------------
+	
+[1.1.0.0.02 ] - Nex_JG , Nex_JG_AUS , 
+	
+[23.2.1.0105] - Nex_JG_SGP , Nex_JG_UK , 
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 1/31/2024 9:32:38 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 1/31/2024 9:32:38 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+
+DB Name: Nex_JG_UK
+File Name: 1_GEN_CHILD_script.sql
+----------------Error Message Start----------------
+Procedure Name: pdv_vp_nexelus_setting
+Line Number: 3
+Error Message: Invalid object name 'nex_vendorportal_dev..pdi_nexelus_setting'.
+-----------------Error Message End-----------------
+
+	
+Nex_JG_UK -- Restore Start
+	
+Nex_JG_UK -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:9f3105b6-7eff-4bb3-87d9-f0d25a4fb04a
+Error Number:201,State:4,Class:16
+	
+Nex_JG_UK -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 1/31/2024 9:42:13 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_GEN_CHILD_script.sql
+	
+2_SPS_CHILD_sp.sql
+	---------------------------------------------
+Login Session ---20240131214602---
+---------------------------------------------
+
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\tauseef.shahzad\Downloads\2024-1.1.0.0.022\DB\2_SPS_CHILD_sp.sql
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\tauseef.shahzad\Downloads\2024-1.1.0.0.022\DB\1_GEN_CHILD_script.sql
+	
+Cancelled.
+	
+
+There is more than one build in the list!
+	
+-------------------------------------------
+	
+[1.1.0.0.02 ] - Nex_JG , Nex_JG_AUS , 
+	
+[23.2.1.0105] - Nex_JG_SGP , Nex_JG_UK , 
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 1/31/2024 9:48:03 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 1/31/2024 9:48:03 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_JG -- Procedure Complete -- Time End -- 1/31/2024 9:48:05 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 2024-1.1.0.
+Internal Version: 2024-1.1.0.0.022
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:03 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:03 PM
+	
+Upgraded End: 1/31/2024 9:48:05 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 1/31/2024 9:48:25 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_AUS] -- Time Start -- 1/31/2024 9:48:25 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_JG_AUS -- Procedure Complete -- Time End -- 1/31/2024 9:48:27 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 2024-1.1.0.
+Internal Version: 2024-1.1.0.0.022
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:25 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:03 PM
+	
+Upgraded End: 1/31/2024 9:48:05 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:25 PM
+	
+Upgraded End: 1/31/2024 9:48:27 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:27 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:27 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 1/31/2024 9:48:44 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_AUS] -- Time Start -- 1/31/2024 9:48:44 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_JG_AUS -- Procedure Complete -- Time End -- 1/31/2024 9:48:45 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 2024-1.1.0.
+Internal Version: 2024-1.1.0.0.022
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:44 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:03 PM
+	
+Upgraded End: 1/31/2024 9:48:05 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:44 PM
+	
+Upgraded End: 1/31/2024 9:48:45 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 1/31/2024 9:49:12 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_SGP] -- Time Start -- 1/31/2024 9:49:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_JG_SGP -- Procedure Complete -- Time End -- 1/31/2024 9:49:14 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 2024-1.1.0.
+Internal Version: 2024-1.1.0.0.022
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:12 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:03 PM
+	
+Upgraded End: 1/31/2024 9:48:05 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:44 PM
+	
+Upgraded End: 1/31/2024 9:48:45 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:12 PM
+	
+Upgraded End: 1/31/2024 9:49:14 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:14 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:14 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 1/31/2024 9:49:34 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 1/31/2024 9:49:34 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 1/31/2024 9:49:37 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 2024-1.1.0.
+Internal Version: 2024-1.1.0.0.022
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:34 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:03 PM
+	
+Upgraded End: 1/31/2024 9:48:05 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:44 PM
+	
+Upgraded End: 1/31/2024 9:48:45 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:12 PM
+	
+Upgraded End: 1/31/2024 9:49:14 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:14 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:14 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:34 PM
+	
+Upgraded End: 1/31/2024 9:49:37 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:37 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:37 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC_X] -- Time Start -- 1/31/2024 9:50:05 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_360iX] -- Time Start -- 1/31/2024 9:50:05 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+eSM_360iX -- Procedure Complete -- Time End -- 1/31/2024 9:50:12 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 2024-1.1.0.
+Internal Version: 2024-1.1.0.0.022
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB pdm_enterprise_IILLC_X------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:50:05 PM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360iX------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:50:05 PM
+	
+Upgraded End: 1/31/2024 9:50:12 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:50:12 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:50:12 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:34 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:03 PM
+	
+Upgraded End: 1/31/2024 9:48:05 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:44 PM
+	
+Upgraded End: 1/31/2024 9:48:45 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:12 PM
+	
+Upgraded End: 1/31/2024 9:49:14 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:14 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:14 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:34 PM
+	
+Upgraded End: 1/31/2024 9:49:37 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:37 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:37 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_PS] -- Time Start -- 1/31/2024 9:50:35 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_PS] -- Time Start -- 1/31/2024 9:50:35 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_PS -- Procedure Complete -- Time End -- 1/31/2024 9:50:49 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 2024-1.1.0.
+Internal Version: 2024-1.1.0.0.022
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB pdm_enterprise_IILLC_X------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:50:05 PM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360iX------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:50:05 PM
+	
+Upgraded End: 1/31/2024 9:50:12 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:50:12 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:50:12 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:34 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:03 PM
+	
+Upgraded End: 1/31/2024 9:48:05 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:44 PM
+	
+Upgraded End: 1/31/2024 9:48:45 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:12 PM
+	
+Upgraded End: 1/31/2024 9:49:14 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:14 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:14 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:34 PM
+	
+Upgraded End: 1/31/2024 9:49:37 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:37 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:37 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_PS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:50:35 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_PS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:50:35 PM
+	
+Upgraded End: 1/31/2024 9:50:49 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:50:49 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:50:49 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_HY] -- Time Start -- 1/31/2024 9:51:15 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_HY] -- Time Start -- 1/31/2024 9:51:15 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_HY -- Procedure Complete -- Time End -- 1/31/2024 9:51:24 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 2024-1.1.0.
+Internal Version: 2024-1.1.0.0.022
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB pdm_enterprise_IILLC_X------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:50:05 PM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360iX------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:50:05 PM
+	
+Upgraded End: 1/31/2024 9:50:12 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:50:12 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:50:12 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:34 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:03 PM
+	
+Upgraded End: 1/31/2024 9:48:05 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:05 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:48:44 PM
+	
+Upgraded End: 1/31/2024 9:48:45 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:48:45 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:12 PM
+	
+Upgraded End: 1/31/2024 9:49:14 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:14 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:14 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:49:34 PM
+	
+Upgraded End: 1/31/2024 9:49:37 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:37 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:49:37 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_PS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:50:35 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_PS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:50:35 PM
+	
+Upgraded End: 1/31/2024 9:50:49 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:50:49 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:50:49 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB Nex_Enterprise_HY------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:51:15 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_HY------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:51:15 PM
+	
+Upgraded End: 1/31/2024 9:51:24 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:51:24 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:51:24 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	---------------------------------------------
+Login Session ---20240131215450---
+---------------------------------------------
+
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\tauseef.shahzad\Downloads\2024-1.1.0.0.022\DB\customization should include all dbs\JG\1_GEN_CHILD_script.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 1/31/2024 9:56:21 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 1/31/2024 9:56:21 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+Nex_JG -- Procedure Complete -- Time End -- 1/31/2024 9:56:21 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 1.1.0.0.022
+Internal Version: 2024-1.1.0.0.022
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_AUS] -- Time Start -- 1/31/2024 9:56:21 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+Nex_JG_AUS -- Procedure Complete -- Time End -- 1/31/2024 9:56:21 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 1.1.0.0.022
+Internal Version: 2024-1.1.0.0.022
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_SGP] -- Time Start -- 1/31/2024 9:56:21 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+Nex_JG_SGP -- Procedure Complete -- Time End -- 1/31/2024 9:56:22 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 1.1.0.0.022
+Internal Version: 2024-1.1.0.0.022
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 1/31/2024 9:56:21 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 1/31/2024 9:56:22 PM
+Release Number: 2024-1.1.0.0.022
+Build Number: 1.1.0.0.022
+Internal Version: 2024-1.1.0.0.022
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:56:21 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:56:21 PM
+	
+Upgraded End: 1/31/2024 9:56:21 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:56:21 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:56:21 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:56:21 PM
+	
+Upgraded End: 1/31/2024 9:56:21 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:56:21 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:56:21 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:56:21 PM
+	
+Upgraded End: 1/31/2024 9:56:22 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:56:22 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:56:22 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 1/31/2024 9:56:21 PM
+	
+Upgraded End: 1/31/2024 9:56:22 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST1/31/2024 9:56:22 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST1/31/2024 9:56:22 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

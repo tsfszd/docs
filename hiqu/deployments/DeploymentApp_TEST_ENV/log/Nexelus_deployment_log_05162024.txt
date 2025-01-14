@@ -1,0 +1,88 @@
+	---------------------------------------------
+Login Session ---20240516070003---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\anees.rahman\Downloads\DB\1_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_PS] -- Time Start -- 5/16/2024 7:01:29 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_PS] -- Time Start -- 5/16/2024 7:01:29 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_PS -- Procedure Complete -- Time End -- 5/16/2024 7:01:30 AM
+Release Number: 2024-1.1.0.0077U
+Build Number: 24.1.1.0077
+Internal Version: 2024-1.1.0.0077U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB nex_enterprise_PS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 5/16/2024 7:01:29 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_PS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 5/16/2024 7:01:29 AM
+	
+Upgraded End: 5/16/2024 7:01:30 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST5/16/2024 7:01:30 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST5/16/2024 7:01:30 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

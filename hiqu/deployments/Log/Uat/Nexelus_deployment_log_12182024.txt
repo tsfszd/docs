@@ -1,0 +1,147 @@
+	---------------------------------------------
+Login Session ---20241218163749---
+---------------------------------------------
+
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\tause\Downloads\Nexelus_2024.1.2.012\DB\1_GEN_CHILD_script.sql
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\tause\Downloads\Nexelus_2024.1.2.012\DB\2_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_TSY] -- Time Start -- 12/18/2024 4:39:51 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_TSY] -- Time Start -- 12/18/2024 4:39:51 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_TSY -- Procedure Complete -- Time End -- 12/18/2024 4:40:26 PM
+Release Number: 2024.1.2.012
+Build Number: 24.1.2.012
+Internal Version: 2024.1.2.012
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_Helm] -- Time Start -- 12/18/2024 4:39:51 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_Helm -- Procedure Complete -- Time End -- 12/18/2024 4:41:06 PM
+Release Number: 2024.1.2.012
+Build Number: 24.1.2.012
+Internal Version: 2024.1.2.012
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_GEN_CHILD_script.sql
+	
+2_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB Nex_Enterprise_TSY------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 12/18/2024 4:39:51 PM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_TSY------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 12/18/2024 4:39:51 PM
+	
+Upgraded End: 12/18/2024 4:40:26 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST12/18/2024 4:40:26 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST12/18/2024 4:40:26 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_Helm------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 12/18/2024 4:39:51 PM
+	
+Upgraded End: 12/18/2024 4:41:06 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST12/18/2024 4:41:06 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST12/18/2024 4:41:06 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

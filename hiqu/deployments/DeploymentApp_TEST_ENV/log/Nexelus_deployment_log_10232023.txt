@@ -1,0 +1,511 @@
+	---------------------------------------------
+Login Session ---20231023043422---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Videos\DB\customization\DB\1_SPS_CHILD_sp.sql
+	
+Cancelled.
+	
+Cancelled.
+	
+No script uploaded.
+	
+Cancelled.
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Videos\DB\customization\DB\1_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 10/23/2023 4:38:00 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CME] -- Time Start -- 10/23/2023 4:38:00 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+------------------------------------
+Applying Custom Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_CME -- Procedure Complete -- Time End -- 10/23/2023 4:38:01 AM
+Release Number: Nexelus 2023.0.0.1
+Build Number: 23.1.1.0058
+Internal Version: Nexelus 2023.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 10/23/2023 4:38:00 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+------------------------------------
+Applying Custom Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HAINC -- Procedure Complete -- Time End -- 10/23/2023 4:38:02 AM
+Release Number: Nexelus 2023.0.0.1
+Build Number: 23.1.1.0058
+Internal Version: Nexelus 2023.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 10/23/2023 4:38:00 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+------------------------------------
+Applying Custom Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HCES -- Procedure Complete -- Time End -- 10/23/2023 4:38:03 AM
+Release Number: Nexelus 2023.0.0.1
+Build Number: 23.1.1.0058
+Internal Version: Nexelus 2023.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 10/23/2023 4:38:00 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+------------------------------------
+Applying Custom Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HMA -- Procedure Complete -- Time End -- 10/23/2023 4:38:03 AM
+Release Number: Nexelus 2023.0.0.1
+Build Number: 23.1.1.0058
+Internal Version: Nexelus 2023.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 10/23/2023 4:38:00 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+------------------------------------
+Applying Custom Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HNM -- Procedure Complete -- Time End -- 10/23/2023 4:38:04 AM
+Release Number: Nexelus 2023.0.0.1
+Build Number: 23.1.1.0058
+Internal Version: Nexelus 2023.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 10/23/2023 4:38:00 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+------------------------------------
+Applying Custom Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HSPR -- Procedure Complete -- Time End -- 10/23/2023 4:38:05 AM
+Release Number: Nexelus 2023.0.0.1
+Build Number: 23.1.1.0058
+Internal Version: Nexelus 2023.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 10/23/2023 4:38:00 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+------------------------------------
+Applying Custom Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HSTAR -- Procedure Complete -- Time End -- 10/23/2023 4:38:06 AM
+Release Number: Nexelus 2023.0.0.1
+Build Number: 23.1.1.0058
+Internal Version: Nexelus 2023.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 10/23/2023 4:38:00 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+------------------------------------
+Applying Custom Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_SCS -- Procedure Complete -- Time End -- 10/23/2023 4:38:06 AM
+Release Number: Nexelus 2023.0.0.1
+Build Number: 23.1.1.0058
+Internal Version: Nexelus 2023.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/23/2023 4:38:00 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_CME------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/23/2023 4:38:00 AM
+	
+Upgraded End: 10/23/2023 4:38:01 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:01 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:01 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HAINC------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/23/2023 4:38:00 AM
+	
+Upgraded End: 10/23/2023 4:38:02 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:02 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:02 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HCES------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/23/2023 4:38:00 AM
+	
+Upgraded End: 10/23/2023 4:38:03 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:03 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:03 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HMA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/23/2023 4:38:00 AM
+	
+Upgraded End: 10/23/2023 4:38:03 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:03 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:03 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HNM------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/23/2023 4:38:00 AM
+	
+Upgraded End: 10/23/2023 4:38:04 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:04 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:04 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HSPR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/23/2023 4:38:00 AM
+	
+Upgraded End: 10/23/2023 4:38:05 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:05 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:05 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HSTAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/23/2023 4:38:00 AM
+	
+Upgraded End: 10/23/2023 4:38:06 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:06 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:06 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_SCS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/23/2023 4:38:00 AM
+	
+Upgraded End: 10/23/2023 4:38:06 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:06 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST10/23/2023 4:38:06 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

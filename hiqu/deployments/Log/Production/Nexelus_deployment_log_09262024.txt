@@ -1,0 +1,600 @@
+	---------------------------------------------
+Login Session ---20240926140856---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\tause\Downloads\2024-1.1.0.0114U\DB\1_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_Hs] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CME] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_CME -- Procedure Complete -- Time End -- 9/26/2024 2:10:25 PM
+Release Number: 2024-1.1.0.0114U
+Build Number: 24-1.1.0114
+Internal Version: 2024-1.1.0.0114U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CNEHS] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_CNEHS -- Procedure Complete -- Time End -- 9/26/2024 2:10:35 PM
+Release Number: 2024-1.1.0.0114U
+Build Number: 24-1.1.0114
+Internal Version: 2024-1.1.0.0114U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HAINC -- Procedure Complete -- Time End -- 9/26/2024 2:10:44 PM
+Release Number: 2024-1.1.0.0114U
+Build Number: 24-1.1.0114
+Internal Version: 2024-1.1.0.0114U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HCES -- Procedure Complete -- Time End -- 9/26/2024 2:10:54 PM
+Release Number: 2024-1.1.0.0114U
+Build Number: 24-1.1.0114
+Internal Version: 2024-1.1.0.0114U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HMA -- Procedure Complete -- Time End -- 9/26/2024 2:11:03 PM
+Release Number: 2024-1.1.0.0114U
+Build Number: 24-1.1.0114
+Internal Version: 2024-1.1.0.0114U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HNM -- Procedure Complete -- Time End -- 9/26/2024 2:11:13 PM
+Release Number: 2024-1.1.0.0114U
+Build Number: 24-1.1.0114
+Internal Version: 2024-1.1.0.0114U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HPE] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HPE -- Procedure Complete -- Time End -- 9/26/2024 2:11:21 PM
+Release Number: 2024-1.1.0.0114U
+Build Number: 24-1.1.0114
+Internal Version: 2024-1.1.0.0114U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HSPR -- Procedure Complete -- Time End -- 9/26/2024 2:11:31 PM
+Release Number: 2024-1.1.0.0114U
+Build Number: 24-1.1.0114
+Internal Version: 2024-1.1.0.0114U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HSTAR -- Procedure Complete -- Time End -- 9/26/2024 2:11:42 PM
+Release Number: 2024-1.1.0.0114U
+Build Number: 24-1.1.0114
+Internal Version: 2024-1.1.0.0114U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_PHC] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_PHC -- Procedure Complete -- Time End -- 9/26/2024 2:11:51 PM
+Release Number: 2024-1.1.0.0114U
+Build Number: 24-1.1.0114
+Internal Version: 2024-1.1.0.0114U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 9/26/2024 2:10:12 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_SCS -- Procedure Complete -- Time End -- 9/26/2024 2:12:01 PM
+Release Number: 2024-1.1.0.0114U
+Build Number: 24-1.1.0114
+Internal Version: 2024-1.1.0.0114U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_Hs------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_CME------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 9/26/2024 2:10:25 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/26/2024 2:10:25 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/26/2024 2:10:25 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_CNEHS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 9/26/2024 2:10:35 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/26/2024 2:10:35 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/26/2024 2:10:35 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HAINC------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 9/26/2024 2:10:44 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/26/2024 2:10:44 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/26/2024 2:10:44 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HCES------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 9/26/2024 2:10:54 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/26/2024 2:10:54 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/26/2024 2:10:54 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HMA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 9/26/2024 2:11:03 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:03 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:03 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HNM------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 9/26/2024 2:11:13 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:13 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:13 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HPE------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 9/26/2024 2:11:21 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:21 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:21 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HSPR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 9/26/2024 2:11:31 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:31 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:31 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HSTAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 9/26/2024 2:11:42 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:42 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:42 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_PHC------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 9/26/2024 2:11:51 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:51 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/26/2024 2:11:51 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_SCS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/26/2024 2:10:12 PM
+	
+Upgraded End: 9/26/2024 2:12:01 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/26/2024 2:12:01 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/26/2024 2:12:01 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+Cancelled.

@@ -1,0 +1,1012 @@
+	---------------------------------------------
+Login Session ---20240301032326---
+---------------------------------------------
+
+	
+ --- 1_GEN_CHILD_SCRIPT.sql --- C:\Users\anees.rahman\Downloads\DB (24)\DB\1_GEN_CHILD_SCRIPT.sql
+	
+ --- 2_GEN_CHILD_SP.sql --- C:\Users\anees.rahman\Downloads\DB (24)\DB\2_GEN_CHILD_SP.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 3/1/2024 3:30:22 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 3/1/2024 3:30:22 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_SCRIPT.sql]...
+	
+
+DB Name: Nex_JG
+File Name: 1_GEN_CHILD_SCRIPT.sql
+----------------Error Message Start----------------
+Procedure Name: 
+Line Number: 4
+Error Message: There is already an object named 'pdd_invoice_hdr_pst_int_netsuite_UniqueVoucherNumExt' in the database.
+Could not create constraint or index. See previous errors.
+-----------------Error Message End-----------------
+
+	
+Nex_JG -- Restore Start
+	
+Nex_JG -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:ada0f3e9-cf35-438c-9738-fc29d3c5565b
+Error Number:201,State:4,Class:16
+	
+Nex_JG -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Restore Cancelled
+	
+Nex_JG -- Procedure Complete -- Time End -- 3/1/2024 3:30:36 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_AUS] -- Time Start -- 3/1/2024 3:30:22 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_SCRIPT.sql]...
+	
+
+DB Name: Nex_JG_AUS
+File Name: 1_GEN_CHILD_SCRIPT.sql
+----------------Error Message Start----------------
+Procedure Name: 
+Line Number: 4
+Error Message: There is already an object named 'pdd_invoice_hdr_pst_int_netsuite_UniqueVoucherNumExt' in the database.
+Could not create constraint or index. See previous errors.
+-----------------Error Message End-----------------
+
+	
+Nex_JG_AUS -- Restore Start
+	
+Nex_JG_AUS -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:ada0f3e9-cf35-438c-9738-fc29d3c5565b
+Error Number:201,State:4,Class:16
+	
+Nex_JG_AUS -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Restore Cancelled
+	
+Nex_JG_AUS -- Procedure Complete -- Time End -- 3/1/2024 3:30:42 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_SGP] -- Time Start -- 3/1/2024 3:30:22 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_SCRIPT.sql]...
+	
+
+DB Name: Nex_JG_SGP
+File Name: 1_GEN_CHILD_SCRIPT.sql
+----------------Error Message Start----------------
+Procedure Name: 
+Line Number: 4
+Error Message: There is already an object named 'pdd_invoice_hdr_pst_int_netsuite_UniqueVoucherNumExt' in the database.
+Could not create constraint or index. See previous errors.
+-----------------Error Message End-----------------
+
+	
+Nex_JG_SGP -- Restore Start
+	
+Nex_JG_SGP -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:ada0f3e9-cf35-438c-9738-fc29d3c5565b
+Error Number:201,State:4,Class:16
+	
+Nex_JG_SGP -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Restore Cancelled
+	
+Nex_JG_SGP -- Procedure Complete -- Time End -- 3/1/2024 3:30:47 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 3/1/2024 3:30:22 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_SCRIPT.sql]...
+	
+
+DB Name: Nex_JG_UK
+File Name: 1_GEN_CHILD_SCRIPT.sql
+----------------Error Message Start----------------
+Procedure Name: 
+Line Number: 4
+Error Message: There is already an object named 'pdd_invoice_hdr_pst_int_netsuite_UniqueVoucherNumExt' in the database.
+Could not create constraint or index. See previous errors.
+-----------------Error Message End-----------------
+
+	
+Nex_JG_UK -- Restore Start
+	
+Nex_JG_UK -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:ada0f3e9-cf35-438c-9738-fc29d3c5565b
+Error Number:201,State:4,Class:16
+	
+Nex_JG_UK -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Restore Cancelled
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 3/1/2024 3:30:52 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_GEN_CHILD_SCRIPT.sql
+	
+2_GEN_CHILD_SP.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 3:30:22 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 3:30:22 AM
+	
+Upgraded End: 3/1/2024 3:30:36 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 3:30:36 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 3:30:36 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 3:30:22 AM
+	
+Upgraded End: 3/1/2024 3:30:42 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 3:30:42 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 3:30:42 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 3:30:22 AM
+	
+Upgraded End: 3/1/2024 3:30:47 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 3:30:47 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 3:30:47 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 3:30:22 AM
+	
+Upgraded End: 3/1/2024 3:30:52 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 3:30:52 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 3:30:52 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+ --- 1_GEN_CHILD_SCRIPT.sql --- C:\Users\anees.rahman\Downloads\DB (24)\DB\1_GEN_CHILD_SCRIPT.sql
+	
+ --- 2_GEN_CHILD_SP.sql --- C:\Users\anees.rahman\Downloads\DB (24)\DB\2_GEN_CHILD_SP.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 3/1/2024 3:41:40 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 3/1/2024 3:41:40 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_SCRIPT.sql]...
+	
+
+DB Name: Nex_JG
+File Name: 1_GEN_CHILD_SCRIPT.sql
+----------------Error Message Start----------------
+Procedure Name: 
+Line Number: 4
+Error Message: There is already an object named 'pdd_invoice_hdr_pst_int_netsuite_UniqueVoucherNumExt' in the database.
+Could not create constraint or index. See previous errors.
+-----------------Error Message End-----------------
+
+	
+Nex_JG -- Restore Start
+	
+Nex_JG -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:321a8dbc-611f-46aa-9dc3-ab3f3dfb7286
+Error Number:201,State:4,Class:16
+	
+Nex_JG -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Restore Cancelled
+	
+Nex_JG -- Procedure Complete -- Time End -- 3/1/2024 4:17:29 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_AUS] -- Time Start -- 3/1/2024 3:41:40 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+Nex_JG_AUS -- Procedure Complete -- Time End -- 3/1/2024 4:17:29 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_SGP] -- Time Start -- 3/1/2024 3:41:40 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+Nex_JG_SGP -- Procedure Complete -- Time End -- 3/1/2024 4:17:29 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 3/1/2024 3:41:40 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 3/1/2024 4:17:29 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_GEN_CHILD_SCRIPT.sql
+	
+2_GEN_CHILD_SP.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 3:41:40 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 3:41:40 AM
+	
+Upgraded End: 3/1/2024 4:17:29 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:29 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:29 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 3:41:40 AM
+	
+Upgraded End: 3/1/2024 4:17:29 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:29 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:29 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 3:41:40 AM
+	
+Upgraded End: 3/1/2024 4:17:29 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:29 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:29 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 3:41:40 AM
+	
+Upgraded End: 3/1/2024 4:17:29 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:29 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:29 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+ --- 1_GEN_CHILD_SCRIPT.sql --- C:\Users\anees.rahman\Downloads\DB (25)\DB\1_GEN_CHILD_SCRIPT.sql
+	
+ --- 2_GEN_CHILD_SP.sql --- C:\Users\anees.rahman\Downloads\DB (25)\DB\2_GEN_CHILD_SP.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 3/1/2024 4:17:47 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 3/1/2024 4:17:47 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_SCRIPT.sql]...
+	
+[2_GEN_CHILD_SP.sql]...
+	
+Nex_JG -- Procedure Complete -- Time End -- 3/1/2024 4:17:47 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_AUS] -- Time Start -- 3/1/2024 4:17:47 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_SCRIPT.sql]...
+	
+[2_GEN_CHILD_SP.sql]...
+	
+Nex_JG_AUS -- Procedure Complete -- Time End -- 3/1/2024 4:17:47 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_SGP] -- Time Start -- 3/1/2024 4:17:47 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_SCRIPT.sql]...
+	
+[2_GEN_CHILD_SP.sql]...
+	
+Nex_JG_SGP -- Procedure Complete -- Time End -- 3/1/2024 4:17:48 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 3/1/2024 4:17:47 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_SCRIPT.sql]...
+	
+[2_GEN_CHILD_SP.sql]...
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 3/1/2024 4:17:48 AM
+Release Number: 2024-1.1.0.0.043U
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_GEN_CHILD_SCRIPT.sql
+	
+2_GEN_CHILD_SP.sql
+	
+1_GEN_CHILD_SCRIPT.sql
+	
+2_GEN_CHILD_SP.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 4:17:47 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 4:17:47 AM
+	
+Upgraded End: 3/1/2024 4:17:47 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:47 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:47 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 4:17:47 AM
+	
+Upgraded End: 3/1/2024 4:17:47 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:47 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:47 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 4:17:47 AM
+	
+Upgraded End: 3/1/2024 4:17:48 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:48 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:48 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 4:17:47 AM
+	
+Upgraded End: 3/1/2024 4:17:48 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:48 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 4:17:48 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	---------------------------------------------
+Login Session ---20240301071742---
+---------------------------------------------
+
+	
+ --- 2_GEN_CHILD_SP.sql --- C:\Users\anees.rahman\Downloads\DB (25)\DB\2_GEN_CHILD_SP.sql
+	
+ --- 1_GEN_CHILD_SCRIPT.sql --- C:\Users\anees.rahman\Downloads\DB (25)\DB\1_GEN_CHILD_SCRIPT.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_TA] -- Time Start -- 3/1/2024 7:19:26 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_TA] -- Time Start -- 3/1/2024 7:19:26 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_SCRIPT.sql]...
+	
+[2_GEN_CHILD_SP.sql]...
+	
+Nex_TA -- Procedure Complete -- Time End -- 3/1/2024 7:19:27 AM
+Release Number: 2024-1.1.0.0.043U               
+Build Number: 24.1.1.0043
+Internal Version: 2024-1.1.0.0.043U               
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_GEN_CHILD_SP.sql
+	
+1_GEN_CHILD_SCRIPT.sql
+	
+
+------Enterprise DB nex_enterprise_TA------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 7:19:26 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_TA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 3/1/2024 7:19:26 AM
+	
+Upgraded End: 3/1/2024 7:19:27 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST3/1/2024 7:19:27 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST3/1/2024 7:19:27 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

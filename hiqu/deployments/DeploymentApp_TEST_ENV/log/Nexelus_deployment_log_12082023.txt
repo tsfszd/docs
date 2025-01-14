@@ -1,0 +1,90 @@
+	---------------------------------------------
+Login Session ---20231208040940---
+---------------------------------------------
+
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Music\1_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_PS] -- Time Start -- 12/8/2023 4:11:12 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_PS] -- Time Start -- 12/8/2023 4:11:12 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_PS -- Procedure Complete -- Time End -- 12/8/2023 4:11:13 AM
+Release Number: Nexelus 2023.1
+Build Number: 2023.1.0.72
+Internal Version: Nexelus 2023.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB nex_enterprise_PS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 12/8/2023 4:11:12 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_PS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 12/8/2023 4:11:12 AM
+	
+Upgraded End: 12/8/2023 4:11:13 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST12/8/2023 4:11:13 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST12/8/2023 4:11:13 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

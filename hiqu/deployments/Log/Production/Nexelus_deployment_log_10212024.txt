@@ -1,0 +1,22 @@
+	---------------------------------------------
+Login Session ---20241021145431---
+---------------------------------------------
+
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\tause\Downloads\2024-1.1.0.0121U\DB\1_GEN_CHILD_script.sql
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\tause\Downloads\2024-1.1.0.0121U\DB\2_SPS_CHILD_sp.sql
+	---------------------------------------------
+Login Session ---20241021145817---
+---------------------------------------------
+
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\tause\Downloads\2024-1.1.0.0121U\DB\1_GEN_CHILD_script.sql
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\tause\Downloads\2024-1.1.0.0121U\DB\2_SPS_CHILD_sp.sql
+	---------------------------------------------
+Login Session ---20241021174050---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\tause\Downloads\2024-1.1.0.0120U\DB\1_SPS_CHILD_sp.sql

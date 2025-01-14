@@ -1,0 +1,12 @@
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\bin\Release\NexelusApp.Service.dll.config
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\bin\Release\NexelusApp.Service.dll
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\bin\Release\NexelusApp.Service.XmlSerializers.dll
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\bin\Release\NexelusApp.Service.pdb
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\bin\Release\GeneralLib.dll
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\bin\Release\GeneralLib.pdb
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\obj\Release\NexelusApp.Service.csproj.AssemblyReference.cache
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\obj\Release\NexelusApp.Service.csproj.CoreCompileInputs.cache
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\obj\Release\NexelusA.49FA4D57.Up2Date
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\obj\Release\NexelusApp.Service.dll
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\obj\Release\NexelusApp.Service.pdb
+D:\docs\hiqu\Projects\NexelusAppService 4.0\ServiceProvider\obj\Release\NexelusApp.Service.XmlSerializers.dll

@@ -1,0 +1,2839 @@
+	---------------------------------------------
+Login Session ---20230710020551---
+---------------------------------------------
+
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Videos\DB\2_SPS_CHILD_sp.sql
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Videos\DB\1_GEN_CHILD_script.sql
+	
+Cancelled.
+	
+Cancelled.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 7/10/2023 2:13:10 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 7/10/2023 2:13:10 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+eSM_HAINC -- Procedure Complete -- Time End -- 7/10/2023 2:13:21 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 7/10/2023 2:13:10 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+eSM_SCS -- Procedure Complete -- Time End -- 7/10/2023 2:13:33 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:10 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_HAINC------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:10 AM
+	
+Upgraded End: 7/10/2023 2:13:21 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:21 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:21 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_SCS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:10 AM
+	
+Upgraded End: 7/10/2023 2:13:33 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:33 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:33 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 7/10/2023 2:13:52 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 7/10/2023 2:13:52 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+eSM_HSTAR -- Procedure Complete -- Time End -- 7/10/2023 2:14:01 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:52 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_HAINC------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:10 AM
+	
+Upgraded End: 7/10/2023 2:13:21 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:21 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:21 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HSTAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:52 AM
+	
+Upgraded End: 7/10/2023 2:14:01 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:14:01 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:14:01 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_SCS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:10 AM
+	
+Upgraded End: 7/10/2023 2:13:33 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:33 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:33 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+Cancelled.
+	
+
+There is more than one build in the list!
+	
+-------------------------------------------
+	
+[23.1.1.0052] - eSM_WF , Nex_TA , eSM_360i_Test , eSM_360iX , Nex_72s , Nex_72s_A , Nex_72s_hecho , Nex_72s_Hecho_A , Nex_72s_HECHOSGP , Nex_72s_SING , Nex_72s_SS , Nex_72s_Syd , esm_360i , Nex_ISOBAR , NEX_MGB , NEX_MGB_DAA , eSM_EGR , Nex_WPool , Nex_JG , Nex_JG_UK , Nex_PS , Nex_HY , 
+	
+[20.0.0.0000] - eSM_DA_UAT , 
+	
+Cancelled.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_WF] -- Time Start -- 7/10/2023 2:18:41 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_WF] -- Time Start -- 7/10/2023 2:18:41 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+eSM_WF -- Procedure Complete -- Time End -- 7/10/2023 2:18:51 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_TA] -- Time Start -- 7/10/2023 2:18:51 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_TA] -- Time Start -- 7/10/2023 2:18:51 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_TA -- Procedure Complete -- Time End -- 7/10/2023 2:19:04 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC_Test] -- Time Start -- 7/10/2023 2:19:04 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_360i_Test] -- Time Start -- 7/10/2023 2:19:04 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+eSM_360i_Test -- Procedure Complete -- Time End -- 7/10/2023 2:19:21 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC_X] -- Time Start -- 7/10/2023 2:19:21 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_360iX] -- Time Start -- 7/10/2023 2:19:21 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+eSM_360iX -- Procedure Complete -- Time End -- 7/10/2023 2:19:28 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_72S] -- Time Start -- 7/10/2023 2:19:28 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_72s] -- Time Start -- 7/10/2023 2:19:28 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_72s -- Procedure Complete -- Time End -- 7/10/2023 2:19:41 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_72s_A] -- Time Start -- 7/10/2023 2:19:28 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_72s_A -- Procedure Complete -- Time End -- 7/10/2023 2:19:52 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_72s_hecho] -- Time Start -- 7/10/2023 2:19:28 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_72s_hecho -- Procedure Complete -- Time End -- 7/10/2023 2:20:04 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_72s_Hecho_A] -- Time Start -- 7/10/2023 2:19:28 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_72s_Hecho_A -- Procedure Complete -- Time End -- 7/10/2023 2:20:18 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_72s_HECHOSGP] -- Time Start -- 7/10/2023 2:19:28 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_72s_HECHOSGP -- Procedure Complete -- Time End -- 7/10/2023 2:20:31 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_72s_SING] -- Time Start -- 7/10/2023 2:19:28 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_72s_SING -- Procedure Complete -- Time End -- 7/10/2023 2:20:42 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_72s_SS] -- Time Start -- 7/10/2023 2:19:28 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_72s_SS -- Procedure Complete -- Time End -- 7/10/2023 2:20:52 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_72s_Syd] -- Time Start -- 7/10/2023 2:19:28 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_72s_Syd -- Procedure Complete -- Time End -- 7/10/2023 2:21:03 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC] -- Time Start -- 7/10/2023 2:21:03 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [esm_360i] -- Time Start -- 7/10/2023 2:21:03 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+esm_360i -- Procedure Complete -- Time End -- 7/10/2023 2:21:09 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_ISOBAR] -- Time Start -- 7/10/2023 2:21:03 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_ISOBAR -- Procedure Complete -- Time End -- 7/10/2023 2:21:20 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [NEX_MGB] -- Time Start -- 7/10/2023 2:21:03 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+NEX_MGB -- Procedure Complete -- Time End -- 7/10/2023 2:21:29 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [NEX_MGB_DAA] -- Time Start -- 7/10/2023 2:21:03 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+NEX_MGB_DAA -- Procedure Complete -- Time End -- 7/10/2023 2:21:41 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_egr] -- Time Start -- 7/10/2023 2:21:41 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_EGR] -- Time Start -- 7/10/2023 2:21:41 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+eSM_EGR -- Procedure Complete -- Time End -- 7/10/2023 2:21:51 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_WPool] -- Time Start -- 7/10/2023 2:21:51 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_WPool] -- Time Start -- 7/10/2023 2:21:51 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_WPool -- Procedure Complete -- Time End -- 7/10/2023 2:22:06 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 7/10/2023 2:22:06 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 7/10/2023 2:22:06 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_JG -- Procedure Complete -- Time End -- 7/10/2023 2:22:09 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 7/10/2023 2:22:06 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 7/10/2023 2:22:13 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_PS] -- Time Start -- 7/10/2023 2:22:13 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_PS] -- Time Start -- 7/10/2023 2:22:13 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_PS -- Procedure Complete -- Time End -- 7/10/2023 2:22:26 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_HY] -- Time Start -- 7/10/2023 2:22:26 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_HY] -- Time Start -- 7/10/2023 2:22:26 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_HY -- Procedure Complete -- Time End -- 7/10/2023 2:22:38 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:52 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_HAINC------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:10 AM
+	
+Upgraded End: 7/10/2023 2:13:21 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:21 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:21 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HSTAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:52 AM
+	
+Upgraded End: 7/10/2023 2:14:01 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:14:01 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:14:01 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_SCS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:10 AM
+	
+Upgraded End: 7/10/2023 2:13:33 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:33 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:33 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_WF------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:18:41 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_WF------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:18:41 AM
+	
+Upgraded End: 7/10/2023 2:18:51 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:18:51 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:18:51 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB Nex_Enterprise_TA------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:18:51 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_TA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:18:51 AM
+	
+Upgraded End: 7/10/2023 2:19:04 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:04 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:04 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC_Test------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:04 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360i_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:04 AM
+	
+Upgraded End: 7/10/2023 2:19:21 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:21 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:21 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC_X------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:21 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360iX------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:21 AM
+	
+Upgraded End: 7/10/2023 2:19:28 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:28 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:28 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_72S------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_72s------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:19:41 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:41 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:41 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_A------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:19:52 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:52 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:52 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_hecho------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:20:04 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:04 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:04 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_Hecho_A------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:20:18 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:18 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:18 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_HECHOSGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:20:31 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:31 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:31 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_SING------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:20:42 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:42 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:42 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_SS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:20:52 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:52 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:52 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_Syd------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:21:03 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:03 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:03 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:03 AM
+	
+Upgraded End: 
+	
+
+------Child DB esm_360i------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:03 AM
+	
+Upgraded End: 7/10/2023 2:21:09 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:09 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:09 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_ISOBAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:03 AM
+	
+Upgraded End: 7/10/2023 2:21:20 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:20 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:20 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:03 AM
+	
+Upgraded End: 7/10/2023 2:21:29 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:29 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:29 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB_DAA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:03 AM
+	
+Upgraded End: 7/10/2023 2:21:41 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:41 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:41 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_egr------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:41 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_EGR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:41 AM
+	
+Upgraded End: 7/10/2023 2:21:51 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:51 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:51 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB Nex_Enterprise_WPool------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:51 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_WPool------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:51 AM
+	
+Upgraded End: 7/10/2023 2:22:06 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:06 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:06 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:06 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:06 AM
+	
+Upgraded End: 7/10/2023 2:22:09 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:09 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:09 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:06 AM
+	
+Upgraded End: 7/10/2023 2:22:13 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:13 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:13 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_PS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:13 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_PS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:13 AM
+	
+Upgraded End: 7/10/2023 2:22:26 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:26 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:26 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB Nex_Enterprise_HY------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:26 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_HY------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:26 AM
+	
+Upgraded End: 7/10/2023 2:22:38 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:38 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:38 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Videos\DB\customization\HY\1_GEN_CHILD_script.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_HY] -- Time Start -- 7/10/2023 2:23:59 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_HY] -- Time Start -- 7/10/2023 2:23:59 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+------------------------------------
+Applying Custom Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+
+DB Name: Nex_HY
+File Name: 1_GEN_CHILD_script.sql
+----------------Error Message Start----------------
+Procedure Name: pdd_Level2_Customer_insert_update_delete
+Line Number: 66
+Error Message: The transaction log for database 'tempdb' is full due to 'ACTIVE_TRANSACTION'.
+-----------------Error Message End-----------------
+
+	
+Nex_HY -- Restore Start
+	
+Nex_HY -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:a843f1e4-0b23-48ae-ba60-fb6a5ba3719d
+Error Number:201,State:4,Class:16
+	
+Nex_HY -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Restore Cancelled
+	
+Nex_HY -- Procedure Complete -- Time End -- 7/10/2023 2:24:31 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0054
+Internal Version: 2023.1.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:52 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_HAINC------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:10 AM
+	
+Upgraded End: 7/10/2023 2:13:21 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:21 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:21 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HSTAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:52 AM
+	
+Upgraded End: 7/10/2023 2:14:01 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:14:01 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:14:01 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_SCS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:13:10 AM
+	
+Upgraded End: 7/10/2023 2:13:33 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:33 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:13:33 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_WF------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:18:41 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_WF------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:18:41 AM
+	
+Upgraded End: 7/10/2023 2:18:51 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:18:51 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:18:51 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB Nex_Enterprise_TA------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:18:51 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_TA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:18:51 AM
+	
+Upgraded End: 7/10/2023 2:19:04 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:04 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:04 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC_Test------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:04 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360i_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:04 AM
+	
+Upgraded End: 7/10/2023 2:19:21 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:21 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:21 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC_X------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:21 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360iX------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:21 AM
+	
+Upgraded End: 7/10/2023 2:19:28 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:28 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:28 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_72S------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_72s------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:19:41 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:41 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:41 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_A------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:19:52 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:52 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:19:52 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_hecho------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:20:04 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:04 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:04 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_Hecho_A------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:20:18 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:18 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:18 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_HECHOSGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:20:31 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:31 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:31 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_SING------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:20:42 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:42 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:42 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_SS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:20:52 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:52 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:20:52 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_72s_Syd------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:19:28 AM
+	
+Upgraded End: 7/10/2023 2:21:03 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:03 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:03 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:03 AM
+	
+Upgraded End: 
+	
+
+------Child DB esm_360i------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:03 AM
+	
+Upgraded End: 7/10/2023 2:21:09 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:09 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:09 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_ISOBAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:03 AM
+	
+Upgraded End: 7/10/2023 2:21:20 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:20 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:20 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:03 AM
+	
+Upgraded End: 7/10/2023 2:21:29 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:29 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:29 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB_DAA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:03 AM
+	
+Upgraded End: 7/10/2023 2:21:41 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:41 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:41 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_egr------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:41 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_EGR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:41 AM
+	
+Upgraded End: 7/10/2023 2:21:51 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:51 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:21:51 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB Nex_Enterprise_WPool------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:51 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_WPool------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:21:51 AM
+	
+Upgraded End: 7/10/2023 2:22:06 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:06 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:06 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:06 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:06 AM
+	
+Upgraded End: 7/10/2023 2:22:09 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:09 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:09 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:06 AM
+	
+Upgraded End: 7/10/2023 2:22:13 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:13 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:13 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_PS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:13 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_PS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:22:13 AM
+	
+Upgraded End: 7/10/2023 2:22:26 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:26 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:22:26 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB Nex_Enterprise_HY------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:23:59 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_HY------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/10/2023 2:23:59 AM
+	
+Upgraded End: 7/10/2023 2:24:31 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/10/2023 2:24:31 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/10/2023 2:24:31 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

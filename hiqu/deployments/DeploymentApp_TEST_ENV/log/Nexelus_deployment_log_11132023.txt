@@ -1,0 +1,4134 @@
+	---------------------------------------------
+Login Session ---20231113011922---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Pictures\DB\1_SPS_CHILD_sp.sql
+	
+Cancelled.
+	
+Cancelled.
+	
+Cancelled.
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	
+Cancelled.
+	
+Cancelled.
+	
+Cancelled.
+	
+[Backup Path] - Path is not formed properly.
+	
+[Backup Path] - Path is not formed properly.
+	
+[Backup Path] - Path is not formed properly.
+	
+[Backup Path] - Path is not formed properly.
+	
+[Backup Path] - Path is not formed properly.
+	
+[Backup Path] - Path is not formed properly.
+	
+[Backup Path] - Path is not formed properly.
+	
+[Backup Path] - Path is not formed properly.
+	
+[Backup Path] - Path is not formed properly.
+	
+[Backup Path] - Path is not formed properly.
+	
+[Internal Version] - Please define the Internal Version
+	
+[Backup Path] - Path is not formed properly.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 1:27:27 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CME] -- Time Start -- 11/13/2023 1:27:27 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_CME -- Procedure Complete -- Time End -- 11/13/2023 1:27:29 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 11/13/2023 1:27:27 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HAINC -- Procedure Complete -- Time End -- 11/13/2023 1:27:30 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 11/13/2023 1:27:27 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HCES -- Procedure Complete -- Time End -- 11/13/2023 1:27:32 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 1:27:27 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HMA -- Procedure Complete -- Time End -- 11/13/2023 1:27:33 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 11/13/2023 1:27:27 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HNM -- Procedure Complete -- Time End -- 11/13/2023 1:27:34 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 1:27:27 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HSPR -- Procedure Complete -- Time End -- 11/13/2023 1:27:36 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 1:27:27 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_HSTAR -- Procedure Complete -- Time End -- 11/13/2023 1:27:37 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 1:27:27 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_SCS -- Procedure Complete -- Time End -- 11/13/2023 1:27:39 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_WF] -- Time Start -- 11/13/2023 1:27:39 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_WF] -- Time Start -- 11/13/2023 1:27:39 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_WF -- Procedure Complete -- Time End -- 11/13/2023 1:27:40 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC_Test] -- Time Start -- 11/13/2023 1:27:40 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_360i_Test] -- Time Start -- 11/13/2023 1:27:40 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_360i_Test -- Procedure Complete -- Time End -- 11/13/2023 1:27:41 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC_X] -- Time Start -- 11/13/2023 1:27:41 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_360iX] -- Time Start -- 11/13/2023 1:27:41 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_360iX -- Procedure Complete -- Time End -- 11/13/2023 1:27:42 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC] -- Time Start -- 11/13/2023 1:27:42 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [esm_360i] -- Time Start -- 11/13/2023 1:27:42 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+esm_360i -- Procedure Complete -- Time End -- 11/13/2023 1:27:42 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_ISOBAR] -- Time Start -- 11/13/2023 1:27:42 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_ISOBAR -- Procedure Complete -- Time End -- 11/13/2023 1:27:42 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [NEX_MGB] -- Time Start -- 11/13/2023 1:27:42 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+NEX_MGB -- Procedure Complete -- Time End -- 11/13/2023 1:27:43 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [NEX_MGB_DAA] -- Time Start -- 11/13/2023 1:27:42 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+NEX_MGB_DAA -- Procedure Complete -- Time End -- 11/13/2023 1:27:44 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_egr] -- Time Start -- 11/13/2023 1:27:44 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_EGR] -- Time Start -- 11/13/2023 1:27:44 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_EGR -- Procedure Complete -- Time End -- 11/13/2023 1:27:45 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_WPool] -- Time Start -- 11/13/2023 1:27:45 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_WPool] -- Time Start -- 11/13/2023 1:27:45 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_WPool -- Procedure Complete -- Time End -- 11/13/2023 1:27:45 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_PS] -- Time Start -- 11/13/2023 1:27:45 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_PS] -- Time Start -- 11/13/2023 1:27:45 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_PS -- Procedure Complete -- Time End -- 11/13/2023 1:27:48 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_HY] -- Time Start -- 11/13/2023 1:27:48 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_HY] -- Time Start -- 11/13/2023 1:27:48 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_HY -- Procedure Complete -- Time End -- 11/13/2023 1:27:49 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_CME------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:29 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:29 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:29 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HAINC------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:30 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:30 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:30 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HCES------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:32 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:32 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:32 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HMA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:33 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:33 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:33 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HNM------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:34 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:34 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:34 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HSPR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:36 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:36 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:36 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HSTAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:37 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:37 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:37 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_SCS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:39 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:39 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:39 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_WF------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:39 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_WF------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:39 AM
+	
+Upgraded End: 11/13/2023 1:27:40 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:40 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:40 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC_Test------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:40 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360i_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:40 AM
+	
+Upgraded End: 11/13/2023 1:27:41 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:41 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:41 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC_X------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:41 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360iX------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:41 AM
+	
+Upgraded End: 11/13/2023 1:27:42 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:42 AM
+	
+Upgraded End: 
+	
+
+------Child DB esm_360i------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:42 AM
+	
+Upgraded End: 11/13/2023 1:27:42 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_ISOBAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:42 AM
+	
+Upgraded End: 11/13/2023 1:27:42 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:42 AM
+	
+Upgraded End: 11/13/2023 1:27:43 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:43 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:43 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB_DAA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:42 AM
+	
+Upgraded End: 11/13/2023 1:27:44 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:44 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:44 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_egr------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:44 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_EGR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:44 AM
+	
+Upgraded End: 11/13/2023 1:27:45 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:45 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:45 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB Nex_Enterprise_WPool------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:45 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_WPool------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:45 AM
+	
+Upgraded End: 11/13/2023 1:27:45 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:45 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:45 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_PS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:45 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_PS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:45 AM
+	
+Upgraded End: 11/13/2023 1:27:48 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:48 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:48 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB Nex_Enterprise_HY------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:48 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_HY------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:48 AM
+	
+Upgraded End: 11/13/2023 1:27:49 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:49 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:49 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 11/13/2023 1:30:14 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 11/13/2023 1:30:14 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG -- Procedure Complete -- Time End -- 11/13/2023 1:30:14 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_AUS] -- Time Start -- 11/13/2023 1:30:14 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_AUS -- Procedure Complete -- Time End -- 11/13/2023 1:30:14 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_SGP] -- Time Start -- 11/13/2023 1:30:14 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_SGP -- Procedure Complete -- Time End -- 11/13/2023 1:30:14 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 11/13/2023 1:30:14 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 11/13/2023 1:30:14 AM
+Release Number: Nexelus 2023.02
+Build Number: 23.2.1.0063
+Internal Version: Nexelus 2023.02
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_CME------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:29 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:29 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:29 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HAINC------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:30 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:30 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:30 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HCES------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:32 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:32 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:32 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HMA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:33 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:33 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:33 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HNM------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:34 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:34 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:34 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HSPR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:36 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:36 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:36 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_HSTAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:37 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:37 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:37 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_SCS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:27 AM
+	
+Upgraded End: 11/13/2023 1:27:39 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:39 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:39 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_WF------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:39 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_WF------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:39 AM
+	
+Upgraded End: 11/13/2023 1:27:40 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:40 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:40 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC_Test------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:40 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360i_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:40 AM
+	
+Upgraded End: 11/13/2023 1:27:41 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:41 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:41 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC_X------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:41 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360iX------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:41 AM
+	
+Upgraded End: 11/13/2023 1:27:42 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:42 AM
+	
+Upgraded End: 
+	
+
+------Child DB esm_360i------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:42 AM
+	
+Upgraded End: 11/13/2023 1:27:42 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_ISOBAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:42 AM
+	
+Upgraded End: 11/13/2023 1:27:42 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:42 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:42 AM
+	
+Upgraded End: 11/13/2023 1:27:43 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:43 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:43 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB_DAA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:42 AM
+	
+Upgraded End: 11/13/2023 1:27:44 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:44 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:44 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_egr------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:44 AM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_EGR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:44 AM
+	
+Upgraded End: 11/13/2023 1:27:45 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:45 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:45 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB Nex_Enterprise_WPool------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:45 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_WPool------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:45 AM
+	
+Upgraded End: 11/13/2023 1:27:45 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:45 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:45 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:30:14 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:30:14 AM
+	
+Upgraded End: 11/13/2023 1:30:14 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:30:14 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:30:14 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_AUS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:30:14 AM
+	
+Upgraded End: 11/13/2023 1:30:14 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:30:14 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:30:14 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_SGP------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:30:14 AM
+	
+Upgraded End: 11/13/2023 1:30:14 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:30:14 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:30:14 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:30:14 AM
+	
+Upgraded End: 11/13/2023 1:30:14 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:30:14 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:30:14 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB nex_enterprise_PS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:45 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_PS------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:45 AM
+	
+Upgraded End: 11/13/2023 1:27:48 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:48 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:48 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB Nex_Enterprise_HY------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:48 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_HY------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 1:27:48 AM
+	
+Upgraded End: 11/13/2023 1:27:49 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:49 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST11/13/2023 1:27:49 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+Cancelled.
+	
+Cancelled.
+	
+Cancelled.
+	
+Cancelled.
+	
+Cancelled.
+	
+Cancelled.
+	---------------------------------------------
+Login Session ---20231113215735---
+---------------------------------------------
+
+	---------------------------------------------
+Login Session ---20231113215808---
+---------------------------------------------
+
+	---------------------------------------------
+Login Session ---20231113215935---
+---------------------------------------------
+
+	---------------------------------------------
+Login Session ---20231113220147---
+---------------------------------------------
+
+	---------------------------------------------
+Login Session ---20231113220549---
+---------------------------------------------
+
+	---------------------------------------------
+Login Session ---20231113220657---
+---------------------------------------------
+
+	
+Cancelled.
+	
+ --- 4_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Videos\DB\4_SPS_CHILD_sp.sql
+	
+ --- 3_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Videos\DB\3_SPS_CHILD_sp.sql
+	
+ --- 2_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Videos\DB\2_GEN_CHILD_script.sql
+	
+
+File [2_1_GEN_CHILD_script.sql] is not formatted correctly. Please ensure file format correspond to [SEQUENCE]_[FILETYPE]_[DBTYPE]_[NAME].sql
+[FILETYPE] - GEN, SPS, VIEWS
+[DBTYPE] - ENT, CHILD
+	
+ --- 1_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Videos\DB\1_GEN_ENT_sp.sql
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+ --- 1_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\1_GEN_ENT_sp.sql
+	
+ --- 2_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\2_GEN_CHILD_script.sql
+	
+ --- 2_GEN_CHILD_script_1.sql --- C:\Users\fayaz.khan\Downloads\61R\2_GEN_CHILD_script_1.sql
+	
+ --- 3_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\3_SPS_CHILD_sp.sql
+	
+ --- 4_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\4_SPS_CHILD_sp.sql
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\Customization\HS\1_GEN_CHILD_script.sql
+	
+Cancelled.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 10:12:48 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+[1_GEN_ENT_sp.sql]...
+	
+pdm_enterprise_HS -- Procedure Complete -- Time End -- 11/13/2023 10:12:48 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CME] -- Time Start -- 11/13/2023 10:12:48 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[2_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script_1.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_CME
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsw_custom_journal_entry_data_lines
+Line Number: 70
+Error Message: Invalid column name 'reversing_date'.
+Invalid column name 'reversing_flag'.
+-----------------Error Message End-----------------
+
+	
+eSM_CME -- Restore Start
+	
+eSM_CME -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:2f4dca5c-0201-45d6-ad06-30812525ad96
+Error Number:201,State:4,Class:16
+	
+eSM_CME -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:13:01 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 11/13/2023 10:12:48 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:13:01 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 11/13/2023 10:12:48 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:13:01 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 10:12:48 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:13:01 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 11/13/2023 10:12:48 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:13:01 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 10:12:48 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:13:01 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 10:12:48 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:13:01 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 10:12:48 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:13:01 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+2_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script_1.sql
+	
+3_SPS_CHILD_sp.sql
+	
+4_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 10:12:48 PM
+	
+Upgraded End: 11/13/2023 10:12:48 PM
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+ --- 1_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Downloads\59 R\DB\1_GEN_ENT_sp.sql
+	
+ --- 2_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\59 R\DB\2_GEN_CHILD_script.sql
+	
+ --- 3_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\59 R\DB\3_SPS_CHILD_sp.sql
+	
+Cancelled.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 10:16:19 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+[1_GEN_ENT_sp.sql]...
+	
+[1_GEN_ENT_sp.sql]...
+	
+pdm_enterprise_HS -- Procedure Complete -- Time End -- 11/13/2023 10:16:19 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CME] -- Time Start -- 11/13/2023 10:16:19 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[2_GEN_CHILD_script.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_CME
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsw_custom_journal_entry_data_lines
+Line Number: 70
+Error Message: Invalid column name 'reversing_date'.
+Invalid column name 'reversing_flag'.
+-----------------Error Message End-----------------
+
+	
+eSM_CME -- Restore Start
+	
+eSM_CME -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:2f4dca5c-0201-45d6-ad06-30812525ad96
+Error Number:201,State:4,Class:16
+	
+eSM_CME -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:16:28 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 11/13/2023 10:16:19 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:16:28 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 11/13/2023 10:16:19 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:16:28 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 10:16:19 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:16:28 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 11/13/2023 10:16:19 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:16:28 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 10:16:19 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:16:28 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 10:16:19 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:16:28 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 10:16:19 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:16:28 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+1_GEN_ENT_sp.sql
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+2_GEN_CHILD_script.sql
+	
+3_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 10:16:19 PM
+	
+Upgraded End: 11/13/2023 10:16:19 PM
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+ --- 2_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\59 R\DB\2_GEN_CHILD_script.sql
+	
+ --- 3_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\59 R\DB\3_SPS_CHILD_sp.sql
+	
+ --- 1_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Downloads\59 R\DB\1_GEN_ENT_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 10:18:34 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+[1_GEN_ENT_sp.sql]...
+	
+[1_GEN_ENT_sp.sql]...
+	
+pdm_enterprise_HS -- Procedure Complete -- Time End -- 11/13/2023 10:18:34 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CME] -- Time Start -- 11/13/2023 10:18:34 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[2_GEN_CHILD_script.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_CME
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsw_custom_journal_entry_data_lines
+Line Number: 70
+Error Message: Invalid column name 'reversing_date'.
+Invalid column name 'reversing_flag'.
+-----------------Error Message End-----------------
+
+	
+eSM_CME -- Restore Start
+	
+eSM_CME -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:2f4dca5c-0201-45d6-ad06-30812525ad96
+Error Number:201,State:4,Class:16
+	
+eSM_CME -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:18:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 11/13/2023 10:18:34 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:18:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 11/13/2023 10:18:34 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:18:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 10:18:34 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:18:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 11/13/2023 10:18:34 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:18:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 10:18:34 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:18:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 10:18:34 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:18:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 10:18:34 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:18:53 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+1_GEN_ENT_sp.sql
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+2_GEN_CHILD_script.sql
+	
+3_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 10:18:34 PM
+	
+Upgraded End: 11/13/2023 10:18:34 PM
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+ --- 2_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\2_GEN_CHILD_script.sql
+	
+ --- 2_GEN_CHILD_script_1.sql --- C:\Users\fayaz.khan\Downloads\61R\2_GEN_CHILD_script_1.sql
+	
+ --- 3_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\3_SPS_CHILD_sp.sql
+	
+ --- 4_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\4_SPS_CHILD_sp.sql
+	
+ --- 1_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\1_GEN_ENT_sp.sql
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\Customization\HS\1_GEN_CHILD_script.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 10:19:24 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+[1_GEN_ENT_sp.sql]...
+	
+[1_GEN_ENT_sp.sql]...
+	
+pdm_enterprise_HS -- Procedure Complete -- Time End -- 11/13/2023 10:19:24 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CME] -- Time Start -- 11/13/2023 10:19:24 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[2_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script_1.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_CME
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsw_custom_journal_entry_data_lines
+Line Number: 70
+Error Message: Invalid column name 'reversing_date'.
+Invalid column name 'reversing_flag'.
+-----------------Error Message End-----------------
+
+	
+eSM_CME -- Restore Start
+	
+eSM_CME -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:2f4dca5c-0201-45d6-ad06-30812525ad96
+Error Number:201,State:4,Class:16
+	
+eSM_CME -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:20:31 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 11/13/2023 10:19:24 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:20:31 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 11/13/2023 10:19:24 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:20:31 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 10:19:24 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:20:31 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 11/13/2023 10:19:24 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:20:31 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 10:19:24 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:20:31 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 10:19:24 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:20:31 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 10:19:24 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:20:31 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+1_GEN_ENT_sp.sql
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+2_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script_1.sql
+	
+3_SPS_CHILD_sp.sql
+	
+4_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 10:19:24 PM
+	
+Upgraded End: 11/13/2023 10:19:24 PM
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\Customization\HS\1_GEN_CHILD_script.sql
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+~~ Script List Cleared! ~~
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\Customization\HS\1_GEN_CHILD_script.sql
+	
+ --- 2_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\2_GEN_CHILD_script.sql
+	
+ --- 2_GEN_CHILD_script_1.sql --- C:\Users\fayaz.khan\Downloads\61R\2_GEN_CHILD_script_1.sql
+	
+ --- 3_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\3_SPS_CHILD_sp.sql
+	
+ --- 4_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\4_SPS_CHILD_sp.sql
+	
+ --- 1_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\1_GEN_ENT_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 10:21:18 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+[1_GEN_ENT_sp.sql]...
+	
+[1_GEN_ENT_sp.sql]...
+	
+pdm_enterprise_HS -- Procedure Complete -- Time End -- 11/13/2023 10:21:18 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CME] -- Time Start -- 11/13/2023 10:21:18 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[2_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script_1.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_CME
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsw_custom_journal_entry_data_lines
+Line Number: 70
+Error Message: Invalid column name 'reversing_date'.
+Invalid column name 'reversing_flag'.
+-----------------Error Message End-----------------
+
+	
+
+DB Name: eSM_CME
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsw_custom_journal_entry_data_lines
+Line Number: 70
+Error Message: Invalid column name 'reversing_date'.
+Invalid column name 'reversing_flag'.
+-----------------Error Message End-----------------
+
+	
+eSM_CME -- Restore Start
+	
+eSM_CME -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:2f4dca5c-0201-45d6-ad06-30812525ad96
+Error Number:201,State:4,Class:16
+	
+eSM_CME -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:21:29 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 11/13/2023 10:21:18 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:21:29 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 11/13/2023 10:21:18 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:21:29 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 10:21:18 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:21:29 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 11/13/2023 10:21:18 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:21:29 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 10:21:18 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:21:29 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 10:21:18 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:21:29 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 10:21:18 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 10:21:29 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+1_GEN_ENT_sp.sql
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+2_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script_1.sql
+	
+3_SPS_CHILD_sp.sql
+	
+4_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 10:21:18 PM
+	
+Upgraded End: 11/13/2023 10:21:18 PM
+	---------------------------------------------
+Login Session ---20231113231258---
+---------------------------------------------
+
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\Customization\HS\1_GEN_CHILD_script.sql
+	
+ --- 0_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\0_GEN_CHILD_script.sql
+	
+ --- 1_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\1_GEN_ENT_sp.sql
+	
+ --- 2_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\2_GEN_CHILD_script.sql
+	
+ --- 2_GEN_CHILD_script_1.sql --- C:\Users\fayaz.khan\Downloads\61R\2_GEN_CHILD_script_1.sql
+	
+ --- 3_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\3_SPS_CHILD_sp.sql
+	
+ --- 4_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\4_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 11:14:32 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+pdm_enterprise_HS -- Procedure Complete -- Time End -- 11/13/2023 11:14:32 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CME] -- Time Start -- 11/13/2023 11:14:32 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[0_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script_1.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_CME
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdv_customer
+Line Number: 36
+Error Message: Could not find server '172.16.8.224' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers.
+Could not use view or function 'pdv_customer' because of binding errors.
+Could not find server '172.16.8.224' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers.
+Could not use view or function 'pdv_customer' because of binding errors.
+-----------------Error Message End-----------------
+
+	
+eSM_CME -- Restore Start
+	
+eSM_CME -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:069fb43f-0c6a-49b9-8cc8-664acb9ff626
+Error Number:201,State:4,Class:16
+	
+eSM_CME -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:19:52 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 11/13/2023 11:14:32 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:19:52 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 11/13/2023 11:14:32 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:19:52 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 11:14:32 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:19:52 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 11/13/2023 11:14:32 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:19:52 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 11:14:32 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:19:52 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 11:14:32 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:19:52 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 11:14:32 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:19:52 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+0_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script_1.sql
+	
+3_SPS_CHILD_sp.sql
+	
+4_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 11:14:32 PM
+	
+Upgraded End: 11/13/2023 11:14:32 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 11:20:02 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+pdm_enterprise_HS -- Procedure Complete -- Time End -- 11/13/2023 11:20:02 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 11/13/2023 11:20:02 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[0_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script_1.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_HAINC
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: 
+Line Number: 0
+Error Message: Named Pipes Provider: Could not open a connection to SQL Server [1326]. 
+OLE DB provider "SQLNCLI11" for linked server "10.185.6.138" returned message "Login timeout expired".
+OLE DB provider "SQLNCLI11" for linked server "10.185.6.138" returned message "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+-----------------Error Message End-----------------
+
+	
+eSM_HAINC -- Restore Start
+	
+eSM_HAINC -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:069fb43f-0c6a-49b9-8cc8-664acb9ff626
+Error Number:201,State:4,Class:16
+	
+eSM_HAINC -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:10 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 11/13/2023 11:20:02 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:10 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 11:20:02 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:10 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 11/13/2023 11:20:02 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:10 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 11:20:02 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:10 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 11:20:02 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:10 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 11:20:02 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:10 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+0_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script_1.sql
+	
+3_SPS_CHILD_sp.sql
+	
+4_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 11:20:02 PM
+	
+Upgraded End: 11/13/2023 11:20:02 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 11:21:29 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+pdm_enterprise_HS -- Procedure Complete -- Time End -- 11/13/2023 11:21:29 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 11/13/2023 11:21:29 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[0_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script_1.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_HCES
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdv_customer
+Line Number: 36
+Error Message: Could not find server '172.16.8.224' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers.
+Could not use view or function 'pdv_customer' because of binding errors.
+Could not find server '172.16.8.224' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers.
+Could not use view or function 'pdv_customer' because of binding errors.
+-----------------Error Message End-----------------
+
+	
+eSM_HCES -- Restore Start
+	
+eSM_HCES -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:069fb43f-0c6a-49b9-8cc8-664acb9ff626
+Error Number:201,State:4,Class:16
+	
+eSM_HCES -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:48 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 11:21:29 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:48 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 11:21:29 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:48 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 11:21:29 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:48 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 11:21:29 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:21:48 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+0_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script_1.sql
+	
+3_SPS_CHILD_sp.sql
+	
+4_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 11:21:29 PM
+	
+Upgraded End: 11/13/2023 11:21:29 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 11:22:04 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+pdm_enterprise_HS -- Procedure Complete -- Time End -- 11/13/2023 11:22:04 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 11:22:04 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[0_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script_1.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_HMA
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdv_apvendor_all
+Line Number: 105
+Error Message: Could not find server '172.16.8.224' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers.
+Could not use view or function 'pdv_apvendor_all' because of binding errors.
+-----------------Error Message End-----------------
+
+	
+eSM_HMA -- Restore Start
+	
+eSM_HMA -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:069fb43f-0c6a-49b9-8cc8-664acb9ff626
+Error Number:201,State:4,Class:16
+	
+eSM_HMA -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:22:22 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 11:22:04 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:22:22 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 11:22:04 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:22:22 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 11:22:04 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:22:22 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+0_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script_1.sql
+	
+3_SPS_CHILD_sp.sql
+	
+4_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 11:22:04 PM
+	
+Upgraded End: 11/13/2023 11:22:04 PM
+	---------------------------------------------
+Login Session ---20231113233527---
+---------------------------------------------
+
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\Customization\HS\1_GEN_CHILD_script.sql
+	
+ --- 0_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\0_GEN_CHILD_script.sql
+	
+ --- 1_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\1_GEN_ENT_sp.sql
+	
+ --- 2_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Downloads\61R\2_GEN_CHILD_script.sql
+	
+ --- 2_GEN_CHILD_script_1.sql --- C:\Users\fayaz.khan\Downloads\61R\2_GEN_CHILD_script_1.sql
+	
+ --- 3_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\3_SPS_CHILD_sp.sql
+	
+ --- 4_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Downloads\61R\4_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 11:36:47 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+pdm_enterprise_HS -- Procedure Complete -- Time End -- 11/13/2023 11:36:47 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CME] -- Time Start -- 11/13/2023 11:36:47 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[0_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script_1.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_CME
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsW_api_invoices_export
+Line Number: 595
+Error Message: Invalid column name 'vendor_code'.
+-----------------Error Message End-----------------
+
+	
+eSM_CME -- Restore Start
+	
+eSM_CME -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:73380133-580d-48a3-a350-cafe6360cde1
+Error Number:201,State:4,Class:16
+	
+eSM_CME -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:27 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HAINC] -- Time Start -- 11/13/2023 11:36:47 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:27 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 11/13/2023 11:36:47 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:27 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 11:36:47 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:27 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 11/13/2023 11:36:47 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:27 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 11:36:47 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:27 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 11:36:47 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:27 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 11:36:47 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:27 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+0_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script_1.sql
+	
+3_SPS_CHILD_sp.sql
+	
+4_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 11:36:47 PM
+	
+Upgraded End: 11/13/2023 11:36:47 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_HS] -- Time Start -- 11/13/2023 11:37:33 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+pdm_enterprise_HS -- Procedure Complete -- Time End -- 11/13/2023 11:37:33 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HCES] -- Time Start -- 11/13/2023 11:37:33 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[0_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script.sql]...
+	
+[2_GEN_CHILD_script_1.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_HCES
+File Name: 3_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsW_api_invoices_export
+Line Number: 595
+Error Message: Invalid column name 'vendor_code'.
+-----------------Error Message End-----------------
+
+	
+eSM_HCES -- Restore Start
+	
+eSM_HCES -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:73380133-580d-48a3-a350-cafe6360cde1
+Error Number:201,State:4,Class:16
+	
+eSM_HCES -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HMA] -- Time Start -- 11/13/2023 11:37:33 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HNM] -- Time Start -- 11/13/2023 11:37:33 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSPR] -- Time Start -- 11/13/2023 11:37:33 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_HSTAR] -- Time Start -- 11/13/2023 11:37:33 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:53 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_SCS] -- Time Start -- 11/13/2023 11:37:33 PM
+---------------------------------------------------------------------------
+
+	
+Procedure Cancelled -- Time End -- 11/13/2023 11:37:53 PM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+0_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script.sql
+	
+2_GEN_CHILD_script_1.sql
+	
+3_SPS_CHILD_sp.sql
+	
+4_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_HS------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 11/13/2023 11:37:33 PM
+	
+Upgraded End: 11/13/2023 11:37:33 PM

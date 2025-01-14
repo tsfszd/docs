@@ -1,0 +1,88 @@
+	---------------------------------------------
+Login Session ---20230907074723---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\anees.rahman\Downloads\DB (5)\DB\1_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_HY] -- Time Start -- 9/7/2023 7:49:39 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_HY] -- Time Start -- 9/7/2023 7:49:39 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_HY -- Procedure Complete -- Time End -- 9/7/2023 7:49:39 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0063
+Internal Version: 2023.1.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB Nex_Enterprise_HY------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/7/2023 7:49:39 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_HY------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/7/2023 7:49:39 AM
+	
+Upgraded End: 9/7/2023 7:49:39 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/7/2023 7:49:39 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/7/2023 7:49:39 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

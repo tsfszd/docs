@@ -1,0 +1,1612 @@
+	---------------------------------------------
+Login Session ---20240918163656---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\tause\Downloads\2024-1.1.0.0107U\2024-1.1.0.0107U\DB\1_SPS_CHILD_sp.sql
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	
+[Backup Path] - Path is not formed properly.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC_Test] -- Time Start -- 9/18/2024 4:38:58 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_360i_Test] -- Time Start -- 9/18/2024 4:38:58 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_360i_Test -- Procedure Complete -- Time End -- 9/18/2024 4:39:03 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_DA_Test] -- Time Start -- 9/18/2024 4:38:58 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_DA_Test -- Procedure Complete -- Time End -- 9/18/2024 4:39:08 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_Firbo_Test] -- Time Start -- 9/18/2024 4:38:58 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_Firbo_Test -- Procedure Complete -- Time End -- 9/18/2024 4:39:14 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_IILLC_Test------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:38:58 PM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360i_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:38:58 PM
+	
+Upgraded End: 9/18/2024 4:39:03 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:03 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:03 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_DA_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:38:58 PM
+	
+Upgraded End: 9/18/2024 4:39:08 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:08 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:08 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_Firbo_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:38:58 PM
+	
+Upgraded End: 9/18/2024 4:39:14 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:14 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:14 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC] -- Time Start -- 9/18/2024 4:42:55 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [esm_360i] -- Time Start -- 9/18/2024 4:42:55 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+esm_360i -- Procedure Complete -- Time End -- 9/18/2024 4:43:02 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_DA_UAT] -- Time Start -- 9/18/2024 4:42:55 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_DA_UAT
+File Name: 1_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdv_ent_companies
+Line Number: 36
+Error Message: Database 'pdm_enterprise_IILLC_UAT' cannot be opened because it is offline.
+-----------------Error Message End-----------------
+
+	
+eSM_DA_UAT -- Restore Start
+	
+eSM_DA_UAT -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:b66ff5e7-4061-4500-87c3-2701ef95b865
+Error Number:201,State:4,Class:16
+	
+eSM_DA_UAT -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Restore Cancelled
+	
+eSM_DA_UAT -- Procedure Complete -- Time End -- 9/18/2024 4:44:14 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_ISOBAR] -- Time Start -- 9/18/2024 4:42:55 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_ISOBAR -- Procedure Complete -- Time End -- 9/18/2024 4:44:20 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [NEX_MGB] -- Time Start -- 9/18/2024 4:42:55 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+NEX_MGB -- Procedure Complete -- Time End -- 9/18/2024 4:44:28 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [NEX_MGB_DAA] -- Time Start -- 9/18/2024 4:42:55 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+NEX_MGB_DAA -- Procedure Complete -- Time End -- 9/18/2024 4:44:34 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_IILLC_Test------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:38:58 PM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360i_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:38:58 PM
+	
+Upgraded End: 9/18/2024 4:39:03 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:03 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:03 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_DA_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:38:58 PM
+	
+Upgraded End: 9/18/2024 4:39:08 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:08 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:08 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_Firbo_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:38:58 PM
+	
+Upgraded End: 9/18/2024 4:39:14 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:14 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:39:14 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:42:55 PM
+	
+Upgraded End: 
+	
+
+------Child DB esm_360i------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:42:55 PM
+	
+Upgraded End: 9/18/2024 4:43:02 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:43:02 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:43:02 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_DA_UAT------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:42:55 PM
+	
+Upgraded End: 9/18/2024 4:44:14 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:44:14 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:44:14 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_ISOBAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:42:55 PM
+	
+Upgraded End: 9/18/2024 4:44:20 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:44:20 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:44:20 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:42:55 PM
+	
+Upgraded End: 9/18/2024 4:44:28 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:44:28 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:44:28 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB_DAA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:42:55 PM
+	
+Upgraded End: 9/18/2024 4:44:34 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:44:34 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:44:34 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	---------------------------------------------
+Login Session ---20240918164700---
+---------------------------------------------
+
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\tause\Downloads\2024-1.1.0.0106U\DB\1_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC] -- Time Start -- 9/18/2024 4:48:17 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [esm_360i] -- Time Start -- 9/18/2024 4:48:17 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+esm_360i -- Procedure Complete -- Time End -- 9/18/2024 4:48:22 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_DA_UAT] -- Time Start -- 9/18/2024 4:48:17 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_DA_UAT -- Procedure Complete -- Time End -- 9/18/2024 4:48:27 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_ISOBAR] -- Time Start -- 9/18/2024 4:48:17 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_ISOBAR -- Procedure Complete -- Time End -- 9/18/2024 4:48:32 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [NEX_MGB] -- Time Start -- 9/18/2024 4:48:17 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+NEX_MGB -- Procedure Complete -- Time End -- 9/18/2024 4:48:38 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [NEX_MGB_DAA] -- Time Start -- 9/18/2024 4:48:17 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+NEX_MGB_DAA -- Procedure Complete -- Time End -- 9/18/2024 4:48:45 PM
+Release Number: 2024-1.1.0.0107U
+Build Number: 24-1.1.0107
+Internal Version: 2024-1.1.0.0107U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_IILLC------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:48:17 PM
+	
+Upgraded End: 
+	
+
+------Child DB esm_360i------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:48:17 PM
+	
+Upgraded End: 9/18/2024 4:48:22 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:48:22 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:48:22 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_DA_UAT------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:48:17 PM
+	
+Upgraded End: 9/18/2024 4:48:27 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:48:27 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:48:27 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_ISOBAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:48:17 PM
+	
+Upgraded End: 9/18/2024 4:48:32 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:48:32 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:48:32 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:48:17 PM
+	
+Upgraded End: 9/18/2024 4:48:38 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:48:38 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:48:38 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB_DAA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 4:48:17 PM
+	
+Upgraded End: 9/18/2024 4:48:45 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 4:48:45 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 4:48:45 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	---------------------------------------------
+Login Session ---20240918182359---
+---------------------------------------------
+
+	
+ --- 1_SPS_CHILD_sp.sql --- C:\Users\tause\Downloads\2024-1.1.0.0108U\2024-1.1.0.0108U\DB\1_SPS_CHILD_sp.sql
+	
+[Backup Path] - No Path defined... Please define.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC] -- Time Start -- 9/18/2024 6:25:20 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [esm_360i] -- Time Start -- 9/18/2024 6:25:20 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+esm_360i -- Procedure Complete -- Time End -- 9/18/2024 6:25:24 PM
+Release Number: 2024-1.1.0.0108U
+Build Number: 24-1.1.0108
+Internal Version: 2024-1.1.0.0108U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_DA_UAT] -- Time Start -- 9/18/2024 6:25:20 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+
+DB Name: eSM_DA_UAT
+File Name: 1_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdv_ent_companies
+Line Number: 36
+Error Message: Database 'pdm_enterprise_IILLC_UAT' cannot be opened because it is offline.
+-----------------Error Message End-----------------
+
+	
+eSM_DA_UAT -- Restore Start
+	
+eSM_DA_UAT -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:c49cf94b-85d6-4c1a-a139-fd67835d039a
+Error Number:201,State:4,Class:16
+	
+eSM_DA_UAT -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Restore Cancelled
+	
+eSM_DA_UAT -- Procedure Complete -- Time End -- 9/18/2024 6:25:53 PM
+Release Number: 2024-1.1.0.0108U
+Build Number: 24-1.1.0108
+Internal Version: 2024-1.1.0.0108U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_ISOBAR] -- Time Start -- 9/18/2024 6:25:20 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+Nex_ISOBAR -- Procedure Complete -- Time End -- 9/18/2024 6:25:58 PM
+Release Number: 2024-1.1.0.0108U
+Build Number: 24-1.1.0108
+Internal Version: 2024-1.1.0.0108U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [NEX_MGB] -- Time Start -- 9/18/2024 6:25:20 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+NEX_MGB -- Procedure Complete -- Time End -- 9/18/2024 6:26:03 PM
+Release Number: 2024-1.1.0.0108U
+Build Number: 24-1.1.0108
+Internal Version: 2024-1.1.0.0108U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [NEX_MGB_DAA] -- Time Start -- 9/18/2024 6:25:20 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+NEX_MGB_DAA -- Procedure Complete -- Time End -- 9/18/2024 6:26:09 PM
+Release Number: 2024-1.1.0.0108U
+Build Number: 24-1.1.0108
+Internal Version: 2024-1.1.0.0108U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_IILLC------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 
+	
+
+------Child DB esm_360i------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 9/18/2024 6:25:24 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:24 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:24 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_DA_UAT------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 9/18/2024 6:25:53 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:53 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:53 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_ISOBAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 9/18/2024 6:25:58 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:58 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:58 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 9/18/2024 6:26:03 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:03 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:03 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB_DAA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 9/18/2024 6:26:09 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:09 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:09 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+Please check off the database before double clicking it for the Placeholder screen.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_IILLC_Test] -- Time Start -- 9/18/2024 6:26:33 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_360i_Test] -- Time Start -- 9/18/2024 6:26:33 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_360i_Test -- Procedure Complete -- Time End -- 9/18/2024 6:26:38 PM
+Release Number: 2024-1.1.0.0108U
+Build Number: 24-1.1.0108
+Internal Version: 2024-1.1.0.0108U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_DA_Test] -- Time Start -- 9/18/2024 6:26:33 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_DA_Test -- Procedure Complete -- Time End -- 9/18/2024 6:26:42 PM
+Release Number: 2024-1.1.0.0108U
+Build Number: 24-1.1.0108
+Internal Version: 2024-1.1.0.0108U
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_Firbo_Test] -- Time Start -- 9/18/2024 6:26:33 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_SPS_CHILD_sp.sql]...
+	
+eSM_Firbo_Test -- Procedure Complete -- Time End -- 9/18/2024 6:26:47 PM
+Release Number: 2024-1.1.0.0108U
+Build Number: 24-1.1.0108
+Internal Version: 2024-1.1.0.0108U
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB pdm_enterprise_IILLC_Test------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:26:33 PM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_360i_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:26:33 PM
+	
+Upgraded End: 9/18/2024 6:26:38 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:38 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:38 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_DA_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:26:33 PM
+	
+Upgraded End: 9/18/2024 6:26:42 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:42 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:42 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_Firbo_Test------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:26:33 PM
+	
+Upgraded End: 9/18/2024 6:26:47 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:47 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:47 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Enterprise DB pdm_enterprise_IILLC------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 
+	
+
+------Child DB esm_360i------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 9/18/2024 6:25:24 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:24 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:24 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB eSM_DA_UAT------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 9/18/2024 6:25:53 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:53 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:53 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_ISOBAR------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 9/18/2024 6:25:58 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:58 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:25:58 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 9/18/2024 6:26:03 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:03 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:03 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB NEX_MGB_DAA------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 9/18/2024 6:25:20 PM
+	
+Upgraded End: 9/18/2024 6:26:09 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:09 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST9/18/2024 6:26:09 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

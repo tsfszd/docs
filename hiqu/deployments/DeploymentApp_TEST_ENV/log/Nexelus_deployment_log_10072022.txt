@@ -1,0 +1,204 @@
+	---------------------------------------------
+Login Session ---20221007125951---
+---------------------------------------------
+
+	---------------------------------------------
+Login Session ---20221007130140---
+---------------------------------------------
+
+	
+ --- 1_VIEWS_ENT_Views.sql --- C:\Users\nex-adm\Desktop\1_VIEWS_ENT_Views.sql
+	
+Cancelled.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_cbmg] -- Time Start -- 10/7/2022 1:09:51 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_VIEWS_ENT_Views.sql]...
+	
+
+DB Name: pdm_enterprise_cbmg
+File Name: 1_VIEWS_ENT_Views.sql
+----------------Error Message Start----------------
+Procedure Name: pdv_Enterprise_TEST
+Line Number: 3
+Error Message: Create View or Function failed because no column name was specified for column 1.
+-----------------Error Message End-----------------
+
+	
+pdm_enterprise_cbmg -- Procedure Complete -- Time End -- 10/7/2022 1:10:47 PM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CBMG] -- Time Start -- 10/7/2022 1:09:51 PM
+---------------------------------------------------------------------------
+
+	
+eSM_CBMG -- Procedure Complete -- Time End -- 10/7/2022 1:10:47 PM
+Release Number: Nexelus 2022
+Build Number: 13.0.0.0160
+Internal Version: Nexelus 2022
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_VIEWS_ENT_Views.sql
+	
+
+------Child Script Applied------
+	
+
+------Enterprise DB pdm_enterprise_cbmg------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/7/2022 1:09:51 PM
+	
+Upgraded End: 10/7/2022 1:10:47 PM
+	
+
+------Child DB eSM_CBMG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/7/2022 1:09:51 PM
+	
+Upgraded End: 10/7/2022 1:10:47 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST10/7/2022 1:10:47 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST10/7/2022 1:10:47 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	---------------------------------------------
+Login Session ---20221007132035---
+---------------------------------------------
+
+	
+ --- 1_VIEWS_CHILD_Views.sql --- C:\Users\nex-adm\Desktop\1_VIEWS_CHILD_Views.sql
+	---------------------------------------------
+Login Session ---20221007132435---
+---------------------------------------------
+
+	
+ --- 1_VIEWS_CHILD_Views.sql --- C:\Users\nex-adm\Desktop\1_VIEWS_CHILD_Views.sql
+	
+[DB List] - No db selected
+	
+[Backup Path] - No Path defined... Please define.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [pdm_enterprise_cbmg] -- Time Start -- 10/7/2022 1:25:45 PM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [eSM_CBMG] -- Time Start -- 10/7/2022 1:25:45 PM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_VIEWS_CHILD_Views.sql]...
+	
+eSM_CBMG -- Procedure Complete -- Time End -- 10/7/2022 1:25:45 PM
+Release Number: Release 2022
+Build Number: 13.0.0.0161
+Internal Version: Release 2022
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_VIEWS_CHILD_Views.sql
+	
+
+------Enterprise DB pdm_enterprise_cbmg------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/7/2022 1:25:45 PM
+	
+Upgraded End: 
+	
+
+------Child DB eSM_CBMG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 10/7/2022 1:25:45 PM
+	
+Upgraded End: 10/7/2022 1:25:45 PM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST10/7/2022 1:25:45 PM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST10/7/2022 1:25:45 PM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

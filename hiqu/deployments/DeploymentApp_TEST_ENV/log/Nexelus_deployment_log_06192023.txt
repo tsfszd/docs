@@ -1,0 +1,800 @@
+	---------------------------------------------
+Login Session ---20230619052658---
+---------------------------------------------
+
+	
+ --- 3_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Pictures\3_GEN_CHILD_script.sql
+	
+ --- 4_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Pictures\4_SPS_CHILD_sp.sql
+	
+ --- 1_GEN_ENT_script.sql --- C:\Users\fayaz.khan\Pictures\1_GEN_ENT_script.sql
+	
+ --- 2_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Pictures\2_GEN_ENT_sp.sql
+	
+[Backup Path] - Path is not formed properly.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_iCrx] -- Time Start -- 6/19/2023 5:29:24 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_script.sql]...
+	
+[2_GEN_ENT_sp.sql]...
+	
+Nex_Enterprise_iCrx -- Procedure Complete -- Time End -- 6/19/2023 5:29:25 AM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_iCRX] -- Time Start -- 6/19/2023 5:29:24 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[3_GEN_CHILD_script.sql]...
+	
+[4_SPS_CHILD_sp.sql]...
+	
+Nex_iCRX -- Procedure Complete -- Time End -- 6/19/2023 5:29:29 AM
+Release Number: Nexelus 2022.003 SP1            
+Build Number: 13.1.1.0026
+Internal Version: 13.1 SP1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_script.sql
+	
+2_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+3_GEN_CHILD_script.sql
+	
+4_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB Nex_Enterprise_iCrx------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 6/19/2023 5:29:24 AM
+	
+Upgraded End: 6/19/2023 5:29:25 AM
+	
+
+------Child DB Nex_iCRX------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 6/19/2023 5:29:24 AM
+	
+Upgraded End: 6/19/2023 5:29:29 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST6/19/2023 5:29:29 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST6/19/2023 5:29:29 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+ --- 1_GEN_ENT_script.sql --- C:\Users\fayaz.khan\Pictures\DB\1_GEN_ENT_script.sql
+	
+ --- 2_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Pictures\DB\2_GEN_ENT_sp.sql
+	
+ --- 3_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Pictures\DB\3_GEN_CHILD_script.sql
+	
+ --- 4_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Pictures\DB\4_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_iCrx] -- Time Start -- 6/19/2023 5:31:12 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_script.sql]...
+	
+[2_GEN_ENT_sp.sql]...
+	
+Nex_Enterprise_iCrx -- Procedure Complete -- Time End -- 6/19/2023 5:31:12 AM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_iCRX] -- Time Start -- 6/19/2023 5:31:12 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[3_GEN_CHILD_script.sql]...
+	
+[4_SPS_CHILD_sp.sql]...
+	
+Nex_iCRX -- Procedure Complete -- Time End -- 6/19/2023 5:31:13 AM
+Release Number: Nexelus 2022.003 SP1            
+Build Number: 13.1.1.0028
+Internal Version: 13.1 SP1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_script.sql
+	
+2_GEN_ENT_sp.sql
+	
+1_GEN_ENT_script.sql
+	
+2_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+3_GEN_CHILD_script.sql
+	
+4_SPS_CHILD_sp.sql
+	
+3_GEN_CHILD_script.sql
+	
+4_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB Nex_Enterprise_iCrx------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 6/19/2023 5:31:12 AM
+	
+Upgraded End: 6/19/2023 5:31:12 AM
+	
+
+------Child DB Nex_iCRX------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 6/19/2023 5:31:12 AM
+	
+Upgraded End: 6/19/2023 5:31:13 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST6/19/2023 5:31:13 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST6/19/2023 5:31:13 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Pictures\DB\1_GEN_CHILD_script.sql
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Pictures\DB\2_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_iCrx] -- Time Start -- 6/19/2023 5:33:38 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+Nex_Enterprise_iCrx -- Procedure Complete -- Time End -- 6/19/2023 5:33:38 AM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_iCRX] -- Time Start -- 6/19/2023 5:33:38 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+
+DB Name: Nex_iCRX
+File Name: 2_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsW_cp_customer_category_resource_get
+Line Number: 80
+Error Message: Invalid column name 'department'.
+Invalid column name 'department'.
+-----------------Error Message End-----------------
+
+	
+
+DB Name: Nex_iCRX
+File Name: 2_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsW_cp_customer_category_resource_get
+Line Number: 80
+Error Message: Invalid column name 'department'.
+Invalid column name 'department'.
+-----------------Error Message End-----------------
+
+	
+Nex_iCRX -- Restore Start
+	
+Nex_iCRX -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:ccbc41d7-f32a-4945-8671-c67613661014
+Error Number:201,State:4,Class:16
+	
+Nex_iCRX -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 6/19/2023 5:34:04 AM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_script.sql
+	
+2_GEN_ENT_sp.sql
+	
+1_GEN_ENT_script.sql
+	
+2_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+3_GEN_CHILD_script.sql
+	
+4_SPS_CHILD_sp.sql
+	
+3_GEN_CHILD_script.sql
+	
+4_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+2_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB Nex_Enterprise_iCrx------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 6/19/2023 5:33:38 AM
+	
+Upgraded End: 6/19/2023 5:33:38 AM
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Videos\1_GEN_CHILD_script.sql
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Videos\2_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_iCrx] -- Time Start -- 6/19/2023 5:34:27 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+Nex_Enterprise_iCrx -- Procedure Complete -- Time End -- 6/19/2023 5:34:27 AM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_iCRX] -- Time Start -- 6/19/2023 5:34:27 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+
+DB Name: Nex_iCRX
+File Name: 2_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsW_cp_customer_category_resource_get
+Line Number: 80
+Error Message: Invalid column name 'department'.
+Invalid column name 'department'.
+-----------------Error Message End-----------------
+
+	
+
+DB Name: Nex_iCRX
+File Name: 2_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsW_cp_customer_category_resource_get
+Line Number: 80
+Error Message: Invalid column name 'department'.
+Invalid column name 'department'.
+-----------------Error Message End-----------------
+
+	
+Nex_iCRX -- Restore Start
+	
+Nex_iCRX -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:ccbc41d7-f32a-4945-8671-c67613661014
+Error Number:201,State:4,Class:16
+	
+Nex_iCRX -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 6/19/2023 5:34:38 AM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_script.sql
+	
+2_GEN_ENT_sp.sql
+	
+1_GEN_ENT_script.sql
+	
+2_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+3_GEN_CHILD_script.sql
+	
+4_SPS_CHILD_sp.sql
+	
+3_GEN_CHILD_script.sql
+	
+4_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+2_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB Nex_Enterprise_iCrx------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 6/19/2023 5:34:27 AM
+	
+Upgraded End: 6/19/2023 5:34:27 AM
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Pictures\DB\1_GEN_CHILD_script.sql
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Pictures\DB\2_SPS_CHILD_sp.sql
+	
+Cancelled.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_iCrx] -- Time Start -- 6/19/2023 5:36:45 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+Nex_Enterprise_iCrx -- Procedure Complete -- Time End -- 6/19/2023 5:36:45 AM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_iCRX] -- Time Start -- 6/19/2023 5:36:45 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_script.sql]...
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+
+DB Name: Nex_iCRX
+File Name: 2_SPS_CHILD_sp.sql
+----------------Error Message Start----------------
+Procedure Name: pdsW_cp_customer_category_resource_get
+Line Number: 80
+Error Message: Invalid column name 'department'.
+Invalid column name 'department'.
+-----------------Error Message End-----------------
+
+	
+Nex_iCRX -- Restore Start
+	
+Nex_iCRX -- Restoring from -- 
+	
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'pds_restore_db_backup' expects parameter '@path', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DeploymentApp.Model.ScriptManagerHelper.RestoreBackupDB(String databaseName, String path, String pathLog, Main form) in C:\Users\taoli\OneDrive\Documents\Visual Studio 2019\Project\DeploymentApp\DeploymentApp\Model\ScriptManagerHelper.cs:line 332
+ClientConnectionId:a9479570-c2d4-454c-bddb-449d6f650cfc
+Error Number:201,State:4,Class:16
+	
+Nex_iCRX -- Restore Failed
+	
+----------------------------------------
+Restore Start
+----------------------------------------
+	
+Procedure Cancelled -- Time End -- 6/19/2023 5:54:01 AM
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_script.sql
+	
+2_GEN_ENT_sp.sql
+	
+1_GEN_ENT_script.sql
+	
+2_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+3_GEN_CHILD_script.sql
+	
+4_SPS_CHILD_sp.sql
+	
+3_GEN_CHILD_script.sql
+	
+4_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+2_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB Nex_Enterprise_iCrx------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 6/19/2023 5:36:45 AM
+	
+Upgraded End: 6/19/2023 5:36:45 AM
+	---------------------------------------------
+Login Session ---20230619065419---
+---------------------------------------------
+
+	
+ --- 1_GEN_CHILD_scripts.sql --- C:\Users\fayaz.khan\Pictures\DB\1_GEN_CHILD_scripts.sql
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Pictures\DB\2_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_iCrx] -- Time Start -- 6/19/2023 6:56:25 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_iCRX] -- Time Start -- 6/19/2023 6:56:25 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_scripts.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_iCRX -- Procedure Complete -- Time End -- 6/19/2023 6:56:28 AM
+Release Number: Nexelus 2022.003                
+Build Number: 13.1.0.0057
+Internal Version: 13.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_GEN_CHILD_scripts.sql
+	
+2_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB Nex_Enterprise_iCrx------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 6/19/2023 6:56:25 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_iCRX------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 6/19/2023 6:56:25 AM
+	
+Upgraded End: 6/19/2023 6:56:28 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST6/19/2023 6:56:28 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST6/19/2023 6:56:28 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+ --- 1_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Videos\1_GEN_CHILD_script.sql
+	
+ --- 2_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Videos\2_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [Nex_Enterprise_iCrx] -- Time Start -- 6/19/2023 6:57:00 AM
+---------------------------------------------------------------------------
+
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_iCRX] -- Time Start -- 6/19/2023 6:57:00 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[1_GEN_CHILD_scripts.sql]...
+	
+[1_GEN_CHILD_script.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+[2_SPS_CHILD_sp.sql]...
+	
+Nex_iCRX -- Procedure Complete -- Time End -- 6/19/2023 6:57:03 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.0052
+Internal Version: 2023.1.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+
+------Child Script Applied------
+	
+1_GEN_CHILD_scripts.sql
+	
+2_SPS_CHILD_sp.sql
+	
+1_GEN_CHILD_script.sql
+	
+2_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB Nex_Enterprise_iCrx------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 6/19/2023 6:57:00 AM
+	
+Upgraded End: 
+	
+
+------Child DB Nex_iCRX------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 6/19/2023 6:57:00 AM
+	
+Upgraded End: 6/19/2023 6:57:03 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST6/19/2023 6:57:03 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST6/19/2023 6:57:03 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	---------------------------------------------
+Login Session ---20230619230419---
+---------------------------------------------
+

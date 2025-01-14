@@ -1,0 +1,245 @@
+	---------------------------------------------
+Login Session ---20230816033020---
+---------------------------------------------
+
+	
+ --- 2_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Videos\DB\2_GEN_CHILD_script.sql
+	
+ --- 1_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Videos\DB\1_GEN_ENT_sp.sql
+	
+ --- 3_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Videos\DB\3_SPS_CHILD_sp.sql
+	
+Cancelled.
+	
+Cancelled.
+	
+Cancelled.
+	
+[Backup Path] - Path is not formed properly.
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 8/16/2023 3:33:48 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+nex_enterprise_JG -- Procedure Complete -- Time End -- 8/16/2023 3:33:48 AM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 8/16/2023 3:33:48 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[2_GEN_CHILD_script.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+Nex_JG -- Procedure Complete -- Time End -- 8/16/2023 3:33:49 AM
+Release Number: Nexelus 2023.1
+Build Number: 23.1.1.019
+Internal Version: Nexelus 2023.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+2_GEN_CHILD_script.sql
+	
+3_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 8/16/2023 3:33:48 AM
+	
+Upgraded End: 8/16/2023 3:33:48 AM
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 8/16/2023 3:33:48 AM
+	
+Upgraded End: 8/16/2023 3:33:49 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST8/16/2023 3:33:49 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST8/16/2023 3:33:49 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 8/16/2023 3:33:56 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+nex_enterprise_JG -- Procedure Complete -- Time End -- 8/16/2023 3:33:56 AM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 8/16/2023 3:33:56 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[2_GEN_CHILD_script.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 8/16/2023 3:33:58 AM
+Release Number: Nexelus 2023.1
+Build Number: 23.1.1.019
+Internal Version: Nexelus 2023.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+2_GEN_CHILD_script.sql
+	
+3_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 8/16/2023 3:33:56 AM
+	
+Upgraded End: 8/16/2023 3:33:56 AM
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 8/16/2023 3:33:48 AM
+	
+Upgraded End: 8/16/2023 3:33:49 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST8/16/2023 3:33:49 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST8/16/2023 3:33:49 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 8/16/2023 3:33:56 AM
+	
+Upgraded End: 8/16/2023 3:33:58 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST8/16/2023 3:33:58 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST8/16/2023 3:33:58 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------

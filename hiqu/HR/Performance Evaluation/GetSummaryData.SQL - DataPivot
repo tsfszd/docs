@@ -1,0 +1,27 @@
+use nex_pdm;
+select 
+concat(pdd_resources.name_first,' ',pdd_resources.name_last) employee,
+trim(level2_key) level2_key,
+trim(level3_key) level3_key,
+trim((select top 1 level3_description 
+from pdd_level3 
+   where pdd_level3.level2_key = pld_transactions.level2_key and 
+   PATINDEX (concat(rtrim(pld_transactions.level3_key),'%'),pdd_level3.level3_key)>0 )) Level3_description,
+   task_code,
+--DATENAME (mm, CONCAT('1900', FORMAT(CAST(MONTH(Applied_Date) AS INT), '00'), '01')) AppliedMonth,
+--concat(DateName(M,applied_date),', ',DatePart(yy,applied_date)) AppliedMonth,
+concat(DatePart(yy,applied_date),'-',FORMAT(applied_Date,'MM')) AppliedMonth,
+sum(units) Hours
+ from pld_transactions
+ inner join pdd_resources on pdd_resources.resource_id=pld_transactions.resource_id
+
+
+      where applied_date >= '08/01/2024' 
+  --and applied_date < '11/01/2024'
+
+
+group by pdd_resources.name_first,pdd_resources.name_last,level2_key,level3_key,task_code,
+concat(DatePart(yy,applied_date),'-',FORMAT(applied_Date,'MM'))
+order by pdd_resources.name_first,pdd_resources.name_last,
+concat(DatePart(yy,applied_date),'-',FORMAT(applied_Date,'MM')),
+level2_key,level3_key,task_code

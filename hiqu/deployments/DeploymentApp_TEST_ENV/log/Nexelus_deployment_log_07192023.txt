@@ -1,0 +1,160 @@
+	---------------------------------------------
+Login Session ---20230719055911---
+---------------------------------------------
+
+	
+ --- 1_GEN_ENT_sp.sql --- C:\Users\fayaz.khan\Pictures\DB\1_GEN_ENT_sp.sql
+	
+ --- 2_GEN_CHILD_script.sql --- C:\Users\fayaz.khan\Pictures\DB\2_GEN_CHILD_script.sql
+	
+ --- 3_SPS_CHILD_sp.sql --- C:\Users\fayaz.khan\Pictures\DB\3_SPS_CHILD_sp.sql
+	
+
+---------------------------------------------------------------------------
+-- Working on Enterprise DB -- [nex_enterprise_JG] -- Time Start -- 7/19/2023 6:02:47 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Enterprise Script
+	
+------------------------------------
+	
+[1_GEN_ENT_sp.sql]...
+	
+nex_enterprise_JG -- Procedure Complete -- Time End -- 7/19/2023 6:02:47 AM
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG] -- Time Start -- 7/19/2023 6:02:47 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[2_GEN_CHILD_script.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+Nex_JG -- Procedure Complete -- Time End -- 7/19/2023 6:02:48 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.007
+Internal Version: 2023.1.1
+	
+
+---------------------------------------------------------------------------
+-- Working on child DB -- [Nex_JG_UK] -- Time Start -- 7/19/2023 6:02:47 AM
+---------------------------------------------------------------------------
+
+	
+------------------------------------
+Applying Standard Script
+	
+-------------------------
+	
+[2_GEN_CHILD_script.sql]...
+	
+[3_SPS_CHILD_sp.sql]...
+	
+Nex_JG_UK -- Procedure Complete -- Time End -- 7/19/2023 6:02:53 AM
+Release Number: Nexelus 2023.0.01               
+Build Number: 23.1.1.007
+Internal Version: 2023.1.1
+	
+----------------------------------
+	
+------------Summary-----------
+	
+----------------------------------
+	
+
+--------Ent Script Applied-----
+	
+1_GEN_ENT_sp.sql
+	
+
+------Child Script Applied------
+	
+2_GEN_CHILD_script.sql
+	
+3_SPS_CHILD_sp.sql
+	
+
+------Enterprise DB nex_enterprise_JG------
+	
+DB Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/19/2023 6:02:47 AM
+	
+Upgraded End: 7/19/2023 6:02:47 AM
+	
+
+------Child DB Nex_JG------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/19/2023 6:02:47 AM
+	
+Upgraded End: 7/19/2023 6:02:48 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/19/2023 6:02:48 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/19/2023 6:02:48 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+------Child DB Nex_JG_UK------
+	
+DB Backup Path: 
+	
+SP Backup Path: 
+	
+View Backup Path: 
+	
+Upgraded: True
+	
+Upgraded Start: 7/19/2023 6:02:47 AM
+	
+Upgraded End: 7/19/2023 6:02:53 AM
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated SPs which are found in the Script -- REVIEW THIS LIST7/19/2023 6:02:53 AM
+	
+SP Backup Path: 
+	
+-------------------------------------------------------------------------------
+	
+
+-------------------------------------------------------------------------------
+	
+List -- Modified/Updated Views which are found in the Script -- REVIEW THIS LIST7/19/2023 6:02:53 AM
+	
+View Backup Path: 
+	
+-------------------------------------------------------------------------------
