@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 30,
+          "SelectedChildIndex": 31,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,6 +134,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
@@ -144,7 +148,7 @@
               "RelativeDocumentMoniker": "NexelusApp\\Controllers\\AppController.cs",
               "ToolTip": "D:\\docs\\hiqu\\Projects\\NexelusAppService 4.0\\NexelusApp\\Controllers\\AppController.cs",
               "RelativeToolTip": "NexelusApp\\Controllers\\AppController.cs",
-              "ViewState": "AgIAAJoBAAAAAAAAAAAiwKcBAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAIA+wJIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T07:44:09.883Z",
               "EditorCaption": ""
